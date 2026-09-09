@@ -1,0 +1,72 @@
+name: Update Subscriptions
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/update.yml'
+  schedule:
+    - cron: '0 */6 * * *' # 每 6 小时自动更新一次
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-subscriptions
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Download Mihomo Core & GeoIP Databases
+        run: |
+          # 1. 下载兼容全协议（Hy2, TUIC, Reality, Vision 等）的 Mihomo 静态内核
+          MIHOMO_URL=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | grep "browser_download_url.*linux-amd64-compatible" | head -n 1 | cut -d '"' -f 4)
+          if [ -z "$MIHOMO_URL" ]; then
+            MIHOMO_URL=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | grep "browser_download_url.*linux-amd64" | head -n 1 | cut -d '"' -f 4)
+          fi
+          echo "Downloading Mihomo from: $MIHOMO_URL"
+          curl -fSL --retry 3 -o mihomo.gz "$MIHOMO_URL"
+          gzip -d -f mihomo.gz || gunzip -f mihomo.gz || mv mihomo.gz mihomo
+          chmod +x mihomo
+          sudo mv mihomo /usr/local/bin/mihomo
+
+          # 2. 下载高精离线国家库与 ASN 库
+          curl -fSL --retry 3 -o GeoLite2-Country.mmdb https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-Country.mmdb
+          curl -fSL --retry 3 -o GeoLite2-ASN.mmdb https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-ASN.mmdb
+
+      - name: Run Aggregator and Tester
+        run: |
+          python scripts/main.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          # 关键修改：同时暂存 output 产物和 README.md 首页
+          git add output/ README.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-update nodes and README: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            git push
+          fi
