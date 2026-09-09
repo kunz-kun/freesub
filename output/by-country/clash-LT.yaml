@@ -5,21 +5,21 @@ port: 7890
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇧🇬 BG 01 - kunz-kun
+  name: 🇱🇹 LT 01 - kunz-kun
   port: 443
   reality-opts:
-    public-key: uitO4Z8t9TplwwYaqwLqh5rfxDh_X8bOBiNuPbzvaEM
-    short-id: bbe46bd8f6b96839
-  server: 144.31.50.236
-  servername: yandex.ru
+    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+    short-id: ff776ff77be48b88
+  server: 88.119.176.24
+  servername: lit9.helper-internet.com
   tls: true
   type: vless
   udp: true
-  uuid: 1c332eae-7e02-4acd-996d-4eb3e652401c
+  uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
 proxy-groups:
 - name: PROXY
   proxies:
-  - 🇧🇬 BG 01 - kunz-kun
+  - 🇱🇹 LT 01 - kunz-kun
   type: select
 rules:
 - MATCH,PROXY

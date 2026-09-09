@@ -2,50 +2,17 @@
   "version": 1,
   "outbounds": [
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇦🇺 澳大利亚 01 - kunz-kun",
-      "server": "51.161.199.124",
-      "server_port": 443,
-      "uuid": "a014310a-96ad-4b54-8acb-a835a3850552",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "suetinklerartglass.co.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0",
-          "short_id": "0f4d3210977f51a5"
-        }
-      }
+      "server": "134.195.196.211",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "type": "vless",
       "tag": "🇦🇺 澳大利亚 02 - kunz-kun",
-      "server": "51.161.199.124",
-      "server_port": 443,
-      "uuid": "3622f803-8a8e-407d-9fff-249a2e84b06e",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "suetinklerartglass.co.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0",
-          "short_id": "0f4d3210977f51a5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇺 澳大利亚 03 - kunz-kun",
       "server": "51.161.199.124",
       "server_port": 443,
       "uuid": "61e7c286-6b7d-4667-955c-430d89979c4d",
@@ -66,28 +33,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇺 澳大利亚 04 - kunz-kun",
-      "server": "51.161.199.124",
-      "server_port": 443,
-      "uuid": "6a23c91d-4ee1-4e9c-851e-ad079261c02d",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "suetinklerartglass.co.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0",
-          "short_id": "0f4d3210977f51a5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇺 澳大利亚 05 - kunz-kun",
+      "tag": "🇦🇺 澳大利亚 03 - kunz-kun",
       "server": "51.161.199.124",
       "server_port": 443,
       "uuid": "ff3bb912-0fac-40ce-8d67-084f26826aac",
@@ -105,6 +51,15 @@
           "short_id": "0f4d3210977f51a5"
         }
       }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇦🇺 澳大利亚 04 - kunz-kun",
+      "server": "149.88.23.202",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "type": "direct",

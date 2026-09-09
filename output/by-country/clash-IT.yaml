@@ -3,16 +3,19 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- name: 🇮🇹 IT 01 - kunz-kun
-  network: ws
-  port: 80
-  server: 57.131.32.191
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇮🇹 IT 01 - kunz-kun
+  port: 32833
+  reality-opts:
+    public-key: PaTDdYBrlh1xBixdI0igvRRkf0vnUwMRzi-4oDyfS20
+    short-id: a0a305ccc8e94aa8
+  server: 172.238.232.239
+  servername: www.intel.com
+  tls: true
   type: vless
   udp: true
-  uuid: 049e56d8-0ba0-49e3-b764-ee04122b9f00
-  ws-opts:
-    headers: {}
-    path: /vless/
+  uuid: 167ed405-7de9-4bff-b1ea-6e3d49c76b0b
 proxy-groups:
 - name: PROXY
   proxies:

@@ -2,12 +2,25 @@
   "version": 1,
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇪🇸 ES 01 - kunz-kun",
-      "server": "108.181.121.226",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "WSyL4XTwNsdv"
+      "server": "107.189.19.27",
+      "server_port": 443,
+      "uuid": "813a385c-f26f-48b5-9bbb-53204a9c5bcc",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.dodostatic.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Sgocj9v63XdHU04TV3-Pk141YPIT_E-UgLr9u4OkE0E",
+          "short_id": "d27201f7bf5874f9"
+        }
+      }
     },
     {
       "type": "direct",

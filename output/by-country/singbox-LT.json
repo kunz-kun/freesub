@@ -3,22 +3,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇲🇾 马来西亚 01 - kunz-kun",
-      "server": "56.69.159.191",
-      "server_port": 53271,
-      "uuid": "e8358eb5-7210-4cf8-982f-68af141b7694",
+      "tag": "🇱🇹 LT 01 - kunz-kun",
+      "server": "88.119.176.24",
+      "server_port": 443,
+      "uuid": "ae8e0f7d-b661-41ca-b55d-d8c383adb2f8",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.tesla.com",
+        "server_name": "lit9.helper-internet.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "1P58ZYmo81kPDnL4U7SnEUA-aT2R86l-o6dbFXoeDjc",
-          "short_id": "0a9bd9db19578964"
+          "public_key": "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE",
+          "short_id": "ff776ff77be48b88"
         }
       }
     },
