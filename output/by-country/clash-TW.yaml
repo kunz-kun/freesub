@@ -1,0 +1,56 @@
+allow-lan: false
+log-level: info
+mode: rule
+port: 7890
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 中国台湾 01 [家宽] - kunz-kun
+  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
+  port: 50099
+  server: 36.224.152.189
+  type: ss
+  udp: true
+- name: 🇹🇼 中国台湾 02 - kunz-kun
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 103.115.109.49
+  skip-cert-verify: true
+  sni: https://t.me/wangcai2
+  type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇹🇼 中国台湾 03 - kunz-kun
+  port: 21776
+  reality-opts:
+    public-key: nm6jFiI7_auZ15UMqpeEbiITrK4OR2rfFTqXhe5pMFA
+    short-id: 79b6f82800c68925
+  server: 34.80.164.239
+  servername: www.tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b0399730-1618-4727-8ddd-2baf94ab90d6
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇹🇼 中国台湾 04 - kunz-kun
+  port: 44848
+  reality-opts:
+    public-key: w9vWLOHjl46krA8IEpGoPI9scTL0rFdjCtjdukJDciU
+    short-id: 2338740580a5de
+  server: 34.80.184.198
+  servername: www.tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b0342e8a-a25e-4e30-b598-d9391b0df4c9
+proxy-groups:
+- name: PROXY
+  proxies:
+  - 🇹🇼 中国台湾 01 [家宽] - kunz-kun
+  - 🇹🇼 中国台湾 02 - kunz-kun
+  - 🇹🇼 中国台湾 03 - kunz-kun
+  - 🇹🇼 中国台湾 04 - kunz-kun
+  type: select
+rules:
+- MATCH,PROXY
+socks-port: 7891

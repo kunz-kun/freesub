@@ -1,0 +1,104 @@
+allow-lan: false
+log-level: info
+mode: rule
+port: 7890
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡 01 - kunz-kun
+  port: 15562
+  reality-opts:
+    public-key: TzY8IrCzcw3jLJa9tiYLbvHb0h7L6MSZXl6JsqkDCxw
+    short-id: 5ba824948be6
+  server: 52.77.240.16
+  servername: www.tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 302debe4-0cc7-48d1-9433-3242dbb6730a
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡 02 - kunz-kun
+  port: 54618
+  reality-opts:
+    public-key: BugMYB6c9k66FOr1dTMnkojMXH5OCYP2wDH2nntWGgk
+    short-id: 93ed34c8eea01f
+  server: 18.136.125.3
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5b314c69-b427-4648-a8aa-6c38bc87fdc7
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡 03 - kunz-kun
+  port: 10574
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  server: 3.0.111.82
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡 04 - kunz-kun
+  port: 26146
+  reality-opts:
+    public-key: 4cD2BKaVODTdo4soH4gLcB7Yj-hdLDKDhvbSNQgZLEM
+    short-id: 3ced8a51ce74468c
+  server: 56.10.83.247
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a965aaba-e7d0-44fc-84ad-cd7c341249aa
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡 05 - kunz-kun
+  port: 34033
+  reality-opts:
+    public-key: R1mts7yXplVMaA15AC1U0TMnYvqiX3OPbK1_ZBan_XQ
+    short-id: 702186e48d5646
+  server: 13.229.44.152
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5138354-066a-4e9f-93e3-5bc700eaf89f
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡 06 - kunz-kun
+  port: 52457
+  reality-opts:
+    public-key: nA2aGvkk6Wf3NvrKavmZg_g01xujyrYAiCJS4x0kFHc
+    short-id: 93ed34c8eea01f
+  server: 54.254.51.144
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 81853004-816d-40c1-973f-2be269ba8051
+- name: 🇸🇬 新加坡 07 - kunz-kun
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 13.212.76.106
+  skip-cert-verify: true
+  sni: t.me
+  type: hysteria2
+proxy-groups:
+- name: PROXY
+  proxies:
+  - 🇸🇬 新加坡 01 - kunz-kun
+  - 🇸🇬 新加坡 02 - kunz-kun
+  - 🇸🇬 新加坡 03 - kunz-kun
+  - 🇸🇬 新加坡 04 - kunz-kun
+  - 🇸🇬 新加坡 05 - kunz-kun
+  - 🇸🇬 新加坡 06 - kunz-kun
+  - 🇸🇬 新加坡 07 - kunz-kun
+  type: select
+rules:
+- MATCH,PROXY
+socks-port: 7891

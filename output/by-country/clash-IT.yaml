@@ -1,0 +1,23 @@
+allow-lan: false
+log-level: info
+mode: rule
+port: 7890
+proxies:
+- name: 🇮🇹 IT 01 - kunz-kun
+  network: ws
+  port: 80
+  server: 57.131.32.191
+  type: vless
+  udp: true
+  uuid: 049e56d8-0ba0-49e3-b764-ee04122b9f00
+  ws-opts:
+    headers: {}
+    path: /vless/
+proxy-groups:
+- name: PROXY
+  proxies:
+  - 🇮🇹 IT 01 - kunz-kun
+  type: select
+rules:
+- MATCH,PROXY
+socks-port: 7891

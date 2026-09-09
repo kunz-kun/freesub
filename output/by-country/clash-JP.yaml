@@ -1,0 +1,260 @@
+allow-lan: false
+log-level: info
+mode: rule
+port: 7890
+proxies:
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 01 - kunz-kun
+  port: 50159
+  reality-opts:
+    public-key: j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA
+    short-id: 091e1c5db8451757
+  server: 154.31.114.248
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d56624b2-35bb-468c-9b2a-e0b0df7230c1
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 02 - kunz-kun
+  port: 15147
+  reality-opts:
+    public-key: 1qBD5uOyQZ4Pj7UMgw9Fuyo7oZ8ruACjWOTwSl4sbA4
+    short-id: 91a8f64c584660c5
+  server: 52.199.9.165
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 60bf43f0-dc41-42ac-8e2b-e64b73688ed2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 03 - kunz-kun
+  port: 50159
+  reality-opts:
+    public-key: j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA
+    short-id: 091e1c5db8451757
+  server: 154.31.114.248
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d56624b2-35bb-468c-9b2a-e0b0df7230c1
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 04 - kunz-kun
+  port: 19645
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  server: 3.114.220.22
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 05 - kunz-kun
+  port: 50159
+  reality-opts:
+    public-key: j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA
+    short-id: 091e1c5db8451757
+  server: 154.31.114.248
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d56624b2-35bb-468c-9b2a-e0b0df7230c1
+- client-fingerprint: chrome
+  name: 🇯🇵 日本 06 - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: 130.12.102.125
+  servername: localhost
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+- client-fingerprint: safari
+  name: 🇯🇵 日本 07 - kunz-kun
+  network: ws
+  port: 443
+  server: 162.159.254.3
+  servername: jp3.yohototo.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+- client-fingerprint: chrome
+  name: 🇯🇵 日本 08 - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: 130.12.102.62
+  servername: localhost
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 09 - kunz-kun
+  port: 18007
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  server: 3.114.220.22
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 10 - kunz-kun
+  port: 28573
+  reality-opts:
+    public-key: 1DJr9toke7FRuSXjibBVuNvRnLnJnN5kXwUBG6Romzg
+    short-id: 03653bc03be10c97
+  server: 18.183.215.124
+  servername: www.sony.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 871bfce7-8440-4394-8d82-56b51f20fdad
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本 11 - kunz-kun
+  port: 4433
+  server: 45.32.57.118
+  type: vmess
+  udp: true
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+- name: 🇯🇵 日本 12 - kunz-kun
+  password: STYyftThFn
+  port: 12765
+  server: freedom.chenlan.top
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 13 - kunz-kun
+  port: 11690
+  reality-opts:
+    public-key: Bv3z0_uFRabB9C4CFpNfqepZUyeO4YTh1duJdMBNLkg
+    short-id: 034885e346fd30
+  server: 13.231.19.51
+  servername: www.tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e2b8b217-cffb-4d66-9b8b-eca6e4334032
+- name: 🇯🇵 日本 14 - kunz-kun
+  password: STYyftThFn
+  port: 12765
+  server: freedom.chenlan.top
+  skip-cert-verify: false
+  sni: freedom.chenlan.top
+  type: hysteria2
+- name: 🇯🇵 日本 15 - kunz-kun
+  port: 443
+  server: 137.220.221.179
+  type: vless
+  udp: true
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+- client-fingerprint: chrome
+  name: 🇯🇵 日本 16 - kunz-kun
+  network: ws
+  port: 443
+  server: 162.159.254.3
+  servername: jp3.yohototo.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 17 - kunz-kun
+  port: 29860
+  reality-opts:
+    public-key: g7I81MzpM7J6K9WLbZdaMPS9We6GYeeNY3EKRvyiKW4
+    short-id: c992a34f288be189
+  server: 3.112.47.207
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7460547d-e83c-4843-b404-9142b22261a7
+- cipher: aes-128-gcm
+  name: 🇯🇵 日本 18 - kunz-kun
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
+  type: ss
+  udp: true
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 19 - kunz-kun
+  port: 18614
+  reality-opts:
+    public-key: w0jjW_RLHvQc2tk_7sbxfBawdMlJZfb7rKROwg051gA
+    short-id: c6966bed91ecd9
+  server: 13.114.124.85
+  servername: www.tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 926912d3-1656-4e83-9971-411b283f7998
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 20 - kunz-kun
+  port: 15147
+  reality-opts:
+    public-key: 1qBD5uOyQZ4Pj7UMgw9Fuyo7oZ8ruACjWOTwSl4sbA4
+    short-id: 91a8f64c584660c5
+  server: 52.199.9.165
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 60bf43f0-dc41-42ac-8e2b-e64b73688ed2
+proxy-groups:
+- name: PROXY
+  proxies:
+  - 🇯🇵 日本 01 - kunz-kun
+  - 🇯🇵 日本 02 - kunz-kun
+  - 🇯🇵 日本 03 - kunz-kun
+  - 🇯🇵 日本 04 - kunz-kun
+  - 🇯🇵 日本 05 - kunz-kun
+  - 🇯🇵 日本 06 - kunz-kun
+  - 🇯🇵 日本 07 - kunz-kun
+  - 🇯🇵 日本 08 - kunz-kun
+  - 🇯🇵 日本 09 - kunz-kun
+  - 🇯🇵 日本 10 - kunz-kun
+  - 🇯🇵 日本 11 - kunz-kun
+  - 🇯🇵 日本 12 - kunz-kun
+  - 🇯🇵 日本 13 - kunz-kun
+  - 🇯🇵 日本 14 - kunz-kun
+  - 🇯🇵 日本 15 - kunz-kun
+  - 🇯🇵 日本 16 - kunz-kun
+  - 🇯🇵 日本 17 - kunz-kun
+  - 🇯🇵 日本 18 - kunz-kun
+  - 🇯🇵 日本 19 - kunz-kun
+  - 🇯🇵 日本 20 - kunz-kun
+  type: select
+rules:
+- MATCH,PROXY
+socks-port: 7891

@@ -1,0 +1,148 @@
+allow-lan: false
+log-level: info
+mode: rule
+port: 7890
+proxies:
+- client-fingerprint: chrome
+  name: 🇭🇰 中国香港 01 [家宽] - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  server: e283de09-tla000-u1vxv2-v3c2.hk3.hyhuawei.com
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+- client-fingerprint: qq
+  name: 🇭🇰 中国香港 02 [家宽] - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  server: ac35c80b-tla000-tpmc23-1s3lb.hk3.hyhuawei.com
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fbf91120-50ba-11ef-a203-f23c91cfbbc9
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇭🇰 中国香港 03 - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: TP_bpIPUtjdxxGA9j7mpsHtSDfM2HMSZFNWW9MtDPT0
+    short-id: 14156e3ac23212cc
+  server: 162.128.157.164
+  servername: www.bing.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5e8e81ac-a1c4-4543-b81e-651bf9872b54
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰 中国香港 04 - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: TP_bpIPUtjdxxGA9j7mpsHtSDfM2HMSZFNWW9MtDPT0
+    short-id: 14156e3ac23212cc
+  server: vj37-1936vtw.fincore.top
+  servername: www.bing.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5e8e81ac-a1c4-4543-b81e-651bf9872b54
+- client-fingerprint: chrome
+  name: 🇭🇰 中国香港 05 [家宽] - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  server: 7306ab60-tla000-tlvr2y-1imi4.hk3.hyhuawei.com
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
+- client-fingerprint: chrome
+  name: 🇭🇰 中国香港 06 [家宽] - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  server: bdd23461-tla000-tvvhcz-tl32.hk3.hyhuawei.com
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
+- client-fingerprint: safari
+  name: 🇭🇰 中国香港 07 [家宽] - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  server: 6d91ade4-tla000-tw2fdz-1s824.hk3.hyhuawei.com
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+- client-fingerprint: qq
+  name: 🇭🇰 中国香港 08 [家宽] - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  server: bdd23461-tla000-tvvhcz-tl32.hk3.hyhuawei.com
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
+- client-fingerprint: qq
+  name: 🇭🇰 中国香港 09 [家宽] - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  server: e283de09-tla000-u1vxv2-v3c2.hk3.hyhuawei.com
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+- client-fingerprint: safari
+  name: 🇭🇰 中国香港 10 [家宽] - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  server: e283de09-tla000-u1vxv2-v3c2.hk3.hyhuawei.com
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+- client-fingerprint: firefox
+  name: 🇭🇰 中国香港 11 [家宽] - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  server: 5fca3221-tl4g00-tpkh0c-1r7od.hk3.hyhuawei.com
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
+proxy-groups:
+- name: PROXY
+  proxies:
+  - 🇭🇰 中国香港 01 [家宽] - kunz-kun
+  - 🇭🇰 中国香港 02 [家宽] - kunz-kun
+  - 🇭🇰 中国香港 03 - kunz-kun
+  - 🇭🇰 中国香港 04 - kunz-kun
+  - 🇭🇰 中国香港 05 [家宽] - kunz-kun
+  - 🇭🇰 中国香港 06 [家宽] - kunz-kun
+  - 🇭🇰 中国香港 07 [家宽] - kunz-kun
+  - 🇭🇰 中国香港 08 [家宽] - kunz-kun
+  - 🇭🇰 中国香港 09 [家宽] - kunz-kun
+  - 🇭🇰 中国香港 10 [家宽] - kunz-kun
+  - 🇭🇰 中国香港 11 [家宽] - kunz-kun
+  type: select
+rules:
+- MATCH,PROXY
+socks-port: 7891
