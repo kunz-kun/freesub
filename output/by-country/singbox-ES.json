@@ -3,22 +3,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇬🇷 GR 01 - kunz-kun",
-      "server": "94.241.174.157",
-      "server_port": 40443,
-      "uuid": "8ac637bf-554e-4902-94d7-baf01780a83c",
+      "tag": "🇪🇸 ES 01 - kunz-kun",
+      "server": "185.254.205.79",
+      "server_port": 19842,
+      "uuid": "43c23116-1115-4af4-a0f0-56f02841a605",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "deepl.com",
+        "server_name": "www.tesla.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "mM33xyzf1GPaU2CQXAGYoGkTuYzEZRYT6S-NngyqfHQ",
-          "short_id": "beb4"
+          "public_key": "sfOfuQeJBlKfDnPL_EMWUxMIiFAN8BNKjtWDUvlsjzM",
+          "short_id": "25ebc9e0a912"
         }
       }
     },

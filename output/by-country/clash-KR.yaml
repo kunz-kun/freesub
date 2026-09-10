@@ -3,43 +3,67 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 韩国 01 - kunz-kun
-  port: 443
-  server: 140.238.2.250
-  type: vmess
-  udp: true
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
+- name: 🇰🇷 韩国 01 - kunz-kun
+  password: 3d7634af8cb2c6cb4bac1c0efad8b43d
+  port: 50160
+  server: 152.67.200.82
+  skip-cert-verify: true
+  sni: 152-67-200-82.liao.kdns.fr
+  type: hysteria2
+- client-fingerprint: random
+  flow: xtls-rprx-vision
   name: 🇰🇷 韩国 02 - kunz-kun
-  network: grpc
-  port: 10047
+  port: 2053
   reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: kr2-r.link-t7.com
-  servername: s0.awsstatic.com
+    public-key: oBYxqt4GNTWrmvHRHM_6SAVj_yy95lXtQ0NLd1QWQDU
+    short-id: dea6d68a3f6f96e3
+  server: 129.154.192.50
+  servername: www.ibm.com
   tls: true
   type: vless
   udp: true
-  uuid: D2436339-0F26-479A-8064-4D91C2B93652
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 韩国 03 - kunz-kun
-  port: 443
-  server: 140.238.2.250
-  type: vmess
+  uuid: 48e84fcc-ecb1-48a3-a596-88fea84887f5
+- name: 🇰🇷 韩国 03 - kunz-kun
+  password: 1671a252e2a97dc2bda4e515475931da
+  port: 50160
+  server: 132.226.226.189
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇷 韩国 04 - kunz-kun
+  port: 13672
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  server: 3.39.4.109
+  servername: www.apple.com
+  tls: true
+  type: vless
   udp: true
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇷 韩国 05 - kunz-kun
+  port: 13672
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  server: 3.39.4.109
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
 proxy-groups:
 - name: PROXY
   proxies:
   - 🇰🇷 韩国 01 - kunz-kun
   - 🇰🇷 韩国 02 - kunz-kun
   - 🇰🇷 韩国 03 - kunz-kun
+  - 🇰🇷 韩国 04 - kunz-kun
+  - 🇰🇷 韩国 05 - kunz-kun
   type: select
 rules:
 - MATCH,PROXY

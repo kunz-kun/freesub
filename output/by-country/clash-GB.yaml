@@ -3,37 +3,51 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇬🇧 英国 01 - kunz-kun
   port: 443
   reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: fd55b698ee8c3629
-  server: 87.117.234.19
-  servername: strapi.io
+    public-key: G7bpUPFSW28-oE6ff8qZac1_apU6PiJ-GHmi7tAPDSY
+    short-id: 91af08b1ce1f
+  server: 87.239.249.137
+  servername: www.foxsports.com
   tls: true
   type: vless
   udp: true
-  uuid: 4d583b2c-2f5a-47d0-8181-e95217fe8cd9
+  uuid: 67eb6b17-7797-4ded-bf52-423c4c5f6cbd
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇬🇧 英国 02 - kunz-kun
-  port: 443
+  port: 51847
   reality-opts:
-    public-key: 2ATxqiR22wlo3yXOHc43LFHM5NzWCdSGZLdBay_vJgM
-    short-id: e4a1b53b03eff60d
-  server: 95.154.196.61
-  servername: strapi.io
+    public-key: S6noV0L8eNASnTe1gXLutLZNdfENsvKMsOJiGQYi6nc
+    short-id: 0eec442e7b34d2f2
+  server: 3.9.135.156
+  servername: www.tesla.com
   tls: true
   type: vless
   udp: true
-  uuid: e5d917f5-fc78-455e-bbb5-81d08715f3d6
+  uuid: 391a01e9-b664-407b-9158-610fab3f5920
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇬🇧 英国 03 - kunz-kun
+  port: 421
+  reality-opts:
+    public-key: zUdAvpr07q1Yd0Om-jc4-Vu4Un5tVird8FGoN-7W9Tg
+    short-id: a1facbc8575701ae
+  server: 78.129.208.44
+  servername: chistomat.dry.care
+  tls: true
+  type: vless
+  udp: true
+  uuid: a3c861cb-e1e7-4ad6-8be2-7c2314ec6f18
 proxy-groups:
 - name: PROXY
   proxies:
   - 🇬🇧 英国 01 - kunz-kun
   - 🇬🇧 英国 02 - kunz-kun
+  - 🇬🇧 英国 03 - kunz-kun
   type: select
 rules:
 - MATCH,PROXY

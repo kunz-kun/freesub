@@ -15,55 +15,24 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 4548e107-e274-48cd-894b-5168767e67be
-- cipher: aes-256-gcm
-  name: 🇩🇪 德国 02 - kunz-kun
-  password: kKEd0rBrd56Furjz
-  port: 443
-  server: 2.58.81.221
-  type: ss
-  udp: true
-- name: 🇩🇪 德国 03 - kunz-kun
-  password: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
-  port: 443
-  server: 144.31.148.87
-  skip-cert-verify: true
-  sni: replay.wwwinternetvideo.click
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 04 - kunz-kun
-  port: 2083
-  reality-opts:
-    public-key: H0nCazQFHVhSObfqSUhGLhK7KRwKzTMggIBPjnMMqhk
-    short-id: af04ff8094115e93
-  server: 178.105.61.61
-  servername: 178.105.61.61
-  tls: true
-  type: vless
-  udp: true
-  uuid: cb077bf2-70b7-457b-af42-27cdc3e0e544
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 05 - kunz-kun
-  port: 4777
-  reality-opts:
-    public-key: 8ZL2JgDP9gHkgGTbGF-uK8omfWkFplZnCH0N2_U18Uo
-    short-id: 01115788253bc845
-  server: 207.241.172.254
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  udp: true
   uuid: 12a9194f-16fc-4fb9-a6eb-441c076b70e2
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 02 - kunz-kun
+  port: 40443
+  reality-opts:
+    public-key: VG-FwQBMFzPcemJ_JqtkbO-2WKLmQp2h0CmAj-DfLkA
+    short-id: 5b97
+  server: 93.152.217.41
+  servername: deepl.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 969bcce0-de8a-4b02-8cf8-d00d2d2ca7a5
 proxy-groups:
 - name: PROXY
   proxies:
   - 🇩🇪 德国 01 - kunz-kun
   - 🇩🇪 德国 02 - kunz-kun
-  - 🇩🇪 德国 03 - kunz-kun
-  - 🇩🇪 德国 04 - kunz-kun
-  - 🇩🇪 德国 05 - kunz-kun
   type: select
 rules:
 - MATCH,PROXY

@@ -3,13 +3,13 @@
   "outbounds": [
     {
       "type": "hysteria2",
-      "tag": "🇮🇳 印度 01 - kunz-kun",
-      "server": "vpn-in-001.fastervpn.world",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tag": "🇷🇴 RO 01 - kunz-kun",
+      "server": "205.237.109.175",
+      "server_port": 8443,
+      "password": "Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s",
       "tls": {
         "enabled": true,
-        "server_name": "vpn-in-001.fastervpn.world",
+        "server_name": "hopp-netherland-new.dynuddns.net",
         "insecure": true
       }
     },
