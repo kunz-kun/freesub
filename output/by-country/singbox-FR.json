@@ -4,21 +4,20 @@
     {
       "type": "vless",
       "tag": "🇫🇷 法国 01 - kunz-kun",
-      "server": "54.37.136.194",
-      "server_port": 2053,
-      "uuid": "2211972b-a45a-4951-a640-6173d573e637",
+      "server": "usejh2.neobo-tooth.ru",
+      "server_port": 2083,
+      "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "usejh2.neobo-tooth.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "3nFTPdoFnfcwN1xnLwegJmBycLqRH6TRsrbD2XnQbjM",
-          "short_id": "bfc5464d84de3b3b"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
       }
     },
     {
@@ -43,22 +42,43 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇫🇷 法国 03 - kunz-kun",
-      "server": "45.144.28.39",
-      "server_port": 2083,
-      "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",
+      "server": "151.247.197.253",
+      "server_port": 36723,
+      "password": "Krab9Hyst2_Rk7pQ2xL",
       "tls": {
         "enabled": true,
-        "server_name": "usejh2.neobo-tooth.ru",
+        "server_name": "www.cloudflare.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇷 法国 04 - kunz-kun",
+      "server": "162.19.10.99",
+      "server_port": 443,
+      "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "nasnet-162191099-direct.mbghalibaf.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         }
-      },
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇷 法国 05 - kunz-kun",
+      "server": "usejh2.neobo-tooth.ru",
+      "server_port": 2096,
+      "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",
       "transport": {
-        "type": "grpc",
-        "service_name": "grpc"
+        "type": "ws",
+        "path": "/",
+        "headers": {}
       }
     },
     {

@@ -1,0 +1,40 @@
+allow-lan: false
+log-level: info
+mode: rule
+port: 7890
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇦🇷 AR 01 - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+    short-id: fd55b698ee8c3629
+  server: 149.33.19.143
+  servername: zvukipro.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 049b5a3c-3331-4a16-a12a-1f79c5b52d17
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇦🇷 AR 02 - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+    short-id: fd55b698ee8c3629
+  server: 38.180.186.202
+  servername: zvukipro.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 18b476f8-d1ca-4bf5-a397-c6fbf8ef4d41
+proxy-groups:
+- name: PROXY
+  proxies:
+  - 🇦🇷 AR 01 - kunz-kun
+  - 🇦🇷 AR 02 - kunz-kun
+  type: select
+rules:
+- MATCH,PROXY
+socks-port: 7891

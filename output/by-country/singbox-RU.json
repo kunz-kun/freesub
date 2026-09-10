@@ -2,44 +2,20 @@
   "version": 1,
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇷🇺 俄罗斯 01 - kunz-kun",
-      "server": "78.159.247.123",
-      "server_port": 7444,
-      "uuid": "0764541b-3e57-4b47-954b-51e996fae5fc",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "akamai.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "-P8DgKISSG4jnLuj6ihZDqZs1_zt-juBrhVhTylHiAo"
-        }
-      }
+      "server": "195.133.23.200",
+      "server_port": 20111,
+      "method": "aes-256-gcm",
+      "password": "81a20429165df87e"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇷🇺 俄罗斯 02 - kunz-kun",
-      "server": "45.131.212.30",
-      "server_port": 443,
-      "uuid": "db9da8fb-c528-42ec-9b9e-e578cf934c04",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "sellflow.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-        }
-      }
+      "server": "46.17.42.166",
+      "server_port": 10661,
+      "method": "aes-256-gcm",
+      "password": "6b39ae3234dfd68b"
     },
     {
       "type": "direct",

@@ -5,271 +5,28 @@ port: 7890
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 荷兰 01 - kunz-kun
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
-  server: 82.38.31.199
+  server: 82.38.31.42
   type: ss
   udp: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇳🇱 荷兰 02 - kunz-kun
-  port: 40443
-  reality-opts:
-    public-key: D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU
-    short-id: c84f
-  server: 72.56.81.165
-  servername: deepl.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4bf5a71c-d726-4585-b095-7396675706d5
+- name: 🇳🇱 荷兰 02 - kunz-kun
+  password: oCYFcbOo8s
+  port: 443
+  server: 201.51.24.4
+  skip-cert-verify: false
+  sni: hys22.wba-pn.ru
+  type: hysteria2
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 荷兰 03 - kunz-kun
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.184
-  type: ss
-  udp: true
-- name: 🇳🇱 荷兰 04 - kunz-kun
-  network: ws
-  port: 12068
-  server: 85.17.145.65
-  type: vless
-  udp: true
-  uuid: 05caca6c-9e97-4c0f-8edf-7b88a6e572c5
-  ws-opts:
-    headers:
-      Host: mypanel.unixzone.us
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 荷兰 05 - kunz-kun
-  password: RFK38Cg7APneSB5cWDcpbm
-  port: 443
-  server: 92.112.126.90
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 荷兰 06 - kunz-kun
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.218
-  type: ss
-  udp: true
-- name: 🇳🇱 荷兰 07 - kunz-kun
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 46.229.243.139
-  skip-cert-verify: false
-  sni: grape-turbo-fr.roxa.org
-  type: hysteria2
-- name: 🇳🇱 荷兰 08 - kunz-kun
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 46.229.243.140
-  skip-cert-verify: true
-  sni: grape-turbo-fr.roxa.org
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 🇳🇱 荷兰 09 - kunz-kun
-  port: 8443
-  server: 31.76.76.28
-  servername: neth4.lckdwn.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 荷兰 10 - kunz-kun
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.191
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 荷兰 11 - kunz-kun
-  password: eVC634QvVk5l
-  port: 8388
-  server: 188.116.23.244
-  type: ss
-  udp: true
-- name: 🇳🇱 荷兰 12 - kunz-kun
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 46.229.243.133
-  skip-cert-verify: false
-  sni: grape-turbo-fr.roxa.org
-  type: hysteria2
-- name: 🇳🇱 荷兰 13 - kunz-kun
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 46.229.243.133
-  skip-cert-verify: false
-  sni: grape-turbo-fr.roxa.org
-  type: hysteria2
-- name: 🇳🇱 荷兰 14 - kunz-kun
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 46.229.243.147
-  skip-cert-verify: true
-  sni: grape-turbo-fr.roxa.org
-  type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 荷兰 15 - kunz-kun
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.202
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 荷兰 16 - kunz-kun
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.201
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 荷兰 17 - kunz-kun
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.48
-  type: ss
-  udp: true
-- name: 🇳🇱 荷兰 18 - kunz-kun
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 46.229.243.142
-  skip-cert-verify: false
-  sni: grape-turbo-fr.roxa.org
-  type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 荷兰 19 - kunz-kun
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.219
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 荷兰 20 - kunz-kun
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 193.29.139.230
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 荷兰 21 - kunz-kun
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.181
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 🇳🇱 荷兰 22 - kunz-kun
-  port: 443
-  reality-opts:
-    public-key: tWRR3W8jBAQKBUujLzL7Xri3WXy3F08OxHYrkSOnlAc
-    short-id: 52a6
-  server: 147.45.145.127
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 534cbbe2-cc36-4f2d-8fb0-90410e7148c9
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 荷兰 23 - kunz-kun
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
-  server: 193.29.139.225
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 荷兰 24 - kunz-kun
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.179
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 荷兰 25 - kunz-kun
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 193.29.139.234
+  server: 193.29.139.129
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇳🇱 荷兰 26 - kunz-kun
-  port: 40443
-  reality-opts:
-    public-key: D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU
-    short-id: c84f
-  server: 72.56.81.165
-  servername: deepl.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4bf5a71c-d726-4585-b095-7396675706d5
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇳🇱 荷兰 27 - kunz-kun
-  port: 443
-  reality-opts:
-    public-key: _IBXb9NfhsnS21XbU9PIl73ExvrjXGXVLO0Za1ui5Fo
-    short-id: f93c9d5127e622e4
-  server: 217.60.96.124
-  servername: de.cloudtechone.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 荷兰 28 - kunz-kun
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.61
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇳🇱 荷兰 29 - kunz-kun
-  port: 40443
-  reality-opts:
-    public-key: D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU
-    short-id: c84f
-  server: 72.56.81.165
-  servername: deepl.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4bf5a71c-d726-4585-b095-7396675706d5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇳🇱 荷兰 30 - kunz-kun
-  port: 23576
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  server: 51.158.206.8
-  servername: fuck.rkn
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇳🇱 荷兰 31 - kunz-kun
-  port: 23576
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  server: 51.158.206.29
-  servername: fuck.rkn
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇳🇱 荷兰 32 - kunz-kun
+  name: 🇳🇱 荷兰 04 - kunz-kun
   port: 23576
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
@@ -280,11 +37,170 @@ proxies:
   type: vless
   udp: true
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇳🇱 荷兰 05 - kunz-kun
+  port: 23576
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  server: 51.158.206.93
+  servername: fuck.rkn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 荷兰 33 - kunz-kun
+  name: 🇳🇱 荷兰 06 - kunz-kun
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.201
+  server: 82.38.31.186
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 荷兰 07 - kunz-kun
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.202
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇳🇱 荷兰 08 - kunz-kun
+  port: 22746
+  reality-opts:
+    public-key: B6bPTxNaLqqoUTuNggzTBP0pPxJEqE_Bd_Ob27MPvgU
+    short-id: d9fd4fa80238cd05
+  server: 172.239.239.53
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a4846a6c-163f-4b12-a99f-378d814e5e09
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 荷兰 09 - kunz-kun
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.192
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 荷兰 10 - kunz-kun
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.164
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 荷兰 11 - kunz-kun
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.47
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 荷兰 12 - kunz-kun
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.195
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇳🇱 荷兰 13 - kunz-kun
+  port: 23576
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  server: 51.158.206.26
+  servername: fuck.rkn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇳🇱 荷兰 14 - kunz-kun
+  port: 23576
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  server: 51.158.206.26
+  servername: fuck.rkn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 荷兰 15 - kunz-kun
+  password: wwzVn2ZnHfqYa6l8EWh3eY
+  port: 443
+  server: 92.112.126.90
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 荷兰 16 - kunz-kun
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.82
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 荷兰 17 - kunz-kun
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 193.29.139.212
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 🇳🇱 荷兰 18 - kunz-kun
+  port: 8443
+  server: 193.23.194.167
+  servername: neth.lckdwn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 32349ee8-8551-45fa-a265-8704cec72936
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 荷兰 19 - kunz-kun
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.204
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 荷兰 20 - kunz-kun
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.151
+  type: ss
+  udp: true
+- name: 🇳🇱 荷兰 21 - kunz-kun
+  password: 4fb82973-a7f1-4fc2-9958-cb21f5162f06
+  port: 443
+  server: nl01ntrhy01.tcp-reset-club.net
+  skip-cert-verify: false
+  sni: nl01ntrhy01.tcp-reset-club.net
+  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 荷兰 22 - kunz-kun
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.156
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 荷兰 23 - kunz-kun
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.183
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 荷兰 24 - kunz-kun
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.191
   type: ss
   udp: true
 proxy-groups:
@@ -314,15 +230,6 @@ proxy-groups:
   - 🇳🇱 荷兰 22 - kunz-kun
   - 🇳🇱 荷兰 23 - kunz-kun
   - 🇳🇱 荷兰 24 - kunz-kun
-  - 🇳🇱 荷兰 25 - kunz-kun
-  - 🇳🇱 荷兰 26 - kunz-kun
-  - 🇳🇱 荷兰 27 - kunz-kun
-  - 🇳🇱 荷兰 28 - kunz-kun
-  - 🇳🇱 荷兰 29 - kunz-kun
-  - 🇳🇱 荷兰 30 - kunz-kun
-  - 🇳🇱 荷兰 31 - kunz-kun
-  - 🇳🇱 荷兰 32 - kunz-kun
-  - 🇳🇱 荷兰 33 - kunz-kun
   type: select
 rules:
 - MATCH,PROXY

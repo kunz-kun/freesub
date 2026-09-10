@@ -3,7 +3,7 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 03 [家宽] - kunz-kun",
+      "tag": "🇭🇰 中国香港 02 [家宽] - kunz-kun",
       "server": "203.218.231.156",
       "server_port": 443,
       "uuid": "c12f73f6-e8c7-11ed-9246-f23c9164ca5d",
@@ -12,7 +12,26 @@
         "server_name": "updates.cdn-apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 05 [家宽] - kunz-kun",
+      "server": "bdd23461-tla000-tvvhcz-tl32.hk3.hyhuawei.com",
+      "server_port": 443,
+      "uuid": "5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b",
+      "tls": {
+        "enabled": true,
+        "server_name": "updates.cdn-apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,

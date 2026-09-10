@@ -4,70 +4,7 @@
     {
       "type": "vless",
       "tag": "🇯🇵 日本 01 - kunz-kun",
-      "server": "3.114.220.22",
-      "server_port": 18007,
-      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
-          "short_id": "48050fab"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 日本 02 - kunz-kun",
-      "server": "13.231.19.51",
-      "server_port": 11690,
-      "uuid": "e2b8b217-cffb-4d66-9b8b-eca6e4334032",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.tesla.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Bv3z0_uFRabB9C4CFpNfqepZUyeO4YTh1duJdMBNLkg",
-          "short_id": "034885e346fd30"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 日本 03 - kunz-kun",
-      "server": "13.114.89.187",
-      "server_port": 16611,
-      "uuid": "059fbe5b-21dc-413f-8f5c-dac39201914c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.intel.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "cDzA5Efsd52LehcCFXh9bS3eCuj7HQZwau-yjPqLPgQ",
-          "short_id": "701b0c5c9dee514d"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 日本 04 - kunz-kun",
-      "server": "172.67.156.147",
+      "server": "162.159.254.3",
       "server_port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "tls": {
@@ -88,8 +25,51 @@
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 05 - kunz-kun",
-      "server": "130.12.102.62",
+      "tag": "🇯🇵 日本 02 - kunz-kun",
+      "server": "3.112.131.211",
+      "server_port": 48086,
+      "uuid": "620ca966-d78b-4c88-a5c9-acf13c7d252f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.nvidia.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "qq9vUmReS92PojPLpSyUY_c6CydUUtut7ffxc3V0LTo",
+          "short_id": "7083d685446ce576"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵 日本 03 - kunz-kun",
+      "server": "162.159.254.3",
+      "server_port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵 日本 04 - kunz-kun",
+      "server": "130.12.102.133",
       "server_port": 443,
       "uuid": "6429d27e-a7d4-4e04-ae57-e88243fbbfe3",
       "tls": {
@@ -107,56 +87,84 @@
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 06 - kunz-kun",
-      "server": "3.114.220.22",
-      "server_port": 18007,
-      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
+      "tag": "🇯🇵 日本 05 - kunz-kun",
+      "server": "3.112.47.207",
+      "server_port": 29860,
+      "uuid": "7460547d-e83c-4843-b404-9142b22261a7",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "www.intel.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
-          "short_id": "48050fab"
+          "public_key": "g7I81MzpM7J6K9WLbZdaMPS9We6GYeeNY3EKRvyiKW4",
+          "short_id": "c992a34f288be189"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵 日本 06 - kunz-kun",
+      "server": "13.231.19.51",
+      "server_port": 11690,
+      "uuid": "e2b8b217-cffb-4d66-9b8b-eca6e4334032",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.tesla.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Bv3z0_uFRabB9C4CFpNfqepZUyeO4YTh1duJdMBNLkg",
+          "short_id": "034885e346fd30"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇯🇵 日本 07 - kunz-kun",
-      "server": "103.137.215.32",
+      "server": "freshjuniper.download",
       "server_port": 443,
-      "uuid": "6c8a1ad4-0c04-460d-87e2-507a952ba902",
-      "flow": "xtls-rprx-vision",
+      "uuid": "6429d27e-a7d4-4e04-ae57-e88243fbbfe3",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "freshjuniper.download",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "LP_JNPrfHbQnMK5dYoKr4D6Q8I8yKHK5ygHffJb1hzw",
-          "short_id": "dfde4e821472fb98"
+          "public_key": "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I"
         }
       }
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇯🇵 日本 08 - kunz-kun",
-      "server": "freedom.chenlan.top",
-      "server_port": 12765,
-      "password": "STYyftThFn",
+      "server": "3.112.47.207",
+      "server_port": 29860,
+      "uuid": "7460547d-e83c-4843-b404-9142b22261a7",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "freedom.chenlan.top",
-        "insecure": false
+        "server_name": "www.intel.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "g7I81MzpM7J6K9WLbZdaMPS9We6GYeeNY3EKRvyiKW4",
+          "short_id": "c992a34f288be189"
+        }
       }
     },
     {

@@ -3,22 +3,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇱🇹 LT 01 - kunz-kun",
-      "server": "88.119.176.24",
-      "server_port": 443,
-      "uuid": "ae8e0f7d-b661-41ca-b55d-d8c383adb2f8",
+      "tag": "🇸🇨 SC 01 - kunz-kun",
+      "server": "156.226.168.221",
+      "server_port": 35193,
+      "uuid": "35cbae61-ee10-4cb9-abb8-4950b35e9851",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "lit9.helper-internet.com",
+        "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE",
-          "short_id": "ff776ff77be48b88"
+          "public_key": "d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE",
+          "short_id": "e8daed2d"
         }
       }
     },

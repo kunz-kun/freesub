@@ -9,31 +9,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 194.34.175.98
-  servername: localhost
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇮 FI 02 - kunz-kun
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 2.26.178.166
-  servername: localhost
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇮 FI 03 - kunz-kun
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 2.26.178.129
+  server: 2.26.178.187
   servername: localhost
   tls: true
   type: vless
@@ -43,8 +19,6 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 🇫🇮 FI 01 - kunz-kun
-  - 🇫🇮 FI 02 - kunz-kun
-  - 🇫🇮 FI 03 - kunz-kun
   type: select
 rules:
 - MATCH,PROXY

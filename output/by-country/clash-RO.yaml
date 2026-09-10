@@ -8,50 +8,18 @@ proxies:
   name: 🇷🇴 RO 01 - kunz-kun
   port: 443
   reality-opts:
-    public-key: gE8LUmGFXik94SoDXNiAG5KprGyhjoRwDuhGebgAVWk
-    short-id: 5ee019e02e6ed99a
-  server: 193.163.203.253
-  servername: yandex.ru
+    public-key: _IBXb9NfhsnS21XbU9PIl73ExvrjXGXVLO0Za1ui5Fo
+    short-id: f93c9d5127e622e4
+  server: 82.152.141.30
+  servername: pl.cloudtechone.org
   tls: true
   type: vless
   udp: true
-  uuid: 441afe11-a180-4516-bb80-80a8a6b38705
-- name: 🇷🇴 RO 02 - kunz-kun
-  password: 4fb82973-a7f1-4fc2-9958-cb21f5162f06
-  port: 443
-  server: rou0001ntrhy01.tcp-reset-club.net
-  skip-cert-verify: false
-  sni: rou0001ntrhy01.tcp-reset-club.net
-  type: hysteria2
-- name: 🇷🇴 RO 03 - kunz-kun
-  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
-  port: 8443
-  server: 205.237.109.162
-  skip-cert-verify: true
-  sni: hopp-netherland-new.dynuddns.net
-  type: hysteria2
-- name: 🇷🇴 RO 04 - kunz-kun
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.126.2
-  skip-cert-verify: true
-  sni: hopp-germany-new.ddnsguru.com
-  type: hysteria2
-- name: 🇷🇴 RO 05 - kunz-kun
-  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
-  port: 8443
-  server: 205.237.109.173
-  skip-cert-verify: true
-  sni: hopp-netherland-new.dynuddns.net
-  type: hysteria2
+  uuid: 2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5
 proxy-groups:
 - name: PROXY
   proxies:
   - 🇷🇴 RO 01 - kunz-kun
-  - 🇷🇴 RO 02 - kunz-kun
-  - 🇷🇴 RO 03 - kunz-kun
-  - 🇷🇴 RO 04 - kunz-kun
-  - 🇷🇴 RO 05 - kunz-kun
   type: select
 rules:
 - MATCH,PROXY

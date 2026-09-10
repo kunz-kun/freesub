@@ -4,21 +4,73 @@ mode: rule
 port: 7890
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 🇯🇵 日本 01 - kunz-kun
-  port: 18007
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  server: 3.114.220.22
-  servername: www.apple.com
+  network: ws
+  port: 443
+  server: 162.159.254.3
+  servername: jp3.yohototo.top
   tls: true
   type: vless
   udp: true
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-- client-fingerprint: firefox
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇯🇵 日本 02 - kunz-kun
+  port: 48086
+  reality-opts:
+    public-key: qq9vUmReS92PojPLpSyUY_c6CydUUtut7ffxc3V0LTo
+    short-id: 7083d685446ce576
+  server: 3.112.131.211
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 620ca966-d78b-4c88-a5c9-acf13c7d252f
+- client-fingerprint: firefox
+  name: 🇯🇵 日本 03 - kunz-kun
+  network: ws
+  port: 443
+  server: 162.159.254.3
+  servername: jp3.yohototo.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+- client-fingerprint: chrome
+  name: 🇯🇵 日本 04 - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: 130.12.102.133
+  servername: localhost
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 05 - kunz-kun
+  port: 29860
+  reality-opts:
+    public-key: g7I81MzpM7J6K9WLbZdaMPS9We6GYeeNY3EKRvyiKW4
+    short-id: c992a34f288be189
+  server: 3.112.47.207
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7460547d-e83c-4843-b404-9142b22261a7
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本 06 - kunz-kun
   port: 11690
   reality-opts:
     public-key: Bv3z0_uFRabB9C4CFpNfqepZUyeO4YTh1duJdMBNLkg
@@ -30,76 +82,28 @@ proxies:
   udp: true
   uuid: e2b8b217-cffb-4d66-9b8b-eca6e4334032
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 03 - kunz-kun
-  port: 16611
-  reality-opts:
-    public-key: cDzA5Efsd52LehcCFXh9bS3eCuj7HQZwau-yjPqLPgQ
-    short-id: 701b0c5c9dee514d
-  server: 13.114.89.187
-  servername: www.intel.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 059fbe5b-21dc-413f-8f5c-dac39201914c
-- client-fingerprint: chrome
-  name: 🇯🇵 日本 04 - kunz-kun
-  network: ws
-  port: 443
-  server: 172.67.156.147
-  servername: jp3.yohototo.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-    path: /tyxyws
-- client-fingerprint: chrome
-  name: 🇯🇵 日本 05 - kunz-kun
+  name: 🇯🇵 日本 07 - kunz-kun
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 130.12.102.62
-  servername: localhost
+  server: freshjuniper.download
   tls: true
   type: vless
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇯🇵 日本 06 - kunz-kun
-  port: 18007
+  name: 🇯🇵 日本 08 - kunz-kun
+  port: 29860
   reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  server: 3.114.220.22
-  servername: www.apple.com
+    public-key: g7I81MzpM7J6K9WLbZdaMPS9We6GYeeNY3EKRvyiKW4
+    short-id: c992a34f288be189
+  server: 3.112.47.207
+  servername: www.intel.com
   tls: true
   type: vless
   udp: true
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 07 - kunz-kun
-  port: 443
-  reality-opts:
-    public-key: LP_JNPrfHbQnMK5dYoKr4D6Q8I8yKHK5ygHffJb1hzw
-    short-id: dfde4e821472fb98
-  server: 103.137.215.32
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6c8a1ad4-0c04-460d-87e2-507a952ba902
-- name: 🇯🇵 日本 08 - kunz-kun
-  password: STYyftThFn
-  port: 12765
-  server: freedom.chenlan.top
-  skip-cert-verify: false
-  sni: freedom.chenlan.top
-  type: hysteria2
+  uuid: 7460547d-e83c-4843-b404-9142b22261a7
 proxy-groups:
 - name: PROXY
   proxies:

@@ -3,22 +3,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇪🇸 ES 01 - kunz-kun",
-      "server": "107.189.19.27",
-      "server_port": 443,
-      "uuid": "813a385c-f26f-48b5-9bbb-53204a9c5bcc",
+      "tag": "🇲🇾 马来西亚 01 - kunz-kun",
+      "server": "43.217.16.8",
+      "server_port": 21874,
+      "uuid": "85dd8227-0f12-4826-a712-6313211774b5",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdn.dodostatic.net",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "Sgocj9v63XdHU04TV3-Pk141YPIT_E-UgLr9u4OkE0E",
-          "short_id": "d27201f7bf5874f9"
+          "public_key": "75sTDYJk8ylA97-aBhAlF1tU4OaCfdOaOSIBshPW7Bs",
+          "short_id": "42e853a5559e1032"
         }
       }
     },

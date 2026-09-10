@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇪 IE 01 - kunz-kun",
+      "server": "108.129.176.139",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "amazonskr05"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    }
+  ]
+}

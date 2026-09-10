@@ -15,19 +15,20 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: a9900333-444b-4a36-a2f0-0567946c47cd
+  uuid: a3c861cb-e1e7-4ad6-8be2-7c2314ec6f18
 - client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 🇬🇧 英国 02 - kunz-kun
-  port: 2053
+  port: 443
   reality-opts:
-    public-key: AttEUIEavqeVE5oz4_AxJPrcwx3IgcFElW2OoF8qTAg
-    short-id: b895d279c8cc40f9
-  server: 46.250.240.80
-  servername: www.cloudflare.com
+    public-key: wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA
+    short-id: 16498ac98306ce31
+  server: 95.154.196.62
+  servername: foodnetwork.com
   tls: true
   type: vless
   udp: true
-  uuid: 7dc2737e-1155-42f6-aec4-6b2b001001ae
+  uuid: c9779fd1-a7fc-48b5-88b0-42e8396c2dd8
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇬🇧 英国 03 - kunz-kun
@@ -40,72 +41,84 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 51505e81-fa2c-44bf-9564-8c053f006535
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+  uuid: bfca8b29-e976-4066-8228-8921a0f61c50
+- client-fingerprint: random
   name: 🇬🇧 英国 04 - kunz-kun
   port: 443
   reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: fd55b698ee8c3629
-  server: 78.129.150.110
-  servername: strapi.io
+    public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
+    short-id: 98fa0b00d09419f7
+  server: 51.38.70.192
+  servername: play.google.com
   tls: true
   type: vless
   udp: true
-  uuid: 3fea801b-c769-430b-a857-4c6c70b45cd2
-- client-fingerprint: chrome
+  uuid: 9343f183-7a16-4bdd-9c65-b0c21feca40b
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇬🇧 英国 05 - kunz-kun
   port: 443
   reality-opts:
-    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
-    short-id: 5c8a8e6c615b
-  server: 107.181.151.241
-  servername: www.mozilla.org
+    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+    short-id: fd55b698ee8c3629
+  server: 95.154.237.50
+  servername: lanacion.com.ar
   tls: true
   type: vless
   udp: true
-  uuid: 2f6e2b17-4d5e-4a12-8979-f53fdd347580
-- client-fingerprint: qq
+  uuid: 3d821554-a3c5-4d0a-9321-611ecb1ec90b
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇬🇧 英国 06 - kunz-kun
   port: 443
   reality-opts:
     public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
     short-id: fd55b698ee8c3629
-  server: 82.145.55.75
-  servername: strapi.io
+  server: 109.169.85.137
+  servername: slashdot.org
   tls: true
   type: vless
   udp: true
-  uuid: 0a57f0c8-c29e-467b-af3e-d8d8c2c02d7c
+  uuid: 67909c05-2b51-44d1-bb32-118eec3e9287
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇬🇧 英国 07 - kunz-kun
   port: 443
   reality-opts:
-    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
-    short-id: 60500a63ad12
-  server: 107.181.151.241
-  servername: www.microsoft.com
+    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+    short-id: fd55b698ee8c3629
+  server: 95.154.237.47
+  servername: lanacion.com.ar
   tls: true
   type: vless
   udp: true
-  uuid: 106d20f6-d70a-40e2-b69b-8e82baf8d117
-- client-fingerprint: chrome
+  uuid: 3845c09f-35c8-4852-b876-5ed8cc5ca6cd
+- client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 🇬🇧 英国 08 - kunz-kun
   port: 443
   reality-opts:
-    public-key: IFEZmwpGK7VCuDj3kmVdyMn7vUIG8Sntc6TG4eIS3xs
-    short-id: 1aa9f3c9021280c0
-  server: 5.152.223.97
-  servername: strapi.io
+    public-key: wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA
+    short-id: 16498ac98306ce31
+  server: 95.154.196.62
+  servername: foodnetwork.com
   tls: true
   type: vless
   udp: true
-  uuid: be5b6ad6-8184-4b63-82ac-3bc00c09c98c
+  uuid: a6de5675-5bfe-4fc2-b9b4-4bf4a24f6474
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇬🇧 英国 09 - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA
+    short-id: 16498ac98306ce31
+  server: 95.154.196.62
+  servername: foodnetwork.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1d9b247a-d20e-49fd-bd9c-bb06e1ea2a18
 proxy-groups:
 - name: PROXY
   proxies:
@@ -117,6 +130,7 @@ proxy-groups:
   - 🇬🇧 英国 06 - kunz-kun
   - 🇬🇧 英国 07 - kunz-kun
   - 🇬🇧 英国 08 - kunz-kun
+  - 🇬🇧 英国 09 - kunz-kun
   type: select
 rules:
 - MATCH,PROXY

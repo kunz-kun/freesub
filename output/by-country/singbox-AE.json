@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 01 - kunz-kun",
+      "server": "31.58.181.88",
+      "server_port": 8443,
+      "uuid": "93a8f0b3-4c97-4d14-999c-c207a55b70b0",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "tradingview.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 02 - kunz-kun",
+      "server": "31.58.181.88",
+      "server_port": 8443,
+      "uuid": "cc422436-e0e9-4f15-bfe8-db3d816e5527",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "tradingview.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc"
+        }
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    }
+  ]
+}

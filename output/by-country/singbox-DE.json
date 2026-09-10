@@ -4,55 +4,48 @@
     {
       "type": "vless",
       "tag": "🇩🇪 德国 01 - kunz-kun",
-      "server": "31.56.189.224",
-      "server_port": 3443,
-      "uuid": "92089155-6602-4122-86d4-fe6de20e8c4d",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "special.aeternavpn.space",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "-6SjfnZXAYm69euKQ3XNhq0nC7No7YE4qfdc2qx0Xwo",
-          "short_id": "a1b2c3d4"
-        }
-      }
+      "server": "91.107.179.8",
+      "server_port": 15003,
+      "uuid": "69d8dc73-20ff-4241-bdd8-a9d6d07553b6"
     },
     {
       "type": "vless",
       "tag": "🇩🇪 德国 02 - kunz-kun",
-      "server": "31.56.189.224",
-      "server_port": 3443,
-      "uuid": "92089155-6602-4122-86d4-fe6de20e8c4d",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "special.aeternavpn.space",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "-6SjfnZXAYm69euKQ3XNhq0nC7No7YE4qfdc2qx0Xwo",
-          "short_id": "a1b2c3d4"
-        }
-      }
+      "server": "155.117.234.131",
+      "server_port": 42638,
+      "uuid": "40fa5575-7649-428d-8859-2426dd69056c"
     },
     {
       "type": "hysteria2",
       "tag": "🇩🇪 德国 03 - kunz-kun",
-      "server": "player.wwwinternetvideo.click",
+      "server": "144.31.221.57",
       "server_port": 443,
       "password": "V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8",
       "tls": {
         "enabled": true,
         "server_name": "player.wwwinternetvideo.click",
         "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 德国 04 - kunz-kun",
+      "server": "91.233.8.141",
+      "server_port": 443,
+      "uuid": "81d8f575-a9c3-03e7-be6b-c0e1dc1d2e20",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "tnt-cloud.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "k76Ze8R0E5NyZwvBZT1A4n0zlVXxTeHQDAs0bBqiGQw",
+          "short_id": "6e5f2a3b"
+        }
       }
     },
     {

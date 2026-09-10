@@ -4,18 +4,7 @@ mode: rule
 port: 7890
 proxies:
 - client-fingerprint: chrome
-  name: 🇹🇼 中国台湾 02 [家宽] - kunz-kun
-  port: 24215
-  reality-opts:
-    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
-  server: hinet1.2yly.com
-  servername: addons.mozilla.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
-- client-fingerprint: safari
-  name: 🇭🇰 中国香港 03 [家宽] - kunz-kun
+  name: 🇭🇰 中国香港 02 [家宽] - kunz-kun
   port: 443
   reality-opts:
     public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
@@ -26,26 +15,29 @@ proxies:
   udp: true
   uuid: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
 - cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 中国台湾 04 [家宽] - kunz-kun
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 中国台湾 05 [家宽] - kunz-kun
+  name: 🇹🇼 中国台湾 02 [家宽] - kunz-kun
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: 36.224.152.189
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 🇭🇰 中国香港 05 [家宽] - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  server: bdd23461-tla000-tvvhcz-tl32.hk3.hyhuawei.com
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
 proxy-groups:
 - name: PROXY
   proxies:
+  - 🇭🇰 中国香港 02 [家宽] - kunz-kun
   - 🇹🇼 中国台湾 02 [家宽] - kunz-kun
-  - 🇭🇰 中国香港 03 [家宽] - kunz-kun
-  - 🇹🇼 中国台湾 04 [家宽] - kunz-kun
-  - 🇹🇼 中国台湾 05 [家宽] - kunz-kun
+  - 🇭🇰 中国香港 05 [家宽] - kunz-kun
   type: select
 rules:
 - MATCH,PROXY

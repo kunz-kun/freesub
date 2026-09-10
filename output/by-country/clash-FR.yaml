@@ -4,17 +4,17 @@ mode: rule
 port: 7890
 proxies:
 - client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc
   name: 🇫🇷 法国 01 - kunz-kun
-  port: 2053
-  reality-opts:
-    public-key: 3nFTPdoFnfcwN1xnLwegJmBycLqRH6TRsrbD2XnQbjM
-    short-id: bfc5464d84de3b3b
-  server: 54.37.136.194
-  servername: www.cloudflare.com
+  network: grpc
+  port: 2083
+  server: usejh2.neobo-tooth.ru
+  servername: usejh2.neobo-tooth.ru
   tls: true
   type: vless
   udp: true
-  uuid: 2211972b-a45a-4951-a640-6173d573e637
+  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇫🇷 法国 02 - kunz-kun
@@ -28,24 +28,41 @@ proxies:
   type: vless
   udp: true
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: 🇫🇷 法国 03 - kunz-kun
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: 151.247.197.253
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇫🇷 法国 03 - kunz-kun
-  network: grpc
-  port: 2083
-  server: 45.144.28.39
-  servername: usejh2.neobo-tooth.ru
+  flow: xtls-rprx-vision
+  name: 🇫🇷 法国 04 - kunz-kun
+  port: 443
+  server: 162.19.10.99
+  servername: nasnet-162191099-direct.mbghalibaf.com
   tls: true
   type: vless
   udp: true
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
+- name: 🇫🇷 法国 05 - kunz-kun
+  network: ws
+  port: 2096
+  server: usejh2.neobo-tooth.ru
+  type: vless
+  udp: true
   uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
+  ws-opts:
+    headers: {}
+    path: /
 proxy-groups:
 - name: PROXY
   proxies:
   - 🇫🇷 法国 01 - kunz-kun
   - 🇫🇷 法国 02 - kunz-kun
   - 🇫🇷 法国 03 - kunz-kun
+  - 🇫🇷 法国 04 - kunz-kun
+  - 🇫🇷 法国 05 - kunz-kun
   type: select
 rules:
 - MATCH,PROXY

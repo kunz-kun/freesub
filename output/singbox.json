@@ -2,128 +2,146 @@
   "version": 1,
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 01 - kunz-kun",
-      "server": "82.38.31.199",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
       "type": "vless",
-      "tag": "🇺🇸 美国 01 - kunz-kun",
-      "server": "169.40.42.89",
+      "tag": "🇦🇺 澳大利亚 01 - kunz-kun",
+      "server": "51.161.199.124",
       "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "uuid": "61e7c286-6b7d-4667-955c-430d89979c4d",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "suetinklerartglass.co.uk",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0",
+          "short_id": "0f4d3210977f51a5"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 01 - kunz-kun",
+      "server": "82.198.246.97",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸 美国 02 - kunz-kun",
+      "server": "hy2.123266.xyz",
+      "server_port": 33333,
+      "password": "bce6c821-200d-421f-bf3d-7159e5246ea0",
+      "tls": {
+        "enabled": true,
+        "server_name": "hy2.123266.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇷🇺 俄罗斯 01 - kunz-kun",
+      "server": "195.133.23.200",
+      "server_port": 20111,
+      "method": "aes-256-gcm",
+      "password": "81a20429165df87e"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 新加坡 01 - kunz-kun",
+      "server": "3.0.111.82",
+      "server_port": 17623,
+      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
+          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
+          "short_id": "48050fab"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "🇦🇺 澳大利亚 01 - kunz-kun",
-      "server": "134.195.196.211",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 02 - kunz-kun",
-      "server": "67.220.95.3",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "tag": "🇹🇼 中国台湾 01 - kunz-kun",
+      "server": "165.154.195.38",
+      "server_port": 35034,
+      "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
       "security": "auto",
       "alter_id": 0
     },
     {
       "type": "vless",
       "tag": "🇺🇸 美国 03 - kunz-kun",
-      "server": "169.40.42.235",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "server": "67.220.73.204",
+      "server_port": 16016,
+      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
+          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
+          "short_id": "48050fab"
         }
       }
     },
     {
-      "type": "vless",
-      "tag": "🇳🇱 荷兰 02 - kunz-kun",
-      "server": "72.56.81.165",
-      "server_port": 40443,
-      "uuid": "4bf5a71c-d726-4585-b095-7396675706d5",
-      "flow": "xtls-rprx-vision",
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 01 - kunz-kun",
+      "server": "202.146.222.174",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "deepl.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU",
-          "short_id": "c84f"
-        }
+        "server_name": "https://t.me/oneclickvpnkeys",
+        "insecure": true
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 03 - kunz-kun",
-      "server": "82.38.31.184",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 荷兰 04 - kunz-kun",
-      "server": "85.17.145.65",
-      "server_port": 12068,
-      "uuid": "05caca6c-9e97-4c0f-8edf-7b88a6e572c5",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "mypanel.unixzone.us"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 05 - kunz-kun",
-      "server": "92.112.126.90",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "RFK38Cg7APneSB5cWDcpbm"
-    },
-    {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇺🇸 美国 04 - kunz-kun",
-      "server": "15.204.97.206",
+      "server": "82.198.246.233",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇪 IE 01 - kunz-kun",
+      "server": "108.129.176.139",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "amazonskr05"
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 德国 01 - kunz-kun",
+      "server": "91.107.179.8",
+      "server_port": 15003,
+      "uuid": "69d8dc73-20ff-4241-bdd8-a9d6d07553b6"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 05 - kunz-kun",
+      "server": "15.204.97.216",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "flow": "xtls-rprx-vision",
@@ -142,114 +160,116 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 06 - kunz-kun",
+      "server": "165.140.217.2",
+      "server_port": 443,
+      "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
       "type": "vless",
-      "tag": "🇯🇵 日本 01 - kunz-kun",
-      "server": "3.114.220.22",
-      "server_port": 18007,
-      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇹🇷 土耳其 01 - kunz-kun",
+      "server": "195.162.69.203",
+      "server_port": 8443,
+      "uuid": "953358cb-82ba-4296-960d-6d2ec3468f4c",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "195-162-69-203.sslip.io",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 02 [家宽] - kunz-kun",
+      "server": "203.218.231.156",
+      "server_port": 443,
+      "uuid": "c12f73f6-e8c7-11ed-9246-f23c9164ca5d",
+      "tls": {
+        "enabled": true,
+        "server_name": "updates.cdn-apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
-          "short_id": "48050fab"
+          "public_key": "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
         }
       }
     },
     {
-      "type": "vless",
-      "tag": "🇩🇪 德国 01 - kunz-kun",
-      "server": "31.56.189.224",
-      "server_port": 3443,
-      "uuid": "92089155-6602-4122-86d4-fe6de20e8c4d",
-      "flow": "xtls-rprx-vision",
+      "type": "hysteria2",
+      "tag": "🇺🇸 美国 07 - kunz-kun",
+      "server": "142.249.37.90",
+      "server_port": 44356,
+      "password": "dongtaiwang.com",
       "tls": {
         "enabled": true,
-        "server_name": "special.aeternavpn.space",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "-6SjfnZXAYm69euKQ3XNhq0nC7No7YE4qfdc2qx0Xwo",
-          "short_id": "a1b2c3d4"
-        }
+        "server_name": "hy2.561891.xyz",
+        "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 01 - kunz-kun",
-      "server": "78.159.247.123",
-      "server_port": 7444,
-      "uuid": "0764541b-3e57-4b47-954b-51e996fae5fc",
+      "tag": "🇦🇪 阿联酋 01 - kunz-kun",
+      "server": "31.58.181.88",
+      "server_port": 8443,
+      "uuid": "93a8f0b3-4c97-4d14-999c-c207a55b70b0",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "akamai.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "-P8DgKISSG4jnLuj6ihZDqZs1_zt-juBrhVhTylHiAo"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 日本 02 - kunz-kun",
-      "server": "13.231.19.51",
-      "server_port": 11690,
-      "uuid": "e2b8b217-cffb-4d66-9b8b-eca6e4334032",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.tesla.com",
+        "server_name": "tradingview.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "Bv3z0_uFRabB9C4CFpNfqepZUyeO4YTh1duJdMBNLkg",
-          "short_id": "034885e346fd30"
+          "public_key": "AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc"
         }
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 01 - kunz-kun",
-      "server": "51.222.12.127",
-      "server_port": 445,
-      "method": "aes-256-gcm",
-      "password": "zDNVedRFPQexG9v"
+      "type": "vmess",
+      "tag": "🇺🇸 美国 08 - kunz-kun",
+      "server": "67.220.72.237",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "alter_id": 1
     },
     {
       "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 06 - kunz-kun",
-      "server": "82.38.31.218",
+      "tag": "🇳🇱 荷兰 01 - kunz-kun",
+      "server": "82.38.31.42",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
-      "type": "hysteria2",
-      "tag": "🇸🇬 新加坡 01 - kunz-kun",
-      "server": "sg1.xiaoliyu.cyou",
-      "server_port": 1933,
-      "password": "19f72087-4591-4d72-930b-2697078ec2be",
+      "type": "vless",
+      "tag": "🇸🇬 新加坡 02 - kunz-kun",
+      "server": "47.129.185.35",
+      "server_port": 49805,
+      "uuid": "0803fc94-25f9-42db-9e6b-dd1418ae50ec",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "sg1.xiaoliyu.cyou",
-        "insecure": true
+        "server_name": "www.intel.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "KhyeJbZtFAik5Mx1K_AQMIEK_MPwQnwUwSe-jTjq8yU",
+          "short_id": "4a753538b6a9eee9"
+        }
       }
     },
     {
@@ -274,274 +294,15 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇺🇸 美国 05 - kunz-kun",
-      "server": "169.40.42.224",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 06 - kunz-kun",
-      "server": "82.198.246.97",
-      "server_port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 01 - kunz-kun",
-      "server": "vj37-1936vtw.fincore.top",
-      "server_port": 443,
-      "uuid": "5e8e81ac-a1c4-4543-b81e-651bf9872b54",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "TP_bpIPUtjdxxGA9j7mpsHtSDfM2HMSZFNWW9MtDPT0",
-          "short_id": "14156e3ac23212cc"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇸🇬 新加坡 02 - kunz-kun",
-      "server": "149.88.23.207",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 07 - kunz-kun",
-      "server": "31.58.50.200",
-      "server_port": 8443,
-      "uuid": "a89b193a-cec1-4737-a714-34ba65ff5525",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "tradingview.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU"
-        }
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇹🇼 中国台湾 01 - kunz-kun",
-      "server": "vpn-tw-002.fastervpn.world",
+      "tag": "🇳🇱 荷兰 02 - kunz-kun",
+      "server": "201.51.24.4",
       "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "password": "oCYFcbOo8s",
       "tls": {
         "enabled": true,
-        "server_name": "speedtest.tinkoff.ru",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇪🇸 ES 01 - kunz-kun",
-      "server": "107.189.19.27",
-      "server_port": 443,
-      "uuid": "813a385c-f26f-48b5-9bbb-53204a9c5bcc",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.dodostatic.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Sgocj9v63XdHU04TV3-Pk141YPIT_E-UgLr9u4OkE0E",
-          "short_id": "d27201f7bf5874f9"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 PL 01 - kunz-kun",
-      "server": "50.7.248.234",
-      "server_port": 443,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "viper-22.moriarty-web.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇸🇬 新加坡 03 - kunz-kun",
-      "server": "138.2.73.238",
-      "server_port": 50160,
-      "password": "f87376e17da040ed04c9665ce8972930",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 08 - kunz-kun",
-      "server": "38.180.242.205",
-      "server_port": 13779,
-      "uuid": "928e6cce-8ced-4243-9a48-a6642edd09b0",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "tesla.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg",
-          "short_id": "af1bdd293097b664"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 FI 01 - kunz-kun",
-      "server": "194.34.175.98",
-      "server_port": 443,
-      "uuid": "6429d27e-a7d4-4e04-ae57-e88243fbbfe3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "localhost",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇳🇱 荷兰 07 - kunz-kun",
-      "server": "46.229.243.139",
-      "server_port": 8443,
-      "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
-      "tls": {
-        "enabled": true,
-        "server_name": "grape-turbo-fr.roxa.org",
+        "server_name": "hys22.wba-pn.ru",
         "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 新加坡 04 - kunz-kun",
-      "server": "13.229.44.152",
-      "server_port": 34033,
-      "uuid": "b5138354-066a-4e9f-93e3-5bc700eaf89f",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.amd.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "R1mts7yXplVMaA15AC1U0TMnYvqiX3OPbK1_ZBan_XQ",
-          "short_id": "702186e48d5646"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 09 - kunz-kun",
-      "server": "169.40.42.229",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇼 中国台湾 02 [家宽] - kunz-kun",
-      "server": "hinet1.2yly.com",
-      "server_port": 24215,
-      "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
-      "tls": {
-        "enabled": true,
-        "server_name": "addons.mozilla.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 PL 02 - kunz-kun",
-      "server": "144.31.5.64",
-      "server_port": 443,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl6.moritech.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
       }
     },
     {
@@ -549,7 +310,7 @@
       "tag": "🇬🇧 英国 01 - kunz-kun",
       "server": "78.129.208.44",
       "server_port": 421,
-      "uuid": "a9900333-444b-4a36-a2f0-0567946c47cd",
+      "uuid": "a3c861cb-e1e7-4ad6-8be2-7c2314ec6f18",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -567,340 +328,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 英国 02 - kunz-kun",
-      "server": "46.250.240.80",
-      "server_port": 2053,
-      "uuid": "7dc2737e-1155-42f6-aec4-6b2b001001ae",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "AttEUIEavqeVE5oz4_AxJPrcwx3IgcFElW2OoF8qTAg",
-          "short_id": "b895d279c8cc40f9"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇺🇸 美国 10 - kunz-kun",
-      "server": "82.38.60.15",
-      "server_port": 8443,
-      "password": "VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC",
-      "tls": {
-        "enabled": true,
-        "server_name": "hopp-us.yyuyy.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇾 CY 01 - kunz-kun",
-      "server": "5.253.42.163",
-      "server_port": 40443,
-      "uuid": "15fd22d1-8931-4d41-af37-8ba6711e93fe",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "deepl.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo",
-          "short_id": "84fc"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 日本 03 - kunz-kun",
-      "server": "13.114.89.187",
-      "server_port": 16611,
-      "uuid": "059fbe5b-21dc-413f-8f5c-dac39201914c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.intel.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "cDzA5Efsd52LehcCFXh9bS3eCuj7HQZwau-yjPqLPgQ",
-          "short_id": "701b0c5c9dee514d"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 FI 02 - kunz-kun",
-      "server": "2.26.178.166",
-      "server_port": 443,
-      "uuid": "6429d27e-a7d4-4e04-ae57-e88243fbbfe3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "localhost",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 11 - kunz-kun",
-      "server": "169.40.42.225",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇱🇹 LT 01 - kunz-kun",
-      "server": "88.119.176.24",
-      "server_port": 443,
-      "uuid": "ae8e0f7d-b661-41ca-b55d-d8c383adb2f8",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "lit9.helper-internet.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE",
-          "short_id": "ff776ff77be48b88"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 美国 12 - kunz-kun",
-      "server": "15.204.247.206",
-      "server_port": 4444,
-      "method": "aes-256-gcm",
-      "password": "pKEW8JPByTVTLtM"
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 PL 03 - kunz-kun",
-      "server": "50.7.249.170",
-      "server_port": 443,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl1-ded.moritech.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇼 中国台湾 03 - kunz-kun",
-      "server": "34.80.164.239",
-      "server_port": 21776,
-      "uuid": "b0399730-1618-4727-8ddd-2baf94ab90d6",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.tesla.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "nm6jFiI7_auZ15UMqpeEbiITrK4OR2rfFTqXhe5pMFA",
-          "short_id": "79b6f82800c68925"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 新加坡 05 - kunz-kun",
-      "server": "54.254.182.69",
-      "server_port": 44416,
-      "uuid": "956e22b4-2257-4251-a708-679e0518e374",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "l0ERIlwtRtgldh9Kdles1rZrL3hKfityyhyu5U0Y6kM",
-          "short_id": "29400ecf83e074"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇳🇱 荷兰 08 - kunz-kun",
-      "server": "46.229.243.140",
-      "server_port": 8443,
-      "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
-      "tls": {
-        "enabled": true,
-        "server_name": "grape-turbo-fr.roxa.org",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 13 - kunz-kun",
-      "server": "82.198.246.97",
-      "server_port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 美国 14 - kunz-kun",
-      "server": "156.146.38.170",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇴 RO 01 - kunz-kun",
-      "server": "193.163.203.253",
-      "server_port": 443,
-      "uuid": "441afe11-a180-4516-bb80-80a8a6b38705",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "gE8LUmGFXik94SoDXNiAG5KprGyhjoRwDuhGebgAVWk",
-          "short_id": "5ee019e02e6ed99a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇺 澳大利亚 03 - kunz-kun",
-      "server": "51.161.199.124",
-      "server_port": 443,
-      "uuid": "ff3bb912-0fac-40ce-8d67-084f26826aac",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "suetinklerartglass.co.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0",
-          "short_id": "0f4d3210977f51a5"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 15 - kunz-kun",
-      "server": "104.17.77.77",
-      "server_port": 8443,
-      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "v2ray1.dozapp.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/lMnsZUN4/",
-        "headers": {
-          "Host": "v2ray1.dozapp.xyz"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇦🇺 澳大利亚 04 - kunz-kun",
-      "server": "149.88.23.202",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 英国 03 - kunz-kun",
-      "server": "109.169.37.43",
-      "server_port": 443,
-      "uuid": "51505e81-fa2c-44bf-9564-8c053f006535",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "foodnetwork.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
-          "short_id": "fd55b698ee8c3629"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 16 - kunz-kun",
-      "server": "82.198.246.97",
-      "server_port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 日本 04 - kunz-kun",
-      "server": "172.67.156.147",
+      "tag": "🇯🇵 日本 01 - kunz-kun",
+      "server": "162.159.254.3",
       "server_port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "tls": {
@@ -921,8 +350,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 17 - kunz-kun",
-      "server": "169.40.42.225",
+      "tag": "🇺🇸 美国 09 - kunz-kun",
+      "server": "169.40.42.15",
       "server_port": 443,
       "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
       "flow": "xtls-rprx-vision",
@@ -931,194 +360,7 @@
         "server_name": "yahoo.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 美国 18 - kunz-kun",
-      "server": "15.204.247.175",
-      "server_port": 8008,
-      "method": "aes-256-gcm",
-      "password": "XKFKl2rULjIp74"
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇹 IT 01 - kunz-kun",
-      "server": "172.238.232.239",
-      "server_port": 32833,
-      "uuid": "167ed405-7de9-4bff-b1ea-6e3d49c76b0b",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.intel.com",
-        "utls": {
-          "enabled": true,
           "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "PaTDdYBrlh1xBixdI0igvRRkf0vnUwMRzi-4oDyfS20",
-          "short_id": "a0a305ccc8e94aa8"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇦 加拿大 02 - kunz-kun",
-      "server": "vpn-ca-001.fastervpn.world",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn-ca-001.fastervpn.world",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 新加坡 06 - kunz-kun",
-      "server": "54.151.153.129",
-      "server_port": 59180,
-      "uuid": "44aedcca-28f8-411d-bed2-9bd6aa491cb5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.tesla.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "NntGU23khU2ASY2g1XM5_Vl0G39MyoXre5q7vanorDM",
-          "short_id": "3ced8a51ce74468c"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 19 - kunz-kun",
-      "server": "129.146.77.248",
-      "server_port": 39495,
-      "uuid": "f836c736-87fc-4fde-aabc-00857ecdff3e",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/cctv13.m3u8",
-        "headers": {}
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 03 - kunz-kun",
-      "server": "209.200.246.148",
-      "server_port": 443,
-      "uuid": "ca52e2b6-fb9f-4dac-b6dc-49da9923f251",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk",
-          "short_id": "f98843107912e782"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 德国 02 - kunz-kun",
-      "server": "31.56.189.224",
-      "server_port": 3443,
-      "uuid": "92089155-6602-4122-86d4-fe6de20e8c4d",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "special.aeternavpn.space",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "-6SjfnZXAYm69euKQ3XNhq0nC7No7YE4qfdc2qx0Xwo",
-          "short_id": "a1b2c3d4"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇴 RO 02 - kunz-kun",
-      "server": "rou0001ntrhy01.tcp-reset-club.net",
-      "server_port": 443,
-      "password": "4fb82973-a7f1-4fc2-9958-cb21f5162f06",
-      "tls": {
-        "enabled": true,
-        "server_name": "rou0001ntrhy01.tcp-reset-club.net",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 PL 04 - kunz-kun",
-      "server": "144.31.5.3",
-      "server_port": 443,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl4.moritech.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 02 - kunz-kun",
-      "server": "45.131.212.30",
-      "server_port": 443,
-      "uuid": "db9da8fb-c528-42ec-9b9e-e578cf934c04",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "sellflow.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 20 - kunz-kun",
-      "server": "169.40.42.52",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
@@ -1129,359 +371,86 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 21 - kunz-kun",
-      "server": "167.17.69.171",
-      "server_port": 443,
-      "uuid": "00144519-7e0d-476b-8d28-435576af9262",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk",
-          "short_id": "0990d22f"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 22 - kunz-kun",
-      "server": "82.198.246.97",
-      "server_port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 新加坡 07 - kunz-kun",
-      "server": "18.136.125.3",
-      "server_port": 54618,
-      "uuid": "5b314c69-b427-4648-a8aa-6c38bc87fdc7",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.amd.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "BugMYB6c9k66FOr1dTMnkojMXH5OCYP2wDH2nntWGgk",
-          "short_id": "93ed34c8eea01f"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇰🇷 韩国 01 - kunz-kun",
-      "server": "140.238.2.250",
-      "server_port": 443,
-      "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 英国 04 - kunz-kun",
-      "server": "78.129.150.110",
-      "server_port": 443,
-      "uuid": "3fea801b-c769-430b-a857-4c6c70b45cd2",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "strapi.io",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
-          "short_id": "fd55b698ee8c3629"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 02 - kunz-kun",
-      "server": "212.192.13.233",
-      "server_port": 443,
-      "uuid": "d742752c-4231-4695-801e-f06d77f0f277",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cathaypacific.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "O8Av8GXWVqj7FOxUyStmrTLWv5EtvQ1ZnMOVVLb1V3s",
-          "short_id": "1bc2c1ef1c"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 03 [家宽] - kunz-kun",
-      "server": "203.218.231.156",
-      "server_port": 443,
-      "uuid": "c12f73f6-e8c7-11ed-9246-f23c9164ca5d",
-      "tls": {
-        "enabled": true,
-        "server_name": "updates.cdn-apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 荷兰 09 - kunz-kun",
-      "server": "31.76.76.28",
-      "server_port": 8443,
-      "uuid": "de5906f3-df38-4463-aa9d-2b01320cc6ea",
-      "tls": {
-        "enabled": true,
-        "server_name": "neth4.lckdwn.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 23 - kunz-kun",
-      "server": "15.204.97.198",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fuck.rkn",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 10 - kunz-kun",
-      "server": "82.38.31.191",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 11 - kunz-kun",
-      "server": "188.116.23.244",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "eVC634QvVk5l"
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 英国 05 - kunz-kun",
-      "server": "107.181.151.241",
-      "server_port": 443,
-      "uuid": "2f6e2b17-4d5e-4a12-8979-f53fdd347580",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.mozilla.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg",
-          "short_id": "5c8a8e6c615b"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇷 法国 01 - kunz-kun",
-      "server": "54.37.136.194",
-      "server_port": 2053,
-      "uuid": "2211972b-a45a-4951-a640-6173d573e637",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "3nFTPdoFnfcwN1xnLwegJmBycLqRH6TRsrbD2XnQbjM",
-          "short_id": "bfc5464d84de3b3b"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇰🇷 韩国 02 - kunz-kun",
-      "server": "3.39.4.109",
-      "server_port": 13672,
-      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
+      "tag": "🇸🇨 SC 01 - kunz-kun",
+      "server": "156.226.168.221",
+      "server_port": 35193,
+      "uuid": "35cbae61-ee10-4cb9-abb8-4950b35e9851",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
-          "short_id": "48050fab"
+          "public_key": "d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE",
+          "short_id": "e8daed2d"
         }
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 24 - kunz-kun",
-      "server": "82.198.246.233",
-      "server_port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇳🇱 荷兰 12 - kunz-kun",
-      "server": "46.229.243.133",
-      "server_port": 8443,
-      "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
-      "tls": {
-        "enabled": true,
-        "server_name": "grape-turbo-fr.roxa.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇳🇱 荷兰 13 - kunz-kun",
-      "server": "46.229.243.133",
-      "server_port": 8443,
-      "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
-      "tls": {
-        "enabled": true,
-        "server_name": "grape-turbo-fr.roxa.org",
-        "insecure": false
-      }
+      "type": "vless",
+      "tag": "🇩🇪 德国 02 - kunz-kun",
+      "server": "155.117.234.131",
+      "server_port": 42638,
+      "uuid": "40fa5575-7649-428d-8859-2426dd69056c"
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 25 - kunz-kun",
-      "server": "38.180.242.205",
-      "server_port": 13779,
-      "uuid": "928e6cce-8ced-4243-9a48-a6642edd09b0",
+      "tag": "🇱🇻 LV 01 - kunz-kun",
+      "server": "138.124.180.137",
+      "server_port": 443,
+      "uuid": "5234b2b7-5e07-422c-8159-d62a676c00c6",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "tesla.com",
+        "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg",
-          "short_id": "af1bdd293097b664"
+          "public_key": "GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c",
+          "short_id": "33acba1b"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇨🇾 CY 02 - kunz-kun",
-      "server": "194.76.154.31",
-      "server_port": 40443,
-      "uuid": "9f0baff8-bdee-4de9-9515-bcc4932b41fa",
+      "tag": "🇬🇧 英国 02 - kunz-kun",
+      "server": "95.154.196.62",
+      "server_port": 443,
+      "uuid": "c9779fd1-a7fc-48b5-88b0-42e8396c2dd8",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "deepl.com",
+        "server_name": "foodnetwork.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ",
-          "short_id": "a8ae"
+          "public_key": "wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA",
+          "short_id": "16498ac98306ce31"
         }
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇳🇱 荷兰 14 - kunz-kun",
-      "server": "46.229.243.147",
-      "server_port": 8443,
-      "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
-      "tls": {
-        "enabled": true,
-        "server_name": "grape-turbo-fr.roxa.org",
-        "insecure": true
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 15 - kunz-kun",
-      "server": "82.38.31.202",
+      "tag": "🇳🇱 荷兰 03 - kunz-kun",
+      "server": "193.29.139.129",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 16 - kunz-kun",
-      "server": "82.38.31.201",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
       "type": "vless",
-      "tag": "🇪🇪 EE 01 - kunz-kun",
-      "server": "94.183.170.135",
-      "server_port": 8443,
-      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
-      "tls": {
-        "enabled": true,
-        "server_name": "estproxy4.lockdwn.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 26 - kunz-kun",
-      "server": "15.204.97.198",
+      "tag": "🇳🇱 荷兰 04 - kunz-kun",
+      "server": "51.158.206.96",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "flow": "xtls-rprx-vision",
@@ -1500,17 +469,167 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 17 - kunz-kun",
-      "server": "82.38.31.48",
+      "type": "vless",
+      "tag": "🇷🇴 RO 01 - kunz-kun",
+      "server": "82.152.141.30",
       "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+      "uuid": "2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl.cloudtechone.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "_IBXb9NfhsnS21XbU9PIl73ExvrjXGXVLO0Za1ui5Fo",
+          "short_id": "f93c9d5127e622e4"
+        }
+      }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 27 - kunz-kun",
-      "server": "169.40.42.95",
+      "tag": "🇳🇱 荷兰 05 - kunz-kun",
+      "server": "51.158.206.93",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 英国 03 - kunz-kun",
+      "server": "109.169.37.43",
+      "server_port": 443,
+      "uuid": "bfca8b29-e976-4066-8228-8921a0f61c50",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "foodnetwork.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 10 - kunz-kun",
+      "server": "31.58.50.200",
+      "server_port": 8443,
+      "uuid": "6ae3c57a-f5fb-4b7e-a886-b8c00af5c693",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "tradingview.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 11 - kunz-kun",
+      "server": "82.198.246.97",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇷 法国 01 - kunz-kun",
+      "server": "usejh2.neobo-tooth.ru",
+      "server_port": 2083,
+      "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",
+      "tls": {
+        "enabled": true,
+        "server_name": "usejh2.neobo-tooth.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 12 - kunz-kun",
+      "server": "82.198.246.37",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 荷兰 06 - kunz-kun",
+      "server": "82.38.31.186",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵 日本 02 - kunz-kun",
+      "server": "3.112.131.211",
+      "server_port": 48086,
+      "uuid": "620ca966-d78b-4c88-a5c9-acf13c7d252f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.nvidia.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "qq9vUmReS92PojPLpSyUY_c6CydUUtut7ffxc3V0LTo",
+          "short_id": "7083d685446ce576"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 13 - kunz-kun",
+      "server": "82.198.246.97",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 14 - kunz-kun",
+      "server": "169.40.42.75",
       "server_port": 443,
       "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
       "flow": "xtls-rprx-vision",
@@ -1529,66 +648,38 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇷🇴 RO 03 - kunz-kun",
-      "server": "205.237.109.162",
-      "server_port": 8443,
-      "password": "Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s",
-      "tls": {
-        "enabled": true,
-        "server_name": "hopp-netherland-new.dynuddns.net",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇺🇸 美国 28 - kunz-kun",
-      "server": "155.248.209.237",
-      "server_port": 33333,
-      "password": "bce6c821-200d-421f-bf3d-7159e5246ea0",
-      "tls": {
-        "enabled": true,
-        "server_name": "155.248.209.2",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇦 加拿大 04 - kunz-kun",
-      "server": "15.223.122.197",
+      "type": "vless",
+      "tag": "🇬🇧 英国 04 - kunz-kun",
+      "server": "51.38.70.192",
       "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "uuid": "9343f183-7a16-4bdd-9c65-b0c21feca40b",
       "tls": {
         "enabled": true,
-        "server_name": "15.223.122.197",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇳🇱 荷兰 18 - kunz-kun",
-      "server": "46.229.243.142",
-      "server_port": 8443,
-      "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
-      "tls": {
-        "enabled": true,
-        "server_name": "grape-turbo-fr.roxa.org",
-        "insecure": false
+        "server_name": "play.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M",
+          "short_id": "98fa0b00d09419f7"
+        }
       }
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 英国 06 - kunz-kun",
-      "server": "82.145.55.75",
+      "tag": "🇬🇧 英国 05 - kunz-kun",
+      "server": "95.154.237.50",
       "server_port": 443,
-      "uuid": "0a57f0c8-c29e-467b-af3e-d8d8c2c02d7c",
+      "uuid": "3d821554-a3c5-4d0a-9321-611ecb1ec90b",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "strapi.io",
+        "server_name": "lanacion.com.ar",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -1599,36 +690,522 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 29 - kunz-kun",
-      "server": "31.58.50.200",
-      "server_port": 8443,
-      "uuid": "0817a3bb-c8fb-4ddf-a05e-321565b39cd8",
+      "tag": "🇸🇬 新加坡 03 - kunz-kun",
+      "server": "91.192.81.214",
+      "server_port": 443,
+      "uuid": "607801ac-dbdd-4938-a167-129015d9978e",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "tradingview.com",
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "bMcyxNueltQhz5Kuxcf8odDStWHowYfLhKNdCbUweDc",
+          "short_id": "d1742269"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇩🇪 德国 03 - kunz-kun",
+      "server": "144.31.221.57",
+      "server_port": 443,
+      "password": "V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8",
+      "tls": {
+        "enabled": true,
+        "server_name": "player.wwwinternetvideo.click",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇷 AR 01 - kunz-kun",
+      "server": "149.33.19.143",
+      "server_port": 443,
+      "uuid": "049b5a3c-3331-4a16-a12a-1f79c5b52d17",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "zvukipro.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 15 - kunz-kun",
+      "server": "169.40.42.232",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 16 - kunz-kun",
+      "server": "172.67.210.53",
+      "server_port": 443,
+      "uuid": "7700ff6d-cefb-4768-a806-ec4f63fe3b38",
+      "tls": {
+        "enabled": true,
+        "server_name": "8-m13.38C4495b-7E6D-4aaa-8A0a-3139ff704e1f.KDNS.fR",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ED3ZQPu7lqyeDGD58KabZ",
+        "headers": {
+          "Host": "8-m13.38c4495B-7E6d-4aAa-8a0a-3139ff704E1F.kDNS.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 FI 01 - kunz-kun",
+      "server": "2.26.178.187",
+      "server_port": 443,
+      "uuid": "6429d27e-a7d4-4e04-ae57-e88243fbbfe3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "localhost",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇹🇼 中国台湾 02 [家宽] - kunz-kun",
+      "server": "36.224.152.189",
+      "server_port": 50099,
+      "method": "chacha20-ietf-poly1305",
+      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 荷兰 07 - kunz-kun",
+      "server": "82.38.31.202",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 新加坡 04 - kunz-kun",
+      "server": "3.0.111.82",
+      "server_port": 17623,
+      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
+          "short_id": "48050fab"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 17 - kunz-kun",
+      "server": "82.198.246.97",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 新加坡 05 - kunz-kun",
+      "server": "56.10.83.247",
+      "server_port": 26146,
+      "uuid": "a965aaba-e7d0-44fc-84ad-cd7c341249aa",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.intel.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU"
+          "public_key": "4cD2BKaVODTdo4soH4gLcB7Yj-hdLDKDhvbSNQgZLEM",
+          "short_id": "3ced8a51ce74468c"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 18 - kunz-kun",
+      "server": "15.204.97.219",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 03 - kunz-kun",
+      "server": "34.80.164.239",
+      "server_port": 21776,
+      "uuid": "b0399730-1618-4727-8ddd-2baf94ab90d6",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.tesla.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "nm6jFiI7_auZ15UMqpeEbiITrK4OR2rfFTqXhe5pMFA",
+          "short_id": "79b6f82800c68925"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 19 - kunz-kun",
+      "server": "82.198.246.97",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇾 CY 01 - kunz-kun",
+      "server": "5.253.30.99",
+      "server_port": 40443,
+      "uuid": "511c1563-2cb6-4064-abc6-a59ee49818a8",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0",
+          "short_id": "88b6"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 01 - kunz-kun",
+      "server": "130.94.115.231",
+      "server_port": 2087,
+      "uuid": "8a51f3d9-30cc-44e6-8d31-700211a29066",
+      "transport": {
+        "type": "ws",
+        "path": "/721740e567c7",
+        "headers": {}
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇳 印度 01 - kunz-kun",
+      "server": "194.61.31.126",
+      "server_port": 2053,
+      "uuid": "50ddfd92-dc79-4777-a256-41e34d56836e",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "R06_DTSjzQI9DswvRz9OqSBECfSwlpCMPR4DCc9oXyw",
+          "short_id": "c0cb7457deebbc70"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 20 - kunz-kun",
+      "server": "169.40.42.168",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 荷兰 08 - kunz-kun",
+      "server": "172.239.239.53",
+      "server_port": 22746,
+      "uuid": "a4846a6c-163f-4b12-a99f-378d814e5e09",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.intel.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "B6bPTxNaLqqoUTuNggzTBP0pPxJEqE_Bd_Ob27MPvgU",
+          "short_id": "d9fd4fa80238cd05"
         }
       }
     },
     {
       "type": "shadowsocks",
-      "tag": "🇹🇼 中国台湾 04 [家宽] - kunz-kun",
-      "server": "r3mrcg001286ek2.cybervena.com",
-      "server_port": 50099,
+      "tag": "🇵🇱 PL 01 - kunz-kun",
+      "server": "194.61.121.93",
+      "server_port": 7538,
       "method": "chacha20-ietf-poly1305",
-      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+      "password": "U9YAoqBgg5VyGBc6vQv1sN"
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 05 - kunz-kun",
-      "server": "130.12.102.62",
+      "tag": "🇺🇸 美国 21 - kunz-kun",
+      "server": "15.204.97.216",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 SE 01 - kunz-kun",
+      "server": "202.155.11.249",
+      "server_port": 443,
+      "uuid": "0a2dde28-70da-4863-a06f-35d007d94d35",
+      "tls": {
+        "enabled": true,
+        "server_name": "cf2.rumedia-cdn.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn/v3/live",
+        "headers": {
+          "Host": "cf2.rumedia-cdn.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 04 - kunz-kun",
+      "server": "35.221.158.209",
+      "server_port": 32981,
+      "uuid": "41b96ee9-ee5e-455f-9753-187a9dead97a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.sony.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JSn0GPz1WOSTUDBxN_XYnhgb2Jpjc2LpfBTzX1j3V2E",
+          "short_id": "70f4b7a4c40636"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 22 - kunz-kun",
+      "server": "169.40.42.74",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵 日本 03 - kunz-kun",
+      "server": "162.159.254.3",
+      "server_port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 23 - kunz-kun",
+      "server": "15.204.233.41",
+      "server_port": 8882,
+      "method": "aes-256-gcm",
+      "password": "kDWvXYZoTBcGkC4"
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 03 - kunz-kun",
+      "server": "27.0.232.125",
+      "server_port": 443,
+      "uuid": "603f2593-b20b-4103-8967-9c67eecfe6bd",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway.icloud.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "kdRZN4WiVlF32uFV6tMU8aMLFRHWw70oEqE3iKlnrl4",
+          "short_id": "5b88be779393c536"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 02 - kunz-kun",
+      "server": "216.152.147.28",
+      "server_port": 443,
+      "uuid": "d9e4721d-cdac-44c7-bc91-117367eac194",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "kjiuPmjM4IutdZudHfcPZHEwcrBEFY4qBLlvfC6A_Ss",
+          "short_id": "b9f8d3f8"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 荷兰 09 - kunz-kun",
+      "server": "82.38.31.192",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸 美国 24 - kunz-kun",
+      "server": "142.249.37.90",
+      "server_port": 44356,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "hy2.561891.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵 日本 04 - kunz-kun",
+      "server": "130.12.102.133",
       "server_port": 443,
       "uuid": "6429d27e-a7d4-4e04-ae57-e88243fbbfe3",
       "tls": {
@@ -1645,81 +1222,41 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇬🇧 英国 07 - kunz-kun",
-      "server": "107.181.151.241",
-      "server_port": 443,
-      "uuid": "106d20f6-d70a-40e2-b69b-8e82baf8d117",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg",
-          "short_id": "60500a63ad12"
-        }
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 19 - kunz-kun",
-      "server": "82.38.31.219",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+      "tag": "🇨🇦 加拿大 03 - kunz-kun",
+      "server": "51.79.85.185",
+      "server_port": 8118,
+      "method": "aes-256-gcm",
+      "password": "cdBIDV42DCwnfIN"
     },
     {
-      "type": "vless",
-      "tag": "🇵🇱 PL 05 - kunz-kun",
-      "server": "144.31.5.64",
-      "server_port": 443,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl6.moritech.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      }
+      "type": "vmess",
+      "tag": "🇺🇸 美国 25 - kunz-kun",
+      "server": "38.110.1.246",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "type": "hysteria2",
-      "tag": "🇷🇴 RO 04 - kunz-kun",
-      "server": "162.249.126.2",
-      "server_port": 8443,
-      "password": "9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z",
+      "tag": "🇵🇱 PL 02 - kunz-kun",
+      "server": "streambox.wwwinternetvideo.click",
+      "server_port": 443,
+      "password": "865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01",
       "tls": {
         "enabled": true,
-        "server_name": "hopp-germany-new.ddnsguru.com",
+        "server_name": "streambox.wwwinternetvideo.click",
         "insecure": true
       }
     },
     {
-      "type": "vless",
-      "tag": "🇺🇸 美国 30 - kunz-kun",
-      "server": "47.253.226.114",
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 26 - kunz-kun",
+      "server": "37.19.198.160",
       "server_port": 443,
-      "uuid": "055a1ce8-2a16-4a0d-a2c2-22826c9b2413",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc"
-        }
-      }
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
     },
     {
       "type": "vless",
@@ -1744,28 +1281,525 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 01 - kunz-kun",
-      "server": "156.67.63.231",
+      "tag": "🇭🇰 中国香港 04 - kunz-kun",
+      "server": "vj37-1936vtw.fincore.top",
       "server_port": 443,
-      "uuid": "b052df40-d51c-456c-9bd6-57af01a87e4e",
+      "uuid": "5e8e81ac-a1c4-4543-b81e-651bf9872b54",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "sync-bridge.org",
+        "server_name": "www.bing.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "TP_bpIPUtjdxxGA9j7mpsHtSDfM2HMSZFNWW9MtDPT0",
+          "short_id": "14156e3ac23212cc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 27 - kunz-kun",
+      "server": "104.21.56.104",
+      "server_port": 443,
+      "uuid": "a90c264d-3853-4eef-9a3d-628b2d02d15e",
+      "tls": {
+        "enabled": true,
+        "server_name": "1-M19.aLbanIA.KDNs.Fr",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/CjBjB9sn5pCvaSwScc",
+        "headers": {
+          "Host": "1-m19.AlbaNiA.KdNS.Fr"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 28 - kunz-kun",
+      "server": "82.198.246.97",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 29 - kunz-kun",
+      "server": "194.55.189.249",
+      "server_port": 40443,
+      "uuid": "8212a50b-25bf-4739-bba1-aaffb5ffc84c",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "PTqeBbbr2xJ1L3V1PyYjKjxanMKKqJHU-wtnpYmFQCI",
-          "short_id": "5606d4a25c99e7af"
+          "public_key": "KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo",
+          "short_id": "aae8"
         }
       }
     },
     {
       "type": "vless",
+      "tag": "🇰🇷 韩国 01 - kunz-kun",
+      "server": "3.39.4.109",
+      "server_port": 18967,
+      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
+          "short_id": "48050fab"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 04 - kunz-kun",
+      "server": "130.107.73.148",
+      "server_port": 41373,
+      "uuid": "a71c8954-66a8-4321-bedb-2336230d81ce",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU",
+          "short_id": "0e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵 日本 05 - kunz-kun",
+      "server": "3.112.47.207",
+      "server_port": 29860,
+      "uuid": "7460547d-e83c-4843-b404-9142b22261a7",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.intel.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "g7I81MzpM7J6K9WLbZdaMPS9We6GYeeNY3EKRvyiKW4",
+          "short_id": "c992a34f288be189"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 30 - kunz-kun",
+      "server": "162.159.133.82",
+      "server_port": 443,
+      "uuid": "07974401-62dd-4ec3-b9e0-42c08accbc04",
+      "tls": {
+        "enabled": true,
+        "server_name": "wallweb-9gw.pages.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "wallweb-9gw.pages.dev"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇺🇸 美国 31 - kunz-kun",
+      "server": "156.146.38.168",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 05 - kunz-kun",
+      "server": "130.107.73.148",
+      "server_port": 41373,
+      "uuid": "a71c8954-66a8-4321-bedb-2336230d81ce",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU",
+          "short_id": "0e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 英国 06 - kunz-kun",
+      "server": "109.169.85.137",
+      "server_port": 443,
+      "uuid": "67909c05-2b51-44d1-bb32-118eec3e9287",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "slashdot.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵 日本 06 - kunz-kun",
+      "server": "13.231.19.51",
+      "server_port": 11690,
+      "uuid": "e2b8b217-cffb-4d66-9b8b-eca6e4334032",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.tesla.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Bv3z0_uFRabB9C4CFpNfqepZUyeO4YTh1duJdMBNLkg",
+          "short_id": "034885e346fd30"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 英国 07 - kunz-kun",
+      "server": "95.154.237.47",
+      "server_port": 443,
+      "uuid": "3845c09f-35c8-4852-b876-5ed8cc5ca6cd",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "lanacion.com.ar",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 荷兰 10 - kunz-kun",
+      "server": "82.38.31.164",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 32 - kunz-kun",
+      "server": "82.198.246.233",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 05 [家宽] - kunz-kun",
+      "server": "bdd23461-tla000-tvvhcz-tl32.hk3.hyhuawei.com",
+      "server_port": 443,
+      "uuid": "5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b",
+      "tls": {
+        "enabled": true,
+        "server_name": "updates.cdn-apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 33 - kunz-kun",
+      "server": "31.58.50.200",
+      "server_port": 8443,
+      "uuid": "6038e39a-d05e-483d-b853-a176707d4f69",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "tradingview.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 34 - kunz-kun",
+      "server": "38.209.125.45",
+      "server_port": 443,
+      "uuid": "394101ef-7a56-4407-bb85-f46f37b08ef4",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "tht0aIcfnLJR3pYz5ulOaV-HFR1gj6PjIKFBMPpHSAo",
+          "short_id": "ce4fcc97d5bf5023"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 德国 04 - kunz-kun",
+      "server": "91.233.8.141",
+      "server_port": 443,
+      "uuid": "81d8f575-a9c3-03e7-be6b-c0e1dc1d2e20",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "tnt-cloud.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "k76Ze8R0E5NyZwvBZT1A4n0zlVXxTeHQDAs0bBqiGQw",
+          "short_id": "6e5f2a3b"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 美国 35 - kunz-kun",
+      "server": "37.19.198.243",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 36 - kunz-kun",
+      "server": "178.95.170.115",
+      "server_port": 2087,
+      "uuid": "bf443e4a-aa9e-4509-abf0-d0f6828d57be",
+      "transport": {
+        "type": "ws",
+        "path": "/4bc027a44532",
+        "headers": {}
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 英国 08 - kunz-kun",
+      "server": "95.154.196.62",
+      "server_port": 443,
+      "uuid": "a6de5675-5bfe-4fc2-b9b4-4bf4a24f6474",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "foodnetwork.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA",
+          "short_id": "16498ac98306ce31"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇸🇬 新加坡 06 - kunz-kun",
+      "server": "138.2.73.238",
+      "server_port": 50160,
+      "password": "f87376e17da040ed04c9665ce8972930",
+      "tls": {
+        "enabled": true,
+        "server_name": "138.2.73.238",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 新加坡 07 - kunz-kun",
+      "server": "54.169.200.246",
+      "server_port": 41688,
+      "uuid": "49c0aac1-5e05-4f04-b624-248fc59e03c4",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.intel.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "srwIElIGTPs0kshpN1vvPsn4wixV_pLd56y_v9m0sTk",
+          "short_id": "7f342137c20387"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 荷兰 11 - kunz-kun",
+      "server": "82.38.31.47",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 PL 03 - kunz-kun",
+      "server": "82.118.22.161",
+      "server_port": 443,
+      "uuid": "05488656-d4bf-4634-8b2e-e4ff5a56c7e2",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "xY1KpNxaIGmi6jfeudYQ_aaLGQqWK_uHStnwUFd2_2E",
+          "short_id": "fa3ea655619a3e78"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇲🇾 马来西亚 01 - kunz-kun",
+      "server": "43.217.16.8",
+      "server_port": 21874,
+      "uuid": "85dd8227-0f12-4826-a712-6313211774b5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.amd.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "75sTDYJk8ylA97-aBhAlF1tU4OaCfdOaOSIBshPW7Bs",
+          "short_id": "42e853a5559e1032"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 37 - kunz-kun",
+      "server": "82.198.246.97",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 38 - kunz-kun",
+      "server": "82.198.246.37",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 荷兰 12 - kunz-kun",
+      "server": "82.38.31.195",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 39 - kunz-kun",
+      "server": "169.40.42.202",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 40 - kunz-kun",
       "server": "169.40.42.163",
       "server_port": 443,
       "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
@@ -1785,11 +1819,275 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 41 - kunz-kun",
+      "server": "82.198.246.37",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
       "type": "vless",
-      "tag": "🇺🇸 美国 32 - kunz-kun",
+      "tag": "🇳🇱 荷兰 13 - kunz-kun",
+      "server": "51.158.206.26",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 05 - kunz-kun",
+      "server": "35.194.157.16",
+      "server_port": 43450,
+      "uuid": "64d77a12-ad6b-4d85-a349-bd287535af1c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.amd.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "HNPJBiUbqYVC3ylvu1GA7fCHLTaHO7S13Bex1nm0O1o",
+          "short_id": "e65d010354bdad73"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇷🇺 俄罗斯 02 - kunz-kun",
+      "server": "46.17.42.166",
+      "server_port": 10661,
+      "method": "aes-256-gcm",
+      "password": "6b39ae3234dfd68b"
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 06 - kunz-kun",
+      "server": "34.81.129.171",
+      "server_port": 34376,
+      "uuid": "bf8cc771-51a0-4395-810f-1f135325cfc1",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.sony.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Atq4Fo_Mg48QtKXagBW9jnhaQSDUCiKgnATB2EU6OHU",
+          "short_id": "8dbafb690450d8a9"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸 美国 42 - kunz-kun",
+      "server": "hy2.123266.xyz",
+      "server_port": 33333,
+      "password": "bce6c821-200d-421f-bf3d-7159e5246ea0",
+      "tls": {
+        "enabled": true,
+        "server_name": "hy2.123266.xyz",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 07 - kunz-kun",
+      "server": "34.80.164.239",
+      "server_port": 21776,
+      "uuid": "b0399730-1618-4727-8ddd-2baf94ab90d6",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.tesla.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "nm6jFiI7_auZ15UMqpeEbiITrK4OR2rfFTqXhe5pMFA",
+          "short_id": "79b6f82800c68925"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇸🇬 新加坡 08 - kunz-kun",
+      "server": "149.88.23.207",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 荷兰 14 - kunz-kun",
+      "server": "51.158.206.26",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 荷兰 15 - kunz-kun",
+      "server": "92.112.126.90",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "wwzVn2ZnHfqYa6l8EWh3eY"
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 02 - kunz-kun",
+      "server": "31.58.181.88",
+      "server_port": 8443,
+      "uuid": "cc422436-e0e9-4f15-bfe8-db3d816e5527",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "tradingview.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸 美国 43 - kunz-kun",
+      "server": "hy2.561891.xyz",
+      "server_port": 44356,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "hy2.561891.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 荷兰 16 - kunz-kun",
+      "server": "82.38.31.82",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 荷兰 17 - kunz-kun",
+      "server": "193.29.139.212",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "QCXDxuDlTTMD7jtgHUjIoj"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 44 - kunz-kun",
+      "server": "67.220.72.237",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇫🇷 法国 03 - kunz-kun",
+      "server": "151.247.197.253",
+      "server_port": 36723,
+      "password": "Krab9Hyst2_Rk7pQ2xL",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 荷兰 18 - kunz-kun",
+      "server": "193.23.194.167",
+      "server_port": 8443,
+      "uuid": "32349ee8-8551-45fa-a265-8704cec72936",
+      "tls": {
+        "enabled": true,
+        "server_name": "neth.lckdwn.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 荷兰 19 - kunz-kun",
+      "server": "82.38.31.204",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "vless",
+      "tag": "🇰🇷 韩国 02 - kunz-kun",
+      "server": "3.39.4.109",
+      "server_port": 18967,
+      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
+          "short_id": "48050fab"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 45 - kunz-kun",
       "server": "31.58.50.200",
       "server_port": 8443,
-      "uuid": "beed721d-73b6-47fc-a7b0-cac10e624b98",
+      "uuid": "ec83e1b5-f535-4219-b530-49fdab9ca1ef",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -1806,48 +2104,128 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 新加坡 08 - kunz-kun",
-      "server": "47.129.185.35",
-      "server_port": 49805,
-      "uuid": "0803fc94-25f9-42db-9e6b-dd1418ae50ec",
+      "tag": "🇺🇸 美国 46 - kunz-kun",
+      "server": "172.233.139.46",
+      "server_port": 53734,
+      "uuid": "56a1b253-cde4-490f-9c5e-09a523882bdd",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.intel.com",
+        "server_name": "www.tesla.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JAG5rl6KEt7KAV0y8Z2x6orWHymCXRSX49SkEnEftWU",
+          "short_id": "a56d7d8da977f860"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵 日本 07 - kunz-kun",
+      "server": "freshjuniper.download",
+      "server_port": 443,
+      "uuid": "6429d27e-a7d4-4e04-ae57-e88243fbbfe3",
+      "tls": {
+        "enabled": true,
+        "server_name": "freshjuniper.download",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇷 AR 02 - kunz-kun",
+      "server": "38.180.186.202",
+      "server_port": 443,
+      "uuid": "18b476f8-d1ca-4bf5-a397-c6fbf8ef4d41",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "zvukipro.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 荷兰 20 - kunz-kun",
+      "server": "193.29.139.151",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇳🇱 荷兰 21 - kunz-kun",
+      "server": "nl01ntrhy01.tcp-reset-club.net",
+      "server_port": 443,
+      "password": "4fb82973-a7f1-4fc2-9958-cb21f5162f06",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl01ntrhy01.tcp-reset-club.net",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸 美国 47 - kunz-kun",
+      "server": "159.223.157.129",
+      "server_port": 8443,
+      "password": "suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g",
+      "tls": {
+        "enabled": true,
+        "server_name": "159.223.157.129",
+        "insecure": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 荷兰 22 - kunz-kun",
+      "server": "82.38.31.156",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 48 - kunz-kun",
+      "server": "bounded-crammed.video-streams.org",
+      "server_port": 443,
+      "uuid": "eb199167-16d6-45d0-aadb-314cab5a4e72",
+      "tls": {
+        "enabled": true,
+        "server_name": "bounded-crammed.video-streams.org",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "KhyeJbZtFAik5Mx1K_AQMIEK_MPwQnwUwSe-jTjq8yU",
-          "short_id": "4a753538b6a9eee9"
         }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {}
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 33 - kunz-kun",
-      "server": "38.246.229.58",
-      "server_port": 47642,
-      "uuid": "c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3",
-      "tls": {
-        "enabled": true,
-        "server_name": "sega.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "9mg1QdPctekP9woKygHzBCxb8Hw2QTICXROQiiJB6Ag",
-          "short_id": "76ed3287"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 34 - kunz-kun",
+      "tag": "🇺🇸 美国 49 - kunz-kun",
       "server": "137.184.218.169",
       "server_port": 36925,
       "uuid": "c9fd0fb1-8251-4106-b09a-f4b426736f67",
@@ -1866,594 +2244,88 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 20 - kunz-kun",
-      "server": "193.29.139.230",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 日本 06 - kunz-kun",
-      "server": "3.114.220.22",
-      "server_port": 18007,
-      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
-          "short_id": "48050fab"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 21 - kunz-kun",
-      "server": "82.38.31.181",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
       "type": "vless",
       "tag": "🇸🇬 新加坡 09 - kunz-kun",
-      "server": "134.122.154.210",
-      "server_port": 443,
-      "uuid": "7f549a50-4655-46b6-962d-183cfc532fc9"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇩🇪 德国 03 - kunz-kun",
-      "server": "player.wwwinternetvideo.click",
-      "server_port": 443,
-      "password": "V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8",
-      "tls": {
-        "enabled": true,
-        "server_name": "player.wwwinternetvideo.click",
-        "insecure": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 美国 35 - kunz-kun",
-      "server": "144.31.243.2",
-      "server_port": 16015,
-      "method": "chacha20-ietf-poly1305",
-      "password": "J1InuU6QRT5JOh1mQfkjU2"
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 英国 08 - kunz-kun",
-      "server": "5.152.223.97",
-      "server_port": 443,
-      "uuid": "be5b6ad6-8184-4b63-82ac-3bc00c09c98c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "strapi.io",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "IFEZmwpGK7VCuDj3kmVdyMn7vUIG8Sntc6TG4eIS3xs",
-          "short_id": "1aa9f3c9021280c0"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 36 - kunz-kun",
-      "server": "169.40.42.223",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇹🇼 中国台湾 05 [家宽] - kunz-kun",
-      "server": "36.224.152.189",
-      "server_port": 50099,
-      "method": "chacha20-ietf-poly1305",
-      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 37 - kunz-kun",
-      "server": "169.40.42.90",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇸🇬 新加坡 10 - kunz-kun",
-      "server": "13.212.76.106",
-      "server_port": 443,
-      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
-      "tls": {
-        "enabled": true,
-        "server_name": "vk.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 日本 07 - kunz-kun",
-      "server": "103.137.215.32",
-      "server_port": 443,
-      "uuid": "6c8a1ad4-0c04-460d-87e2-507a952ba902",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "LP_JNPrfHbQnMK5dYoKr4D6Q8I8yKHK5ygHffJb1hzw",
-          "short_id": "dfde4e821472fb98"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 荷兰 22 - kunz-kun",
-      "server": "147.45.145.127",
-      "server_port": 443,
-      "uuid": "534cbbe2-cc36-4f2d-8fb0-90410e7148c9",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "tWRR3W8jBAQKBUujLzL7Xri3WXy3F08OxHYrkSOnlAc",
-          "short_id": "52a6"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 23 - kunz-kun",
-      "server": "193.29.139.225",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇯🇵 日本 08 - kunz-kun",
-      "server": "freedom.chenlan.top",
-      "server_port": 12765,
-      "password": "STYyftThFn",
-      "tls": {
-        "enabled": true,
-        "server_name": "freedom.chenlan.top",
-        "insecure": false
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 24 - kunz-kun",
-      "server": "82.38.31.179",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 38 - kunz-kun",
-      "server": "165.140.217.2",
-      "server_port": 443,
-      "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 39 - kunz-kun",
-      "server": "129.146.77.248",
-      "server_port": 39495,
-      "uuid": "f836c736-87fc-4fde-aabc-00857ecdff3e",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/cctv13.m3u8",
-        "headers": {
-          "Host": "129.146.77.248"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 40 - kunz-kun",
-      "server": "67.220.85.46",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 25 - kunz-kun",
-      "server": "193.29.139.234",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "4a2rfixophdjffa8KVA4Aa"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 美国 41 - kunz-kun",
-      "server": "84.17.41.2",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇼 中国台湾 06 - kunz-kun",
-      "server": "35.194.157.16",
-      "server_port": 43450,
-      "uuid": "64d77a12-ad6b-4d85-a349-bd287535af1c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.amd.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "HNPJBiUbqYVC3ylvu1GA7fCHLTaHO7S13Bex1nm0O1o",
-          "short_id": "e65d010354bdad73"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 新加坡 11 - kunz-kun",
-      "server": "47.129.185.35",
-      "server_port": 49805,
-      "uuid": "0803fc94-25f9-42db-9e6b-dd1418ae50ec",
+      "server": "13.212.211.73",
+      "server_port": 20221,
+      "uuid": "9f752e03-411f-4df4-841f-a23c4c43d183",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "www.intel.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "KhyeJbZtFAik5Mx1K_AQMIEK_MPwQnwUwSe-jTjq8yU",
-          "short_id": "4a753538b6a9eee9"
+          "public_key": "Fd3DtGiQyvw9IBKoMqKtgaKVkdvjnaErL_1ib-zXqxY",
+          "short_id": "85ae3d83d037b7"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 42 - kunz-kun",
-      "server": "172.67.198.236",
+      "tag": "🇯🇵 日本 08 - kunz-kun",
+      "server": "3.112.47.207",
+      "server_port": 29860,
+      "uuid": "7460547d-e83c-4843-b404-9142b22261a7",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.intel.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "g7I81MzpM7J6K9WLbZdaMPS9We6GYeeNY3EKRvyiKW4",
+          "short_id": "c992a34f288be189"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇷 法国 04 - kunz-kun",
+      "server": "162.19.10.99",
       "server_port": 443,
-      "uuid": "7e26fd8f-d75a-473d-84ba-9f4e3f47d086",
-      "tls": {
-        "enabled": true,
-        "server_name": "2-m20.c8e0fc76-a6e4-4464-86b7-703a4f338c3a.kdns.fr",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/8qMLgNapWf6SBxo8fhQlVPYO",
-        "headers": {
-          "Host": "2-m20.c8e0fc76-a6e4-4464-86b7-703a4f338c3a.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 荷兰 26 - kunz-kun",
-      "server": "72.56.81.165",
-      "server_port": 40443,
-      "uuid": "4bf5a71c-d726-4585-b095-7396675706d5",
+      "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "deepl.com",
+        "server_name": "nasnet-162191099-direct.mbghalibaf.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU",
-          "short_id": "c84f"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 新加坡 12 - kunz-kun",
-      "server": "54.151.153.129",
-      "server_port": 59180,
-      "uuid": "44aedcca-28f8-411d-bed2-9bd6aa491cb5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.tesla.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "NntGU23khU2ASY2g1XM5_Vl0G39MyoXre5q7vanorDM",
-          "short_id": "3ced8a51ce74468c"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 PL 06 - kunz-kun",
-      "server": "94.183.209.58",
+      "tag": "🇺🇸 美国 50 - kunz-kun",
+      "server": "172.236.233.59",
       "server_port": 443,
-      "uuid": "78791f9e-fe09-4d4f-88ec-895764bae0d6",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "pl2.lckdwn.ru"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 43 - kunz-kun",
-      "server": "186.246.19.79",
-      "server_port": 40443,
-      "uuid": "5e3f974b-06fc-4555-907a-6681391b7c17",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "deepl.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "oc9uweln_cqyaJnlRMnhhhKrGNP7RrYOsuYtaIOIQDE",
-          "short_id": "2bc0"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 44 - kunz-kun",
-      "server": "34.222.2.182",
-      "server_port": 50159,
-      "uuid": "8c235628-4c27-44b5-9559-7ab1d53b7ff3",
+      "uuid": "abd1c29a-94cb-4648-8d1e-5baae9d2a807",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SX1vaYIIZcbcfO3RrAPhYQ1FAeA7bkcDZJtEDN9pbxw",
-          "short_id": "94c8a1b378da7250"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 荷兰 27 - kunz-kun",
-      "server": "217.60.96.124",
-      "server_port": 443,
-      "uuid": "2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "de.cloudtechone.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "_IBXb9NfhsnS21XbU9PIl73ExvrjXGXVLO0Za1ui5Fo",
-          "short_id": "f93c9d5127e622e4"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇹🇼 中国台湾 07 - kunz-kun",
-      "server": "vpn-tw-002.fastervpn.world",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn-tw-002.fastervpn.world",
-        "insecure": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 28 - kunz-kun",
-      "server": "82.38.31.61",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 荷兰 29 - kunz-kun",
-      "server": "72.56.81.165",
-      "server_port": 40443,
-      "uuid": "4bf5a71c-d726-4585-b095-7396675706d5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "deepl.com",
-        "utls": {
-          "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU",
-          "short_id": "c84f"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇹🇼 中国台湾 08 - kunz-kun",
-      "server": "vpn-tw-002.fastervpn.world",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "127.0.0.1",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 荷兰 30 - kunz-kun",
-      "server": "51.158.206.8",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fuck.rkn",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
+          "public_key": "oTMDLwY2hloBfA7ShzVsrFhjL4QXR6mY32B93rMLxV0",
+          "short_id": "525e0ffc773f48ba"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 新加坡 13 - kunz-kun",
-      "server": "54.255.121.205",
-      "server_port": 43840,
-      "uuid": "f053b140-9673-4ac5-bc8b-587bfd2c8fd8",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "tDzxVcXg6zzA1r0I_1j2y4vE0zkgmIVX3_Jf0UG1AnA",
-          "short_id": "ac4b9f02123aa50b"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇰🇷 韩国 03 - kunz-kun",
-      "server": "3.39.4.109",
-      "server_port": 18967,
-      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
-          "short_id": "48050fab"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇷 法国 03 - kunz-kun",
-      "server": "45.144.28.39",
-      "server_port": 2083,
-      "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",
-      "tls": {
-        "enabled": true,
-        "server_name": "usejh2.neobo-tooth.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 45 - kunz-kun",
-      "server": "169.40.42.15",
+      "tag": "🇺🇸 美国 51 - kunz-kun",
+      "server": "169.40.42.95",
       "server_port": 443,
       "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
       "flow": "xtls-rprx-vision",
@@ -2462,7 +2334,7 @@
         "server_name": "yahoo.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -2473,71 +2345,120 @@
     },
     {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 04 - kunz-kun",
-      "server": "27.0.232.125",
+      "tag": "🇺🇸 美国 52 - kunz-kun",
+      "server": "172.67.136.43",
       "server_port": 443,
-      "uuid": "603f2593-b20b-4103-8967-9c67eecfe6bd",
+      "uuid": "7700ff6d-cefb-4768-a806-ec4f63fe3b38",
+      "tls": {
+        "enabled": true,
+        "server_name": "6-M13.176F877b-9958-456A-9b39-9DE3e9aD2d9D.KdNs.fR",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ED3ZQPu7lqyeDGD58KabZ",
+        "headers": {
+          "Host": "6-m13.176f877B-9958-456A-9b39-9De3e9AD2D9d.kDnS.Fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 53 - kunz-kun",
+      "server": "172.235.62.90",
+      "server_port": 443,
+      "uuid": "b98d4c6e-6770-4a31-8256-a4750cdea0e7",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "gateway.icloud.com",
+        "server_name": "www.amazon.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo",
+          "short_id": "1a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇷 法国 05 - kunz-kun",
+      "server": "usejh2.neobo-tooth.ru",
+      "server_port": 2096,
+      "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {}
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 54 - kunz-kun",
+      "server": "137.184.218.169",
+      "server_port": 36925,
+      "uuid": "c9fd0fb1-8251-4106-b09a-f4b426736f67",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "kdRZN4WiVlF32uFV6tMU8aMLFRHWw70oEqE3iKlnrl4",
-          "short_id": "5b88be779393c536"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇴 RO 05 - kunz-kun",
-      "server": "205.237.109.173",
-      "server_port": 8443,
-      "password": "Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s",
-      "tls": {
-        "enabled": true,
-        "server_name": "hopp-netherland-new.dynuddns.net",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 荷兰 31 - kunz-kun",
-      "server": "51.158.206.29",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fuck.rkn",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
+          "public_key": "lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 46 - kunz-kun",
+      "tag": "🇺🇸 美国 55 - kunz-kun",
       "server": "31.58.50.200",
       "server_port": 8443,
-      "uuid": "4b2fbd30-1a64-4b27-aea9-713d62c9e69b",
+      "uuid": "fe5cb9d9-0d9e-41fe-940f-c6c97f7d9157",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "tradingview.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 荷兰 23 - kunz-kun",
+      "server": "82.38.31.183",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 56 - kunz-kun",
+      "server": "31.58.50.200",
+      "server_port": 8443,
+      "uuid": "5ef4b1d5-1039-4d26-99c8-7b5d5b570819",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "tradingview.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -2547,61 +2468,65 @@
     },
     {
       "type": "vmess",
-      "tag": "🇺🇸 美国 47 - kunz-kun",
-      "server": "82.198.246.250",
+      "tag": "🇺🇸 美国 57 - kunz-kun",
+      "server": "82.198.246.37",
       "server_port": 180,
       "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
       "security": "auto",
       "alter_id": 0
     },
     {
-      "type": "vless",
-      "tag": "🇫🇮 FI 03 - kunz-kun",
-      "server": "2.26.178.129",
-      "server_port": 443,
-      "uuid": "6429d27e-a7d4-4e04-ae57-e88243fbbfe3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "localhost",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I"
-        }
-      }
+      "type": "shadowsocks",
+      "tag": "🇳🇱 荷兰 24 - kunz-kun",
+      "server": "82.38.31.191",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 荷兰 32 - kunz-kun",
-      "server": "51.158.206.96",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "tag": "🇬🇧 英国 09 - kunz-kun",
+      "server": "95.154.196.62",
+      "server_port": 443,
+      "uuid": "1d9b247a-d20e-49fd-bd9c-bb06e1ea2a18",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "fuck.rkn",
+        "server_name": "foodnetwork.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
+          "public_key": "wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA",
+          "short_id": "16498ac98306ce31"
         }
       }
     },
     {
       "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 33 - kunz-kun",
-      "server": "82.38.31.201",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+      "tag": "🇺🇸 美国 58 - kunz-kun",
+      "server": "156.146.38.167",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇹 IT 01 - kunz-kun",
+      "server": "204.216.216.23",
+      "server_port": 10086,
+      "uuid": "9f0285ee-20ca-4953-bcdb-86a920652923"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 59 - kunz-kun",
+      "server": "82.198.246.37",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "type": "direct",

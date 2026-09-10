@@ -4,70 +4,22 @@
     {
       "type": "vless",
       "tag": "🇷🇴 RO 01 - kunz-kun",
-      "server": "193.163.203.253",
+      "server": "82.152.141.30",
       "server_port": 443,
-      "uuid": "441afe11-a180-4516-bb80-80a8a6b38705",
+      "uuid": "2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "yandex.ru",
+        "server_name": "pl.cloudtechone.org",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "gE8LUmGFXik94SoDXNiAG5KprGyhjoRwDuhGebgAVWk",
-          "short_id": "5ee019e02e6ed99a"
+          "public_key": "_IBXb9NfhsnS21XbU9PIl73ExvrjXGXVLO0Za1ui5Fo",
+          "short_id": "f93c9d5127e622e4"
         }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇴 RO 02 - kunz-kun",
-      "server": "rou0001ntrhy01.tcp-reset-club.net",
-      "server_port": 443,
-      "password": "4fb82973-a7f1-4fc2-9958-cb21f5162f06",
-      "tls": {
-        "enabled": true,
-        "server_name": "rou0001ntrhy01.tcp-reset-club.net",
-        "insecure": false
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇴 RO 03 - kunz-kun",
-      "server": "205.237.109.162",
-      "server_port": 8443,
-      "password": "Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s",
-      "tls": {
-        "enabled": true,
-        "server_name": "hopp-netherland-new.dynuddns.net",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇴 RO 04 - kunz-kun",
-      "server": "162.249.126.2",
-      "server_port": 8443,
-      "password": "9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z",
-      "tls": {
-        "enabled": true,
-        "server_name": "hopp-germany-new.ddnsguru.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇴 RO 05 - kunz-kun",
-      "server": "205.237.109.173",
-      "server_port": 8443,
-      "password": "Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s",
-      "tls": {
-        "enabled": true,
-        "server_name": "hopp-netherland-new.dynuddns.net",
-        "insecure": true
       }
     },
     {

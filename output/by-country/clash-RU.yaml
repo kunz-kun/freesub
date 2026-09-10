@@ -3,30 +3,20 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- cipher: aes-256-gcm
   name: 🇷🇺 俄罗斯 01 - kunz-kun
-  port: 7444
-  reality-opts:
-    public-key: -P8DgKISSG4jnLuj6ihZDqZs1_zt-juBrhVhTylHiAo
-  server: 78.159.247.123
-  servername: akamai.com
-  tls: true
-  type: vless
+  password: 81a20429165df87e
+  port: 20111
+  server: 195.133.23.200
+  type: ss
   udp: true
-  uuid: 0764541b-3e57-4b47-954b-51e996fae5fc
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+- cipher: aes-256-gcm
   name: 🇷🇺 俄罗斯 02 - kunz-kun
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.131.212.30
-  servername: sellflow.org
-  tls: true
-  type: vless
+  password: 6b39ae3234dfd68b
+  port: 10661
+  server: 46.17.42.166
+  type: ss
   udp: true
-  uuid: db9da8fb-c528-42ec-9b9e-e578cf934c04
 proxy-groups:
 - name: PROXY
   proxies:
