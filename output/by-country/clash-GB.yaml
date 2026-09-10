@@ -3,134 +3,45 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
+- name: 🇬🇧 英国 01 - kunz-kun
+  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
+  port: 443
+  server: labs.frkn.org
+  skip-cert-verify: true
+  sni: labs.frkn.org
+  type: hysteria2
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇬🇧 英国 01 - kunz-kun
-  port: 421
-  reality-opts:
-    public-key: zUdAvpr07q1Yd0Om-jc4-Vu4Un5tVird8FGoN-7W9Tg
-    short-id: a1facbc8575701ae
-  server: 78.129.208.44
-  servername: chistomat.dry.care
-  tls: true
-  type: vless
-  udp: true
-  uuid: a3c861cb-e1e7-4ad6-8be2-7c2314ec6f18
-- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇬🇧 英国 02 - kunz-kun
   port: 443
   reality-opts:
-    public-key: wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA
-    short-id: 16498ac98306ce31
-  server: 95.154.196.62
-  servername: foodnetwork.com
+    public-key: RVj8E6YuWeOq9XzIVLQCKM39qa-Cknp-GYvVAA1UPFo
+    short-id: 72cceb78
+  server: 138.124.125.211
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: c9779fd1-a7fc-48b5-88b0-42e8396c2dd8
-- client-fingerprint: firefox
+  uuid: 1996007c-e7bc-464b-999b-cac28cec6c3e
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇬🇧 英国 03 - kunz-kun
   port: 443
   reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: fd55b698ee8c3629
-  server: 109.169.37.43
-  servername: foodnetwork.com
+    public-key: IFEZmwpGK7VCuDj3kmVdyMn7vUIG8Sntc6TG4eIS3xs
+    short-id: 1aa9f3c9021280c0
+  server: 5.152.223.97
+  servername: strapi.io
   tls: true
   type: vless
   udp: true
-  uuid: bfca8b29-e976-4066-8228-8921a0f61c50
-- client-fingerprint: random
-  name: 🇬🇧 英国 04 - kunz-kun
-  port: 443
-  reality-opts:
-    public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
-    short-id: 98fa0b00d09419f7
-  server: 51.38.70.192
-  servername: play.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9343f183-7a16-4bdd-9c65-b0c21feca40b
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇬🇧 英国 05 - kunz-kun
-  port: 443
-  reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: fd55b698ee8c3629
-  server: 95.154.237.50
-  servername: lanacion.com.ar
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3d821554-a3c5-4d0a-9321-611ecb1ec90b
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇬🇧 英国 06 - kunz-kun
-  port: 443
-  reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: fd55b698ee8c3629
-  server: 109.169.85.137
-  servername: slashdot.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 67909c05-2b51-44d1-bb32-118eec3e9287
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇬🇧 英国 07 - kunz-kun
-  port: 443
-  reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: fd55b698ee8c3629
-  server: 95.154.237.47
-  servername: lanacion.com.ar
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3845c09f-35c8-4852-b876-5ed8cc5ca6cd
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇬🇧 英国 08 - kunz-kun
-  port: 443
-  reality-opts:
-    public-key: wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA
-    short-id: 16498ac98306ce31
-  server: 95.154.196.62
-  servername: foodnetwork.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a6de5675-5bfe-4fc2-b9b4-4bf4a24f6474
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇬🇧 英国 09 - kunz-kun
-  port: 443
-  reality-opts:
-    public-key: wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA
-    short-id: 16498ac98306ce31
-  server: 95.154.196.62
-  servername: foodnetwork.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1d9b247a-d20e-49fd-bd9c-bb06e1ea2a18
+  uuid: be5b6ad6-8184-4b63-82ac-3bc00c09c98c
 proxy-groups:
 - name: PROXY
   proxies:
   - 🇬🇧 英国 01 - kunz-kun
   - 🇬🇧 英国 02 - kunz-kun
   - 🇬🇧 英国 03 - kunz-kun
-  - 🇬🇧 英国 04 - kunz-kun
-  - 🇬🇧 英国 05 - kunz-kun
-  - 🇬🇧 英国 06 - kunz-kun
-  - 🇬🇧 英国 07 - kunz-kun
-  - 🇬🇧 英国 08 - kunz-kun
-  - 🇬🇧 英国 09 - kunz-kun
   type: select
 rules:
 - MATCH,PROXY

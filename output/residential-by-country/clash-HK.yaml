@@ -4,7 +4,7 @@ mode: rule
 port: 7890
 proxies:
 - client-fingerprint: chrome
-  name: 🇭🇰 中国香港 02 [家宽] - kunz-kun
+  name: 🇭🇰 中国香港 01 [家宽] - kunz-kun
   port: 443
   reality-opts:
     public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
@@ -13,23 +13,23 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
-- client-fingerprint: chrome
-  name: 🇭🇰 中国香港 05 [家宽] - kunz-kun
+  uuid: 526a1128-7487-11ee-9bca-f23c913c8d2b
+- client-fingerprint: safari
+  name: 🇭🇰 中国香港 02 [家宽] - kunz-kun
   port: 443
   reality-opts:
     public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  server: bdd23461-tla000-tvvhcz-tl32.hk3.hyhuawei.com
+  server: ac35c80b-tla000-tpmc23-1s3lb.hk3.hyhuawei.com
   servername: updates.cdn-apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
+  uuid: fbf91120-50ba-11ef-a203-f23c91cfbbc9
 proxy-groups:
 - name: PROXY
   proxies:
+  - 🇭🇰 中国香港 01 [家宽] - kunz-kun
   - 🇭🇰 中国香港 02 [家宽] - kunz-kun
-  - 🇭🇰 中国香港 05 [家宽] - kunz-kun
   type: select
 rules:
 - MATCH,PROXY

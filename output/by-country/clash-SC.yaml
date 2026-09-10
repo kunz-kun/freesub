@@ -3,7 +3,7 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- client-fingerprint: qq
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇸🇨 SC 01 - kunz-kun
   port: 35193

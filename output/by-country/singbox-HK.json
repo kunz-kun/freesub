@@ -2,29 +2,36 @@
   "version": 1,
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 01 - kunz-kun",
-      "server": "202.146.222.174",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "https://t.me/oneclickvpnkeys",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 02 [家宽] - kunz-kun",
+      "tag": "🇭🇰 中国香港 01 [家宽] - kunz-kun",
       "server": "203.218.231.156",
       "server_port": 443,
-      "uuid": "c12f73f6-e8c7-11ed-9246-f23c9164ca5d",
+      "uuid": "526a1128-7487-11ee-9bca-f23c913c8d2b",
       "tls": {
         "enabled": true,
         "server_name": "updates.cdn-apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 02 [家宽] - kunz-kun",
+      "server": "ac35c80b-tla000-tpmc23-1s3lb.hk3.hyhuawei.com",
+      "server_port": 443,
+      "uuid": "fbf91120-50ba-11ef-a203-f23c91cfbbc9",
+      "tls": {
+        "enabled": true,
+        "server_name": "updates.cdn-apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
@@ -35,28 +42,7 @@
     {
       "type": "vless",
       "tag": "🇭🇰 中国香港 03 - kunz-kun",
-      "server": "27.0.232.125",
-      "server_port": 443,
-      "uuid": "603f2593-b20b-4103-8967-9c67eecfe6bd",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "gateway.icloud.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "kdRZN4WiVlF32uFV6tMU8aMLFRHWw70oEqE3iKlnrl4",
-          "short_id": "5b88be779393c536"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 04 - kunz-kun",
-      "server": "vj37-1936vtw.fincore.top",
+      "server": "162.128.157.164",
       "server_port": 443,
       "uuid": "5e8e81ac-a1c4-4543-b81e-651bf9872b54",
       "flow": "xtls-rprx-vision",
@@ -65,7 +51,7 @@
         "server_name": "www.bing.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -76,20 +62,22 @@
     },
     {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 05 [家宽] - kunz-kun",
-      "server": "bdd23461-tla000-tvvhcz-tl32.hk3.hyhuawei.com",
-      "server_port": 443,
-      "uuid": "5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b",
+      "tag": "🇭🇰 中国香港 04 - kunz-kun",
+      "server": "47.239.6.251",
+      "server_port": 13779,
+      "uuid": "928e6cce-8ced-4243-9a48-a6642edd09b0",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "updates.cdn-apple.com",
+        "server_name": "tesla.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+          "public_key": "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg",
+          "short_id": "af1bdd293097b664"
         }
       }
     },

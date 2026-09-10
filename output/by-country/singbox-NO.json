@@ -3,21 +3,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇫🇮 FI 01 - kunz-kun",
-      "server": "2.26.178.187",
-      "server_port": 443,
-      "uuid": "6429d27e-a7d4-4e04-ae57-e88243fbbfe3",
+      "tag": "🇳🇴 NO 01 - kunz-kun",
+      "server": "151.242.168.125",
+      "server_port": 390,
+      "uuid": "7b363f9c-3df9-4b60-a789-9cd36be0bdfe",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "localhost",
+        "server_name": "bowandbead.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I"
+          "public_key": "5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8",
+          "short_id": "b545fe8c5e22f92d"
         }
       }
     },

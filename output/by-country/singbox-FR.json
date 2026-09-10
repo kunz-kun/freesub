@@ -2,28 +2,42 @@
   "version": 1,
   "outbounds": [
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇫🇷 法国 01 - kunz-kun",
-      "server": "usejh2.neobo-tooth.ru",
-      "server_port": 2083,
-      "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",
+      "server": "35.181.169.140",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "usejh2.neobo-tooth.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc"
+        "server_name": "35.181.169.140",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇫🇷 法国 02 - kunz-kun",
+      "server": "v35.hdacd.com",
+      "server_port": 30835,
+      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+      "security": "auto",
+      "alter_id": 2
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇫🇷 法国 03 - kunz-kun",
+      "server": "35.181.166.40",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "35.181.166.40",
+        "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 法国 02 - kunz-kun",
-      "server": "62.210.91.2",
+      "tag": "🇫🇷 法国 04 - kunz-kun",
+      "server": "62.210.91.10",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "flow": "xtls-rprx-vision",
@@ -42,43 +56,23 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇫🇷 法国 03 - kunz-kun",
-      "server": "151.247.197.253",
-      "server_port": 36723,
-      "password": "Krab9Hyst2_Rk7pQ2xL",
+      "type": "vless",
+      "tag": "🇫🇷 法国 05 - kunz-kun",
+      "server": "54.37.136.194",
+      "server_port": 2053,
+      "uuid": "2211972b-a45a-4951-a640-6173d573e637",
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇷 法国 04 - kunz-kun",
-      "server": "162.19.10.99",
-      "server_port": 443,
-      "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "nasnet-162191099-direct.mbghalibaf.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "3nFTPdoFnfcwN1xnLwegJmBycLqRH6TRsrbD2XnQbjM",
+          "short_id": "bfc5464d84de3b3b"
         }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇷 法国 05 - kunz-kun",
-      "server": "usejh2.neobo-tooth.ru",
-      "server_port": 2096,
-      "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {}
       }
     },
     {

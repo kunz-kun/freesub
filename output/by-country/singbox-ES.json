@@ -3,43 +3,43 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇦🇷 AR 01 - kunz-kun",
-      "server": "149.33.19.143",
-      "server_port": 443,
-      "uuid": "049b5a3c-3331-4a16-a12a-1f79c5b52d17",
+      "tag": "🇪🇸 ES 01 - kunz-kun",
+      "server": "93.189.94.67",
+      "server_port": 48296,
+      "uuid": "898537d9-ce3a-4937-bbef-c0fa61c07791",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "zvukipro.com",
+        "server_name": "www.sony.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
-          "short_id": "fd55b698ee8c3629"
+          "public_key": "ga1wUMMknP4pwJfUNOOvD9I35XV4q3c73byXPYbRxBE",
+          "short_id": "109657bb2dbe99"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇦🇷 AR 02 - kunz-kun",
-      "server": "38.180.186.202",
-      "server_port": 443,
-      "uuid": "18b476f8-d1ca-4bf5-a397-c6fbf8ef4d41",
+      "tag": "🇪🇸 ES 02 - kunz-kun",
+      "server": "93.189.94.67",
+      "server_port": 48296,
+      "uuid": "898537d9-ce3a-4937-bbef-c0fa61c07791",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "zvukipro.com",
+        "server_name": "www.sony.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
-          "short_id": "fd55b698ee8c3629"
+          "public_key": "ga1wUMMknP4pwJfUNOOvD9I35XV4q3c73byXPYbRxBE",
+          "short_id": "109657bb2dbe99"
         }
       }
     },

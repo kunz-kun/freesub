@@ -3,10 +3,11 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇳 印度 01 - kunz-kun",
-      "server": "194.61.31.126",
-      "server_port": 2053,
-      "uuid": "50ddfd92-dc79-4777-a256-41e34d56836e",
+      "tag": "🇧🇬 BG 01 - kunz-kun",
+      "server": "193.148.59.178",
+      "server_port": 443,
+      "uuid": "20d7c485-5d24-49b5-a5cc-bb7a7daf9908",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "www.apple.com",
@@ -16,8 +17,8 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "R06_DTSjzQI9DswvRz9OqSBECfSwlpCMPR4DCc9oXyw",
-          "short_id": "c0cb7457deebbc70"
+          "public_key": "-GMpCber8qtrKzJbwvpLcwlIhOy-5zS66u_x9lLvIjE",
+          "short_id": "e3daad69"
         }
       }
     },

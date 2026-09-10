@@ -5,21 +5,21 @@ port: 7890
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇨🇾 CY 01 - kunz-kun
-  port: 40443
+  name: 🇧🇬 BG 01 - kunz-kun
+  port: 443
   reality-opts:
-    public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
-    short-id: 88b6
-  server: 5.253.30.99
-  servername: deepl.com
+    public-key: -GMpCber8qtrKzJbwvpLcwlIhOy-5zS66u_x9lLvIjE
+    short-id: e3daad69
+  server: 193.148.59.178
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
+  uuid: 20d7c485-5d24-49b5-a5cc-bb7a7daf9908
 proxy-groups:
 - name: PROXY
   proxies:
-  - 🇨🇾 CY 01 - kunz-kun
+  - 🇧🇬 BG 01 - kunz-kun
   type: select
 rules:
 - MATCH,PROXY

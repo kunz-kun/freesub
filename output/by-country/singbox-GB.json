@@ -2,190 +2,56 @@
   "version": 1,
   "outbounds": [
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇬🇧 英国 01 - kunz-kun",
-      "server": "78.129.208.44",
-      "server_port": 421,
-      "uuid": "a3c861cb-e1e7-4ad6-8be2-7c2314ec6f18",
+      "server": "labs.frkn.org",
+      "server_port": 443,
+      "password": "3b8c82ed-fe66-472d-915e-034ccb57103f",
+      "tls": {
+        "enabled": true,
+        "server_name": "labs.frkn.org",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 英国 02 - kunz-kun",
+      "server": "138.124.125.211",
+      "server_port": 443,
+      "uuid": "1996007c-e7bc-464b-999b-cac28cec6c3e",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "chistomat.dry.care",
+        "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "zUdAvpr07q1Yd0Om-jc4-Vu4Un5tVird8FGoN-7W9Tg",
-          "short_id": "a1facbc8575701ae"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 英国 02 - kunz-kun",
-      "server": "95.154.196.62",
-      "server_port": 443,
-      "uuid": "c9779fd1-a7fc-48b5-88b0-42e8396c2dd8",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "foodnetwork.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA",
-          "short_id": "16498ac98306ce31"
+          "public_key": "RVj8E6YuWeOq9XzIVLQCKM39qa-Cknp-GYvVAA1UPFo",
+          "short_id": "72cceb78"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇬🇧 英国 03 - kunz-kun",
-      "server": "109.169.37.43",
+      "server": "5.152.223.97",
       "server_port": 443,
-      "uuid": "bfca8b29-e976-4066-8228-8921a0f61c50",
+      "uuid": "be5b6ad6-8184-4b63-82ac-3bc00c09c98c",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "foodnetwork.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
-          "short_id": "fd55b698ee8c3629"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 英国 04 - kunz-kun",
-      "server": "51.38.70.192",
-      "server_port": 443,
-      "uuid": "9343f183-7a16-4bdd-9c65-b0c21feca40b",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M",
-          "short_id": "98fa0b00d09419f7"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 英国 05 - kunz-kun",
-      "server": "95.154.237.50",
-      "server_port": 443,
-      "uuid": "3d821554-a3c5-4d0a-9321-611ecb1ec90b",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "lanacion.com.ar",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
-          "short_id": "fd55b698ee8c3629"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 英国 06 - kunz-kun",
-      "server": "109.169.85.137",
-      "server_port": 443,
-      "uuid": "67909c05-2b51-44d1-bb32-118eec3e9287",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "slashdot.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
-          "short_id": "fd55b698ee8c3629"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 英国 07 - kunz-kun",
-      "server": "95.154.237.47",
-      "server_port": 443,
-      "uuid": "3845c09f-35c8-4852-b876-5ed8cc5ca6cd",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "lanacion.com.ar",
+        "server_name": "strapi.io",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
-          "short_id": "fd55b698ee8c3629"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 英国 08 - kunz-kun",
-      "server": "95.154.196.62",
-      "server_port": 443,
-      "uuid": "a6de5675-5bfe-4fc2-b9b4-4bf4a24f6474",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "foodnetwork.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA",
-          "short_id": "16498ac98306ce31"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 英国 09 - kunz-kun",
-      "server": "95.154.196.62",
-      "server_port": 443,
-      "uuid": "1d9b247a-d20e-49fd-bd9c-bb06e1ea2a18",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "foodnetwork.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA",
-          "short_id": "16498ac98306ce31"
+          "public_key": "IFEZmwpGK7VCuDj3kmVdyMn7vUIG8Sntc6TG4eIS3xs",
+          "short_id": "1aa9f3c9021280c0"
         }
       }
     },

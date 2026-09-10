@@ -4,44 +4,38 @@ mode: rule
 port: 7890
 proxies:
 - name: 🇩🇪 德国 01 - kunz-kun
-  port: 15003
-  server: 91.107.179.8
-  type: vless
-  udp: true
-  uuid: 69d8dc73-20ff-4241-bdd8-a9d6d07553b6
-- name: 🇩🇪 德国 02 - kunz-kun
-  port: 42638
-  server: 155.117.234.131
-  type: vless
-  udp: true
-  uuid: 40fa5575-7649-428d-8859-2426dd69056c
-- name: 🇩🇪 德国 03 - kunz-kun
-  password: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
-  port: 443
-  server: 144.31.221.57
+  password: zhangyang
+  port: 6443
+  server: 130.61.50.75
   skip-cert-verify: true
-  sni: player.wwwinternetvideo.click
+  sni: 130.61.50.75
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇩🇪 德国 04 - kunz-kun
-  port: 443
+  name: 🇩🇪 德国 02 - kunz-kun
+  port: 4777
   reality-opts:
-    public-key: k76Ze8R0E5NyZwvBZT1A4n0zlVXxTeHQDAs0bBqiGQw
-    short-id: 6e5f2a3b
-  server: 91.233.8.141
-  servername: tnt-cloud.ru
+    public-key: 8ZL2JgDP9gHkgGTbGF-uK8omfWkFplZnCH0N2_U18Uo
+    short-id: 01115788253bc845
+  server: 207.241.172.254
+  servername: amp-api-edge.apps.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 81d8f575-a9c3-03e7-be6b-c0e1dc1d2e20
+  uuid: 1a083e25-c9e1-451a-8412-6358a09f803b
+- name: 🇩🇪 德国 03 - kunz-kun
+  password: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
+  port: 443
+  server: replay.wwwinternetvideo.click
+  skip-cert-verify: false
+  sni: replay.wwwinternetvideo.click
+  type: hysteria2
 proxy-groups:
 - name: PROXY
   proxies:
   - 🇩🇪 德国 01 - kunz-kun
   - 🇩🇪 德国 02 - kunz-kun
   - 🇩🇪 德国 03 - kunz-kun
-  - 🇩🇪 德国 04 - kunz-kun
   type: select
 rules:
 - MATCH,PROXY
