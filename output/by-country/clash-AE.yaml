@@ -4,18 +4,18 @@ mode: rule
 port: 7890
 proxies:
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: freegrpc
   name: 🇦🇪 阿联酋 01 - kunz-kun
-  port: 8443
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-  server: 31.58.181.88
-  servername: tradingview.com
+  network: grpc
+  port: 2087
+  server: srv-21bac9.vless.monster
+  servername: srv-21bac9.vless.monster
   tls: true
   type: vless
   udp: true
-  uuid: 05819bb1-2975-473c-a51f-0fbccf8d2cfa
-- client-fingerprint: firefox
+  uuid: df9f5aca-eda0-428f-a752-e53866153d12
+- client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: freegrpc
   name: 🇦🇪 阿联酋 02 - kunz-kun

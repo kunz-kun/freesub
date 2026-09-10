@@ -1,0 +1,25 @@
+allow-lan: false
+log-level: info
+mode: rule
+port: 7890
+proxies:
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇫🇮 FI 01 - kunz-kun
+  network: grpc
+  port: 2087
+  server: 65.109.185.234
+  servername: italic.dearhossein-taktaz.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 83fd52e3-c8d4-4ba6-abf4-445b99fec0f0
+proxy-groups:
+- name: PROXY
+  proxies:
+  - 🇫🇮 FI 01 - kunz-kun
+  type: select
+rules:
+- MATCH,PROXY
+socks-port: 7891

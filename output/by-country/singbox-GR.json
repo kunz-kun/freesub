@@ -3,22 +3,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇳🇴 NO 01 - kunz-kun",
-      "server": "151.242.168.125",
-      "server_port": 390,
-      "uuid": "7b363f9c-3df9-4b60-a789-9cd36be0bdfe",
+      "tag": "🇬🇷 GR 01 - kunz-kun",
+      "server": "94.241.174.157",
+      "server_port": 40443,
+      "uuid": "8ac637bf-554e-4902-94d7-baf01780a83c",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "bowandbead.com",
+        "server_name": "deepl.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8",
-          "short_id": "b545fe8c5e22f92d"
+          "public_key": "mM33xyzf1GPaU2CQXAGYoGkTuYzEZRYT6S-NngyqfHQ",
+          "short_id": "beb4"
         }
       }
     },
