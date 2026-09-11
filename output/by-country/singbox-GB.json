@@ -2,37 +2,8 @@
   "version": 1,
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇬🇧 英国 01 - kunz-kun",
-      "server": "149.102.149.207",
-      "server_port": 443,
-      "method": "aes-256-gcm",
-      "password": "LXchLsIwtCeUAUgu"
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 英国 02 - kunz-kun",
-      "server": "3.9.135.156",
-      "server_port": 51847,
-      "uuid": "391a01e9-b664-407b-9158-610fab3f5920",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.tesla.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "S6noV0L8eNASnTe1gXLutLZNdfENsvKMsOJiGQYi6nc",
-          "short_id": "0eec442e7b34d2f2"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 英国 03 - kunz-kun",
       "server": "46.250.250.149",
       "server_port": 2053,
       "uuid": "59bf58d9-ddaf-42cd-a0ca-db3559ad8714",
@@ -51,31 +22,23 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 英国 04 - kunz-kun",
-      "server": "149.102.132.184",
-      "server_port": 80,
-      "method": "aes-256-gcm",
-      "password": "g5h5jleTRSyO3Rk4"
-    },
-    {
       "type": "vless",
-      "tag": "🇬🇧 英国 05 - kunz-kun",
-      "server": "129.121.95.159",
-      "server_port": 443,
-      "uuid": "f6190ff2-864c-46cf-ac16-93908c069b75",
+      "tag": "🇬🇧 英国 02 - kunz-kun",
+      "server": "51.89.194.151",
+      "server_port": 2053,
+      "uuid": "a8444f42-8aa2-4ef2-8755-2b0d82415fc6",
       "tls": {
         "enabled": true,
-        "server_name": "129.121.95.159",
+        "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "T10K4VspJ7ZIptzXTqFL0k-lgV2a8ekf7RedogymJzo",
+          "short_id": "949023ece91caa7c"
         }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/connect",
-        "headers": {}
       }
     },
     {

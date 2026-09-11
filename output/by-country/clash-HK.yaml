@@ -8,28 +8,27 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: "https://t.me/wangcai2ð\x9F\x87"
+  sni: css.rbxcdn.com
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇭🇰 中国香港 02 - kunz-kun
+- name: 🇭🇰 中国香港 02 - kunz-kun
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
+  server: 202.146.222.89
+  skip-cert-verify: true
+  sni: https%253a%252f%252ft.me%252fclashv8%25f0%259f%2587%25a8%25f0%259f%2587%25b3
+  type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇭🇰 中国香港 03 - kunz-kun
+  port: 64136
   reality-opts:
-    public-key: O8Av8GXWVqj7FOxUyStmrTLWv5EtvQ1ZnMOVVLb1V3s
-    short-id: 1bc2c1ef1c
-  server: 212.192.13.233
-  servername: www.cathaypacific.com
+    public-key: yi2t6WsgV_77ANrZf2xcfrSaJihtFVDQ5O_Ddt0n9SE
+  server: 193.134.211.201
+  servername: dash.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: d742752c-4231-4695-801e-f06d77f0f277
-- name: 🇭🇰 中国香港 03 - kunz-kun
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.29
-  skip-cert-verify: true
-  sni: 202.146.222.29
-  type: hysteria2
+  uuid: cb0d51da-de26-4e29-b3db-a7fbbf9a4b8c
 proxy-groups:
 - name: PROXY
   proxies:

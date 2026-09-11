@@ -3,39 +3,33 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇵🇱 PL 01 - kunz-kun
+- name: 🇵🇱 PL 01 - kunz-kun
+  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   port: 443
-  server: pl-new-ded2.moritech.net
-  servername: pl-new-ded2.moritech.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-- cipher: aes-256-cfb
-  name: 🇵🇱 PL 02 - kunz-kun
-  password: S2zDyyPcmZN2h8EC
-  port: 9076
-  server: 217.30.10.44
-  type: ss
-  udp: true
+  server: 144.31.93.126
+  skip-cert-verify: true
+  sni: admin.wwwinternetvideo.click
+  type: hysteria2
+- name: 🇵🇱 PL 02 - kunz-kun
+  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
+  port: 443
+  server: 45.192.12.93
+  skip-cert-verify: false
+  sni: admin.wwwinternetvideo.click
+  type: hysteria2
 - name: 🇵🇱 PL 03 - kunz-kun
-  network: ws
+  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   port: 443
-  server: 94.183.209.59
-  type: vless
-  udp: true
-  uuid: d23cb516-40db-4aa4-8142-6b45ff882f90
-  ws-opts:
-    headers: {}
-    path: /
-- client-fingerprint: firefox
+  server: go.wwwinternetvideo.click
+  skip-cert-verify: true
+  sni: admin.wwwinternetvideo.click
+  type: hysteria2
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇵🇱 PL 04 - kunz-kun
   port: 443
-  server: 50.7.248.234
-  servername: viper-22.moriarty-web.com
+  server: 144.31.5.3
+  servername: pl4.moritech.net
   tls: true
   type: vless
   udp: true
