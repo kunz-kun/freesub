@@ -3,13 +3,13 @@
   "outbounds": [
     {
       "type": "hysteria2",
-      "tag": "🇨🇭 CH 01 - kunz-kun",
-      "server": "104.165.205.42",
-      "server_port": 8443,
-      "password": "52e3dd44-ed23-4030-b0cc-5b5a953f2d4d",
+      "tag": "🇮🇳 印度 01 - kunz-kun",
+      "server": "vpn-in-001.fastervpn.world",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "speedtestmark.com",
+        "server_name": "127.0.0.1",
         "insecure": true
       }
     },

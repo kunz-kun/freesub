@@ -3,17 +3,17 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- name: 🇨🇭 CH 01 - kunz-kun
-  password: 52e3dd44-ed23-4030-b0cc-5b5a953f2d4d
-  port: 8443
-  server: 104.165.205.42
+- name: 🇪🇪 EE 01 - kunz-kun
+  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
+  port: 443
+  server: 31.76.71.63
   skip-cert-verify: true
-  sni: speedtestmark.com
+  sni: cabinet.wwwinternetvideo.click
   type: hysteria2
 proxy-groups:
 - name: PROXY
   proxies:
-  - 🇨🇭 CH 01 - kunz-kun
+  - 🇪🇪 EE 01 - kunz-kun
   type: select
 rules:
 - MATCH,PROXY

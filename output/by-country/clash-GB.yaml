@@ -1,0 +1,51 @@
+allow-lan: false
+log-level: info
+mode: rule
+port: 7890
+proxies:
+- cipher: aes-256-gcm
+  name: 🇬🇧 英国 01 - kunz-kun
+  password: LXchLsIwtCeUAUgu
+  port: 80
+  server: 149.102.149.207
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧 英国 02 - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: OINuDFEDTdmtFR8QRxAZfQIMPA-wJxfGN1LjB3TFUHo
+    short-id: 535a3304
+  server: 50.7.193.138
+  servername: apiv12nd.goonars.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 02722550-1915-4629-a653-cbe95e594f70
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 英国 03 - kunz-kun
+  port: 22324
+  server: 66.163.117.58
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 英国 04 - kunz-kun
+  password: c58d16e593d44f42
+  port: 11001
+  server: 158.173.221.214
+  type: ss
+  udp: true
+proxy-groups:
+- name: PROXY
+  proxies:
+  - 🇬🇧 英国 01 - kunz-kun
+  - 🇬🇧 英国 02 - kunz-kun
+  - 🇬🇧 英国 03 - kunz-kun
+  - 🇬🇧 英国 04 - kunz-kun
+  type: select
+rules:
+- MATCH,PROXY
+socks-port: 7891

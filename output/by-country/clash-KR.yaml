@@ -3,22 +3,9 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇰🇷 韩国 01 - kunz-kun
-  port: 18967
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  server: 3.39.4.109
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国 02 - kunz-kun
+  name: 🇰🇷 韩国 01 - kunz-kun
   port: 443
   server: 140.238.2.250
   type: vmess
@@ -28,7 +15,6 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 🇰🇷 韩国 01 - kunz-kun
-  - 🇰🇷 韩国 02 - kunz-kun
   type: select
 rules:
 - MATCH,PROXY

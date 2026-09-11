@@ -3,58 +3,17 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷 法国 01 - kunz-kun
-  port: 23576
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  server: 62.210.91.2
-  servername: fuck.rkn
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- cipher: aes-256-gcm
-  name: 🇫🇷 法国 02 - kunz-kun
-  password: itzvpn@321
-  port: 8388
-  server: 51.83.192.80
-  type: ss
-  udp: true
-- client-fingerprint: random
-  name: 🇫🇷 法国 03 - kunz-kun
-  port: 2053
-  reality-opts:
-    public-key: 3nFTPdoFnfcwN1xnLwegJmBycLqRH6TRsrbD2XnQbjM
-    short-id: bfc5464d84de3b3b
-  server: 54.37.136.194
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2211972b-a45a-4951-a640-6173d573e637
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷 法国 04 - kunz-kun
-  port: 23576
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  server: 62.210.91.2
-  servername: fuck.rkn
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: 🇫🇷 法国 01 - kunz-kun
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: 151.247.197.253
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
 proxy-groups:
 - name: PROXY
   proxies:
   - 🇫🇷 法国 01 - kunz-kun
-  - 🇫🇷 法国 02 - kunz-kun
-  - 🇫🇷 法国 03 - kunz-kun
-  - 🇫🇷 法国 04 - kunz-kun
   type: select
 rules:
 - MATCH,PROXY
