@@ -4,18 +4,10 @@
     {
       "type": "shadowsocks",
       "tag": "🇩🇪 德国 01 - kunz-kun",
-      "server": "51.195.126.38",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "2YdE4lFOid5a"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇩🇪 德国 02 - kunz-kun",
-      "server": "2.58.81.221",
-      "server_port": 80,
+      "server": "185.226.172.8",
+      "server_port": 8008,
       "method": "aes-256-gcm",
-      "password": "kKEd0rBrd56Furjz"
+      "password": "XKFKl2rULjIp74"
     },
     {
       "type": "direct",

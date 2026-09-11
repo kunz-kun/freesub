@@ -5,14 +5,21 @@ port: 7890
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇦 加拿大 01 - kunz-kun
-  password: FD3rCuOsxOay
-  port: 8388
-  server: 15.235.75.71
+  password: 3ssumf2
+  port: 443
+  server: ca225.vpnbook.com
   type: ss
   udp: true
+- name: 🇨🇦 加拿大 02 - kunz-kun
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 15.223.122.197
+  skip-cert-verify: true
+  sni: 15.223.122.197
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇨🇦 加拿大 02 - kunz-kun
+  name: 🇨🇦 加拿大 03 - kunz-kun
   port: 443
   reality-opts:
     public-key: wo417FrFdjy7ZhccQ-VWGZEKcoCHSEfyWcJT1pIVc1Y
@@ -23,41 +30,12 @@ proxies:
   type: vless
   udp: true
   uuid: 661f395d-b153-4199-a04b-693f5fe7f261
-- name: 🇨🇦 加拿大 03 - kunz-kun
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-ca-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-ca-001.fastervpn.world
-  type: hysteria2
-- name: 🇨🇦 加拿大 04 - kunz-kun
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 15.223.183.81
-  skip-cert-verify: true
-  sni: t.me
-  type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇨🇦 加拿大 05 - kunz-kun
-  port: 443
-  reality-opts:
-    public-key: uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk
-    short-id: f98843107912e782
-  server: 209.200.246.148
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ca52e2b6-fb9f-4dac-b6dc-49da9923f251
 proxy-groups:
 - name: PROXY
   proxies:
   - 🇨🇦 加拿大 01 - kunz-kun
   - 🇨🇦 加拿大 02 - kunz-kun
   - 🇨🇦 加拿大 03 - kunz-kun
-  - 🇨🇦 加拿大 04 - kunz-kun
-  - 🇨🇦 加拿大 05 - kunz-kun
   type: select
 rules:
 - MATCH,PROXY

@@ -6,19 +6,6 @@ proxies:
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: 🇯🇵 日本 01 - kunz-kun
-  port: 50159
-  reality-opts:
-    public-key: j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA
-    short-id: 091e1c5db8451757
-  server: 154.31.114.248
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d56624b2-35bb-468c-9b2a-e0b0df7230c1
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇯🇵 日本 02 - kunz-kun
   port: 11690
   reality-opts:
     public-key: Bv3z0_uFRabB9C4CFpNfqepZUyeO4YTh1duJdMBNLkg
@@ -31,7 +18,7 @@ proxies:
   uuid: e2b8b217-cffb-4d66-9b8b-eca6e4334032
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇯🇵 日本 03 - kunz-kun
+  name: 🇯🇵 日本 02 - kunz-kun
   port: 11690
   reality-opts:
     public-key: Bv3z0_uFRabB9C4CFpNfqepZUyeO4YTh1duJdMBNLkg
@@ -44,7 +31,7 @@ proxies:
   uuid: e2b8b217-cffb-4d66-9b8b-eca6e4334032
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 🇯🇵 日本 04 - kunz-kun
+  name: 🇯🇵 日本 03 - kunz-kun
   port: 24620
   reality-opts:
     public-key: eZthMfn0kQJFNr_srk502fr8yUHMoHQ7Oh3v4_HfTBI
@@ -61,7 +48,6 @@ proxy-groups:
   - 🇯🇵 日本 01 - kunz-kun
   - 🇯🇵 日本 02 - kunz-kun
   - 🇯🇵 日本 03 - kunz-kun
-  - 🇯🇵 日本 04 - kunz-kun
   type: select
 rules:
 - MATCH,PROXY

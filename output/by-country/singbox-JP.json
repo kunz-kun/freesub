@@ -4,27 +4,6 @@
     {
       "type": "vless",
       "tag": "🇯🇵 日本 01 - kunz-kun",
-      "server": "154.31.114.248",
-      "server_port": 50159,
-      "uuid": "d56624b2-35bb-468c-9b2a-e0b0df7230c1",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA",
-          "short_id": "091e1c5db8451757"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 日本 02 - kunz-kun",
       "server": "13.231.19.51",
       "server_port": 11690,
       "uuid": "e2b8b217-cffb-4d66-9b8b-eca6e4334032",
@@ -34,7 +13,7 @@
         "server_name": "www.tesla.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -45,7 +24,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 03 - kunz-kun",
+      "tag": "🇯🇵 日本 02 - kunz-kun",
       "server": "13.231.19.51",
       "server_port": 11690,
       "uuid": "e2b8b217-cffb-4d66-9b8b-eca6e4334032",
@@ -66,7 +45,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 04 - kunz-kun",
+      "tag": "🇯🇵 日本 03 - kunz-kun",
       "server": "13.231.7.104",
       "server_port": 24620,
       "uuid": "b969ef8f-7bdb-474f-9481-d8f3c5686fb8",
