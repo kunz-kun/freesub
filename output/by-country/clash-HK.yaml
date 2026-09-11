@@ -8,12 +8,34 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https://t.me/wangcai2🇨🇳
+  sni: "https://t.me/wangcai2ð\x9F\x87"
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰 中国香港 02 - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: O8Av8GXWVqj7FOxUyStmrTLWv5EtvQ1ZnMOVVLb1V3s
+    short-id: 1bc2c1ef1c
+  server: 212.192.13.233
+  servername: www.cathaypacific.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d742752c-4231-4695-801e-f06d77f0f277
+- name: 🇭🇰 中国香港 03 - kunz-kun
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.29
+  skip-cert-verify: true
+  sni: 202.146.222.29
   type: hysteria2
 proxy-groups:
 - name: PROXY
   proxies:
   - 🇭🇰 中国香港 01 - kunz-kun
+  - 🇭🇰 中国香港 02 - kunz-kun
+  - 🇭🇰 中国香港 03 - kunz-kun
   type: select
 rules:
 - MATCH,PROXY

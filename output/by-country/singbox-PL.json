@@ -2,32 +2,56 @@
   "version": 1,
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇵🇱 PL 01 - kunz-kun",
-      "server": "194.61.121.93",
-      "server_port": 7538,
-      "method": "chacha20-ietf-poly1305",
-      "password": "U9YAoqBgg5VyGBc6vQv1sN"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇵🇱 PL 02 - kunz-kun",
-      "server": "admin.wwwinternetvideo.click",
+      "server": "pl-new-ded2.moritech.net",
       "server_port": 443,
-      "password": "YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc",
+      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "admin.wwwinternetvideo.click",
-        "insecure": false
+        "server_name": "pl-new-ded2.moritech.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 PL 03 - kunz-kun",
+      "tag": "🇵🇱 PL 02 - kunz-kun",
       "server": "217.30.10.44",
-      "server_port": 9041,
+      "server_port": 9076,
       "method": "aes-256-cfb",
-      "password": "U6qnYRhfyDmn8sgn"
+      "password": "S2zDyyPcmZN2h8EC"
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 PL 03 - kunz-kun",
+      "server": "94.183.209.59",
+      "server_port": 443,
+      "uuid": "d23cb516-40db-4aa4-8142-6b45ff882f90",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {}
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 PL 04 - kunz-kun",
+      "server": "50.7.248.234",
+      "server_port": 443,
+      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "viper-22.moriarty-web.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
     },
     {
       "type": "direct",

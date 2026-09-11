@@ -3,13 +3,18 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- name: 🇮🇳 印度 01 - kunz-kun
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-in-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-in-001.fastervpn.world
-  type: hysteria2
+- client-fingerprint: firefox
+  name: 🇮🇳 印度 01 - kunz-kun
+  port: 2053
+  reality-opts:
+    public-key: R06_DTSjzQI9DswvRz9OqSBECfSwlpCMPR4DCc9oXyw
+    short-id: c0cb7457deebbc70
+  server: 194.61.31.126
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 50ddfd92-dc79-4777-a256-41e34d56836e
 proxy-groups:
 - name: PROXY
   proxies:

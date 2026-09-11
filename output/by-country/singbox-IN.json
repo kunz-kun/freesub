@@ -2,15 +2,23 @@
   "version": 1,
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇮🇳 印度 01 - kunz-kun",
-      "server": "vpn-in-001.fastervpn.world",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "server": "194.61.31.126",
+      "server_port": 2053,
+      "uuid": "50ddfd92-dc79-4777-a256-41e34d56836e",
       "tls": {
         "enabled": true,
-        "server_name": "vpn-in-001.fastervpn.world",
-        "insecure": true
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "R06_DTSjzQI9DswvRz9OqSBECfSwlpCMPR4DCc9oXyw",
+          "short_id": "c0cb7457deebbc70"
+        }
       }
     },
     {

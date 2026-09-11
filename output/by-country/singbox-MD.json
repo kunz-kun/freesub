@@ -3,22 +3,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇲🇾 马来西亚 01 - kunz-kun",
-      "server": "56.69.159.191",
-      "server_port": 53271,
-      "uuid": "e8358eb5-7210-4cf8-982f-68af141b7694",
+      "tag": "🇲🇩 MD 01 - kunz-kun",
+      "server": "31.59.150.174",
+      "server_port": 9443,
+      "uuid": "92089155-6602-4122-86d4-fe6de20e8c4d",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.tesla.com",
+        "server_name": "hotcoals.aeternavpn.space",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "1P58ZYmo81kPDnL4U7SnEUA-aT2R86l-o6dbFXoeDjc",
-          "short_id": "0a9bd9db19578964"
+          "public_key": "RWu6ktBE4DFbUz_prmz-5KuolLhO53ehh19mNxhP-wI",
+          "short_id": "a1b2c3d4"
         }
       }
     },
