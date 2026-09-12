@@ -6,17 +6,17 @@ proxies:
 - name: 🇵🇱 PL 01 - kunz-kun
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   port: 443
+  server: 45.192.12.93
+  skip-cert-verify: false
+  sni: admin.wwwinternetvideo.click
+  type: hysteria2
+- name: 🇵🇱 PL 02 - kunz-kun
+  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
+  port: 443
   server: 144.31.49.47
   skip-cert-verify: true
   sni: admin.wwwinternetvideo.click
   type: hysteria2
-- cipher: aes-256-cfb
-  name: 🇵🇱 PL 02 - kunz-kun
-  password: aQqJbtwFGcCCaeL3
-  port: 9063
-  server: 217.30.10.44
-  type: ss
-  udp: true
 proxy-groups:
 - name: PROXY
   proxies:

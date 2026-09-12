@@ -3,30 +3,32 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 01 - kunz-kun
-  port: 40443
-  reality-opts:
-    public-key: VG-FwQBMFzPcemJ_JqtkbO-2WKLmQp2h0CmAj-DfLkA
-    short-id: 5b97
-  server: 93.152.217.41
-  servername: deepl.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 969bcce0-de8a-4b02-8cf8-d00d2d2ca7a5
 - cipher: aes-256-gcm
-  name: 🇩🇪 德国 02 - kunz-kun
+  name: 🇩🇪 德国 01 - kunz-kun
   password: XKFKl2rULjIp74
   port: 8008
   server: 185.226.172.8
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 🇩🇪 德国 03 - kunz-kun
-  password: kKEd0rBrd56Furjz
+- name: 🇩🇪 德国 02 - kunz-kun
+  password: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
   port: 443
-  server: 2.58.81.221
+  server: 144.31.221.57
+  skip-cert-verify: true
+  sni: player.wwwinternetvideo.click
+  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 德国 03 - kunz-kun
+  password: 1hhrqrokj3ag
+  port: 8388
+  server: 209.46.102.22
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 德国 04 - kunz-kun
+  password: PWpjPo3tqhPN4yRZ
+  port: 20001
+  server: 8.209.74.72
   type: ss
   udp: true
 proxy-groups:
@@ -35,6 +37,7 @@ proxy-groups:
   - 🇩🇪 德国 01 - kunz-kun
   - 🇩🇪 德国 02 - kunz-kun
   - 🇩🇪 德国 03 - kunz-kun
+  - 🇩🇪 德国 04 - kunz-kun
   type: select
 rules:
 - MATCH,PROXY

@@ -8,17 +8,37 @@ proxies:
   name: 🇸🇬 新加坡 01 - kunz-kun
   port: 443
   reality-opts:
-    public-key: UOLfRKeEoVxkp-APTF2OlvFkKSoiR2mWzUuhSWxcVmQ
-    short-id: 133a3f10a1581047
-  server: 206.206.78.36
+    public-key: bMcyxNueltQhz5Kuxcf8odDStWHowYfLhKNdCbUweDc
+    short-id: d1742269
+  server: 91.192.81.214
   servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: e3f0c894-0f76-4683-a751-6a93da8fd14d
+  uuid: 607801ac-dbdd-4938-a167-129015d9978e
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 新加坡 02 - kunz-kun
+  password: TFElG2FVqyqG
+  port: 8388
+  server: 176.97.64.144
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇸🇬 新加坡 02 - kunz-kun
+  name: 🇸🇬 新加坡 03 - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: bMcyxNueltQhz5Kuxcf8odDStWHowYfLhKNdCbUweDc
+    short-id: d1742269
+  server: 91.192.81.214
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 607801ac-dbdd-4938-a167-129015d9978e
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡 04 - kunz-kun
   port: 19825
   reality-opts:
     public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
@@ -29,11 +49,57 @@ proxies:
   type: vless
   udp: true
   uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡 05 - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: bMcyxNueltQhz5Kuxcf8odDStWHowYfLhKNdCbUweDc
+    short-id: d1742269
+  server: 91.192.81.214
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 607801ac-dbdd-4938-a167-129015d9978e
+- name: 🇸🇬 新加坡 06 - kunz-kun
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.151.142.26
+  skip-cert-verify: true
+  sni: google.com
+  type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡 07 - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: UOLfRKeEoVxkp-APTF2OlvFkKSoiR2mWzUuhSWxcVmQ
+    short-id: 133a3f10a1581047
+  server: 206.206.78.36
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3f0c894-0f76-4683-a751-6a93da8fd14d
+- name: 🇸🇬 新加坡 08 - kunz-kun
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 20562
+  server: msjp1.mangshe.xyz
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
 proxy-groups:
 - name: PROXY
   proxies:
   - 🇸🇬 新加坡 01 - kunz-kun
   - 🇸🇬 新加坡 02 - kunz-kun
+  - 🇸🇬 新加坡 03 - kunz-kun
+  - 🇸🇬 新加坡 04 - kunz-kun
+  - 🇸🇬 新加坡 05 - kunz-kun
+  - 🇸🇬 新加坡 06 - kunz-kun
+  - 🇸🇬 新加坡 07 - kunz-kun
+  - 🇸🇬 新加坡 08 - kunz-kun
   type: select
 rules:
 - MATCH,PROXY

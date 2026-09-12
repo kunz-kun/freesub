@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "🇸🇪 SE 01 - kunz-kun",
+      "server": "88.216.130.139",
+      "server_port": 8443,
+      "uuid": "fb67fd37-8d41-43a9-a093-c0b807fc5299",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "iRym2aMWC0ZoLJL7MtJm9p0xqFMutfe6_5B5tZyobxU"
+        }
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    }
+  ]
+}

@@ -4,6 +4,18 @@
     {
       "type": "hysteria2",
       "tag": "🇵🇱 PL 01 - kunz-kun",
+      "server": "45.192.12.93",
+      "server_port": 443,
+      "password": "YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc",
+      "tls": {
+        "enabled": true,
+        "server_name": "admin.wwwinternetvideo.click",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇵🇱 PL 02 - kunz-kun",
       "server": "144.31.49.47",
       "server_port": 443,
       "password": "YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc",
@@ -12,14 +24,6 @@
         "server_name": "admin.wwwinternetvideo.click",
         "insecure": true
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 PL 02 - kunz-kun",
-      "server": "217.30.10.44",
-      "server_port": 9063,
-      "method": "aes-256-cfb",
-      "password": "aQqJbtwFGcCCaeL3"
     },
     {
       "type": "direct",

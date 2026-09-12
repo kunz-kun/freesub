@@ -3,19 +3,35 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- grpc-opts:
-    grpc-service-name: vless
+- client-fingerprint: firefox
   name: 🇬🇧 英国 01 - kunz-kun
-  network: grpc
-  port: 2083
-  server: 66.90.104.42
+  port: 2053
+  reality-opts:
+    public-key: enBl2wEce6XC6Uqr-de5L-aA9mb18xmlGh8D0uY98QE
+    short-id: 6579be6b4b4e108e
+  server: 51.89.194.151
+  servername: www.google.com
+  tls: true
   type: vless
   udp: true
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  uuid: f019a186-1161-4fba-b341-5228f1096c91
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇬🇧 英国 02 - kunz-kun
+  port: 30521
+  reality-opts:
+    public-key: TsiUxIyOUQqEhPYWJ2HAlM-ecuOiHbH5ZTnaFdGdNU8
+  server: 45.152.65.157
+  servername: aws.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6752712-f10c-4c8c-8308-d80b70a2b87a
 proxy-groups:
 - name: PROXY
   proxies:
   - 🇬🇧 英国 01 - kunz-kun
+  - 🇬🇧 英国 02 - kunz-kun
   type: select
 rules:
 - MATCH,PROXY

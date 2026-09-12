@@ -8,7 +8,7 @@ proxies:
   port: 443
   server: vpn-in-001.fastervpn.world
   skip-cert-verify: true
-  sni: 127.0.0.1
+  sni: www.bing.com
   type: hysteria2
 proxy-groups:
 - name: PROXY

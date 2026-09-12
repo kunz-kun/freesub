@@ -4,12 +4,41 @@
     {
       "type": "vless",
       "tag": "🇬🇧 英国 01 - kunz-kun",
-      "server": "66.90.104.42",
-      "server_port": 2083,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "transport": {
-        "type": "grpc",
-        "service_name": "vless"
+      "server": "51.89.194.151",
+      "server_port": 2053,
+      "uuid": "f019a186-1161-4fba-b341-5228f1096c91",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "enBl2wEce6XC6Uqr-de5L-aA9mb18xmlGh8D0uY98QE",
+          "short_id": "6579be6b4b4e108e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 英国 02 - kunz-kun",
+      "server": "45.152.65.157",
+      "server_port": 30521,
+      "uuid": "e6752712-f10c-4c8c-8308-d80b70a2b87a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "aws.amazon.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "TsiUxIyOUQqEhPYWJ2HAlM-ecuOiHbH5ZTnaFdGdNU8"
+        }
       }
     },
     {

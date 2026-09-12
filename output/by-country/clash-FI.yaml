@@ -1,0 +1,26 @@
+allow-lan: false
+log-level: info
+mode: rule
+port: 7890
+proxies:
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇫🇮 FI 01 - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
+    short-id: 8ffa160e608bf539
+  server: fin.pinkmoon.pro
+  servername: fin.pinkmoon.pro
+  tls: true
+  type: vless
+  udp: true
+  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
+proxy-groups:
+- name: PROXY
+  proxies:
+  - 🇫🇮 FI 01 - kunz-kun
+  type: select
+rules:
+- MATCH,PROXY
+socks-port: 7891
