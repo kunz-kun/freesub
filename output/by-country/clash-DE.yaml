@@ -4,55 +4,39 @@ mode: rule
 port: 7890
 proxies:
 - name: 🇩🇪 德国 01 - kunz-kun
+  password: zhangyang
+  port: 6443
+  server: 130.61.50.75
+  skip-cert-verify: true
+  sni: 130.61.50.75
+  type: hysteria2
+- name: 🇩🇪 德国 02 - kunz-kun
+  password: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
+  port: 443
+  server: player.wwwinternetvideo.click
+  skip-cert-verify: false
+  sni: player.wwwinternetvideo.click
+  type: hysteria2
+- name: 🇩🇪 德国 03 - kunz-kun
+  password: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
+  port: 443
+  server: 144.31.221.57
+  skip-cert-verify: true
+  sni: player.wwwinternetvideo.click
+  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 德国 04 - kunz-kun
+  password: tunnel-tg_astrovpn_official
+  port: 8444
+  server: 179.61.138.73
+  type: ss
+  udp: true
+- name: 🇩🇪 德国 05 - kunz-kun
   password: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
   port: 443
   server: 144.31.148.87
   skip-cert-verify: true
   sni: replay.wwwinternetvideo.click
-  type: hysteria2
-- name: 🇩🇪 德国 02 - kunz-kun
-  password: 29ffde49-e1d6-4dcd-a135-352920f9f0b8
-  port: 25443
-  server: de-node.rumedia-cdn.com
-  skip-cert-verify: true
-  sni: cf6.rumedia-cdn.com
-  type: hysteria2
-- name: 🇩🇪 德国 03 - kunz-kun
-  network: ws
-  port: 2087
-  server: 163.8.195.241
-  type: vless
-  udp: true
-  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
-  ws-opts:
-    headers: {}
-    path: /29c8fed7ca22
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 德国 04 - kunz-kun
-  password: 1hhrqrokj3ag
-  port: 8388
-  server: 209.46.102.22
-  type: ss
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 05 - kunz-kun
-  port: 4777
-  reality-opts:
-    public-key: 8ZL2JgDP9gHkgGTbGF-uK8omfWkFplZnCH0N2_U18Uo
-    short-id: 01115788253bc845
-  server: 207.241.172.98
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3d168677-10a1-43c1-90f3-18eaac90baff
-- name: 🇩🇪 德国 06 - kunz-kun
-  password: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
-  port: 443
-  server: player.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: player.wwwinternetvideo.click
   type: hysteria2
 proxy-groups:
 - name: PROXY
@@ -62,7 +46,6 @@ proxy-groups:
   - 🇩🇪 德国 03 - kunz-kun
   - 🇩🇪 德国 04 - kunz-kun
   - 🇩🇪 德国 05 - kunz-kun
-  - 🇩🇪 德国 06 - kunz-kun
   type: select
 rules:
 - MATCH,PROXY

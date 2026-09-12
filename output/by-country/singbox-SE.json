@@ -3,14 +3,14 @@
   "outbounds": [
     {
       "type": "hysteria2",
-      "tag": "🇮🇳 印度 01 - kunz-kun",
-      "server": "vpn-in-001.fastervpn.world",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tag": "🇸🇪 SE 01 - kunz-kun",
+      "server": "se-node.rumedia-cdn.com",
+      "server_port": 25443,
+      "password": "29ffde49-e1d6-4dcd-a135-352920f9f0b8",
       "tls": {
         "enabled": true,
-        "server_name": "127.0.0.1",
-        "insecure": true
+        "server_name": "cf2.rumedia-cdn.com",
+        "insecure": false
       }
     },
     {

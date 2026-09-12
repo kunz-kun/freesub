@@ -2,56 +2,15 @@
   "version": 1,
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 01 - kunz-kun",
-      "server": "31.58.181.88",
-      "server_port": 8443,
-      "uuid": "fa34a94b-f304-4290-bd94-a83cc2ce21be",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "tradingview.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc"
-        }
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇦🇪 阿联酋 02 - kunz-kun",
-      "server": "85.204.107.178",
+      "tag": "🇦🇪 阿联酋 01 - kunz-kun",
+      "server": "85.204.107.177",
       "server_port": 8080,
       "password": "Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0",
       "tls": {
         "enabled": true,
         "server_name": "hopp-romania-new.roxa.org",
         "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 03 - kunz-kun",
-      "server": "31.56.189.27",
-      "server_port": 8765,
-      "uuid": "df9f5aca-eda0-428f-a752-e53866153d12",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "srv-21bac9.vless.monster",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "M08l5tDmJUYELykZCNYQyFgtR9Zc-A4ZGlUSLcUeS2c",
-          "short_id": "1bcc9177f3124b25"
-        }
       }
     },
     {

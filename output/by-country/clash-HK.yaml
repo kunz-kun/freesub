@@ -3,36 +3,64 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 🇭🇰 中国香港 01 - kunz-kun
-  port: 64136
+  port: 23974
   reality-opts:
-    public-key: yi2t6WsgV_77ANrZf2xcfrSaJihtFVDQ5O_Ddt0n9SE
-  server: 193.134.211.201
+    public-key: hFaO787_gkKJuZYllnq-L0ZMiEqiCY80q2_xbP2CNRA
+  server: 45.136.14.251
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8aea14f7-5a77-4fa7-9924-f3921abc4cc2
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇭🇰 中国香港 02 - kunz-kun
+  port: 23974
+  reality-opts:
+    public-key: hFaO787_gkKJuZYllnq-L0ZMiEqiCY80q2_xbP2CNRA
+  server: 45.136.14.251
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8aea14f7-5a77-4fa7-9924-f3921abc4cc2
+- name: 🇭🇰 中国香港 03 - kunz-kun
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.29
+  skip-cert-verify: true
+  sni: css.rbxcdn.com
+  type: hysteria2
+- name: 🇭🇰 中国香港 04 - kunz-kun
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.29
+  skip-cert-verify: true
+  sni: vk.com
+  type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇭🇰 中国香港 05 - kunz-kun
+  port: 41923
+  reality-opts:
+    public-key: 7YfjX8TsT3HL0ZzvovjEDOLCM142j3bFcorv-Gs-m2Y
+  server: 45.144.137.129
   servername: dash.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: cb0d51da-de26-4e29-b3db-a7fbbf9a4b8c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇭🇰 中国香港 02 - kunz-kun
-  port: 443
-  reality-opts:
-    public-key: TP_bpIPUtjdxxGA9j7mpsHtSDfM2HMSZFNWW9MtDPT0
-    short-id: 14156e3ac23212cc
-  server: vj37-1936vtw.fincore.top
-  servername: www.bing.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5e8e81ac-a1c4-4543-b81e-651bf9872b54
+  uuid: b28936a7-c11a-4147-8806-b66efd1658a8
 proxy-groups:
 - name: PROXY
   proxies:
   - 🇭🇰 中国香港 01 - kunz-kun
   - 🇭🇰 中国香港 02 - kunz-kun
+  - 🇭🇰 中国香港 03 - kunz-kun
+  - 🇭🇰 中国香港 04 - kunz-kun
+  - 🇭🇰 中国香港 05 - kunz-kun
   type: select
 rules:
 - MATCH,PROXY

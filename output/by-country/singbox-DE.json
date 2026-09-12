@@ -4,77 +4,56 @@
     {
       "type": "hysteria2",
       "tag": "🇩🇪 德国 01 - kunz-kun",
-      "server": "144.31.148.87",
-      "server_port": 443,
-      "password": "2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f",
+      "server": "130.61.50.75",
+      "server_port": 6443,
+      "password": "zhangyang",
       "tls": {
         "enabled": true,
-        "server_name": "replay.wwwinternetvideo.click",
+        "server_name": "130.61.50.75",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇩🇪 德国 02 - kunz-kun",
-      "server": "de-node.rumedia-cdn.com",
-      "server_port": 25443,
-      "password": "29ffde49-e1d6-4dcd-a135-352920f9f0b8",
-      "tls": {
-        "enabled": true,
-        "server_name": "cf6.rumedia-cdn.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 德国 03 - kunz-kun",
-      "server": "163.8.195.241",
-      "server_port": 2087,
-      "uuid": "56ba5d34-ef22-4ba6-8090-4188b807df54",
-      "transport": {
-        "type": "ws",
-        "path": "/29c8fed7ca22",
-        "headers": {}
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇩🇪 德国 04 - kunz-kun",
-      "server": "209.46.102.22",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "1hhrqrokj3ag"
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 德国 05 - kunz-kun",
-      "server": "207.241.172.98",
-      "server_port": 4777,
-      "uuid": "3d168677-10a1-43c1-90f3-18eaac90baff",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "amp-api-edge.apps.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "8ZL2JgDP9gHkgGTbGF-uK8omfWkFplZnCH0N2_U18Uo",
-          "short_id": "01115788253bc845"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇩🇪 德国 06 - kunz-kun",
       "server": "player.wwwinternetvideo.click",
       "server_port": 443,
       "password": "V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8",
       "tls": {
         "enabled": true,
         "server_name": "player.wwwinternetvideo.click",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇩🇪 德国 03 - kunz-kun",
+      "server": "144.31.221.57",
+      "server_port": 443,
+      "password": "V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8",
+      "tls": {
+        "enabled": true,
+        "server_name": "player.wwwinternetvideo.click",
+        "insecure": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇩🇪 德国 04 - kunz-kun",
+      "server": "179.61.138.73",
+      "server_port": 8444,
+      "method": "chacha20-ietf-poly1305",
+      "password": "tunnel-tg_astrovpn_official"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇩🇪 德国 05 - kunz-kun",
+      "server": "144.31.148.87",
+      "server_port": 443,
+      "password": "2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f",
+      "tls": {
+        "enabled": true,
+        "server_name": "replay.wwwinternetvideo.click",
         "insecure": true
       }
     },

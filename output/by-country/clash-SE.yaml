@@ -1,0 +1,20 @@
+allow-lan: false
+log-level: info
+mode: rule
+port: 7890
+proxies:
+- name: 🇸🇪 SE 01 - kunz-kun
+  password: 29ffde49-e1d6-4dcd-a135-352920f9f0b8
+  port: 25443
+  server: se-node.rumedia-cdn.com
+  skip-cert-verify: false
+  sni: cf2.rumedia-cdn.com
+  type: hysteria2
+proxy-groups:
+- name: PROXY
+  proxies:
+  - 🇸🇪 SE 01 - kunz-kun
+  type: select
+rules:
+- MATCH,PROXY
+socks-port: 7891
