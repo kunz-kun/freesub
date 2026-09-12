@@ -6,6 +6,19 @@ proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇹🇼 中国台湾 01 - kunz-kun
+  port: 40800
+  reality-opts:
+    public-key: zohUbvPLKVBwzuDmZNsaXXFYZSKA9_xEhdUyURChrgo
+    short-id: 186e4c2732d61a3d
+  server: 104.199.219.172
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5859f6a7-cda1-47c2-8353-fcdee281f31d
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇹🇼 中国台湾 02 - kunz-kun
   port: 34376
   reality-opts:
     public-key: Atq4Fo_Mg48QtKXagBW9jnhaQSDUCiKgnATB2EU6OHU
@@ -16,21 +29,19 @@ proxies:
   type: vless
   udp: true
   uuid: bf8cc771-51a0-4395-810f-1f135325cfc1
-- name: 🇹🇼 中国台湾 02 - kunz-kun
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 103.115.109.49
-  skip-cert-verify: true
-  sni: https://t.me/wangcai2
-  type: hysteria2
-- alterId: 0
-  cipher: auto
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
   name: 🇹🇼 中国台湾 03 - kunz-kun
-  port: 35034
-  server: 165.154.195.38
-  type: vmess
+  port: 30837
+  reality-opts:
+    public-key: LXPNhrAGxr_QE4YCdJfKE40ebsPNIHnLbydhl6bipCo
+    short-id: 97101ba788915e5a
+  server: 35.201.163.218
+  servername: www.sony.com
+  tls: true
+  type: vless
   udp: true
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  uuid: 85a6bd94-83a9-4e80-849f-c06d7011d1a4
 proxy-groups:
 - name: PROXY
   proxies:

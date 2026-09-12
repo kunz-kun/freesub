@@ -3,23 +3,15 @@
   "outbounds": [
     {
       "type": "hysteria2",
-      "tag": "🇰🇷 韩国 01 - kunz-kun",
-      "server": "3.36.93.74",
+      "tag": "🇮🇳 印度 01 - kunz-kun",
+      "server": "vpn-in-001.fastervpn.world",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "t.me",
+        "server_name": "127.0.0.1",
         "insecure": true
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 02 - kunz-kun",
-      "server": "141.164.45.187",
-      "server_port": 6697,
-      "method": "aes-256-gcm",
-      "password": "TEzjfAYq2IjtuoS"
     },
     {
       "type": "direct",

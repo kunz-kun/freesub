@@ -3,32 +3,44 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- name: 🇨🇦 加拿大 01 - kunz-kun
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇦 加拿大 01 - kunz-kun
   port: 443
-  server: 15.223.183.81
-  skip-cert-verify: true
-  sni: t.me
-  type: hysteria2
-- cipher: rc4-md5
+  reality-opts:
+    public-key: wo417FrFdjy7ZhccQ-VWGZEKcoCHSEfyWcJT1pIVc1Y
+    short-id: 3d3c1e645f763ee3
+  server: 158.69.112.254
+  servername: www.speedtest.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 661f395d-b153-4199-a04b-693f5fe7f261
+- cipher: aes-256-gcm
   name: 🇨🇦 加拿大 02 - kunz-kun
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 137.184.174.93
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 51.222.155.113
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
+- client-fingerprint: random
+  flow: xtls-rprx-vision
   name: 🇨🇦 加拿大 03 - kunz-kun
+  port: 443
+  reality-opts:
+    public-key: wo417FrFdjy7ZhccQ-VWGZEKcoCHSEfyWcJT1pIVc1Y
+    short-id: 3d3c1e645f763ee3
+  server: 158.69.112.254
+  servername: www.speedtest.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 661f395d-b153-4199-a04b-693f5fe7f261
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦 加拿大 04 - kunz-kun
   password: 3ssumf2
   port: 443
   server: ca225.vpnbook.com
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇨🇦 加拿大 04 - kunz-kun
-  password: amazonskr05
-  port: 443
-  server: 16.52.165.74
   type: ss
   udp: true
 - client-fingerprint: chrome
@@ -44,27 +56,19 @@ proxies:
   type: vless
   udp: true
   uuid: 661f395d-b153-4199-a04b-693f5fe7f261
-- cipher: aes-256-cfb
+- client-fingerprint: random
+  flow: xtls-rprx-vision
   name: 🇨🇦 加拿大 06 - kunz-kun
-  password: amazonskr05
   port: 443
-  server: 16.52.168.26
-  type: ss
+  reality-opts:
+    public-key: kjiuPmjM4IutdZudHfcPZHEwcrBEFY4qBLlvfC6A_Ss
+    short-id: b9f8d3f8
+  server: 216.152.147.28
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-256-gcm
-  name: 🇨🇦 加拿大 07 - kunz-kun
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 51.79.64.198
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇨🇦 加拿大 08 - kunz-kun
-  password: zDNVedRFPQexG9v
-  port: 445
-  server: 51.222.141.125
-  type: ss
-  udp: true
+  uuid: d9e4721d-cdac-44c7-bc91-117367eac194
 proxy-groups:
 - name: PROXY
   proxies:
@@ -74,8 +78,6 @@ proxy-groups:
   - 🇨🇦 加拿大 04 - kunz-kun
   - 🇨🇦 加拿大 05 - kunz-kun
   - 🇨🇦 加拿大 06 - kunz-kun
-  - 🇨🇦 加拿大 07 - kunz-kun
-  - 🇨🇦 加拿大 08 - kunz-kun
   type: select
 rules:
 - MATCH,PROXY
