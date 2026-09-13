@@ -18,43 +18,26 @@ proxies:
   servername: sync-bridge.org
   client-fingerprint: chrome
 - name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
-  server: 45.74.159.233
-  port: 56659
+  server: 170.168.97.8
+  port: 8443
   udp: true
   type: vless
-  uuid: 12af43c3-84b4-4248-878b-b75f35835487
-  flow: xtls-rprx-vision
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
   tls: true
   reality-opts:
-    public-key: qLggZ7qospn6X7UEO1zSoohNXK4Y1EX7Hx2sJeWfvw0
-    short-id: 9aa3a3f599f3d5d0
-  servername: amp-api-edge.apps.apple.com
+    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
+  servername: download.nvidia.com
   client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: TunService
 - name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
-  server: connect3.nyxserver.ir
-  port: 8444
+  server: 188.132.174.236
+  port: 1080
   udp: true
-  type: vless
-  uuid: 0b39a009-2a2a-4035-ba87-cc82894f8e21
-  tls: true
-  servername: connect3.nyxserver.ir
-  skip-cert-verify: false
-  client-fingerprint: chrome
-- name: 🇹🇷 土耳其 (Turkey) 04 - xiaohe
-  server: 162.159.91.222
-  port: 443
-  udp: true
-  type: vless
-  uuid: 50414e45-4c5f-5a45-5553-723a643df685
-  tls: true
-  servername: n3zaxce7u0es.crzl48eiuses.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/723a643df685/loc-0
-    headers:
-      Host: n3zaxce7u0es.crzl48eiuses.workers.dev
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: rSeYcig_XBy8q3k33NpK3A
 proxy-groups:
 - name: PROXIES
   type: select
@@ -63,7 +46,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -72,6 +54,5 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
 rules:
 - MATCH,PROXIES
