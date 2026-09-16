@@ -4,41 +4,52 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "shadowsocks",
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe",
+      "server": "61.231.19.116",
+      "server_port": 50099,
+      "method": "chacha20-ietf-poly1305",
+      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe",
+      "server": "vpn-tw-002.fastervpn.world",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - xiaohe",
+      "server": "85.237.207.49",
+      "server_port": 50160,
+      "password": "a56619e2bed91121eabb97d20be207c3",
+      "tls": {
+        "enabled": true,
+        "server_name": "85-237-207-49.liao.kdns.fr",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 04 - xiaohe",
       "server": "103.115.109.49",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "103.115.109.49",
+        "server_name": "https://t.me/oneclickvpnkeys",
         "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe",
-      "server": "tw4.miyazono-kaori.com",
-      "server_port": 443,
-      "uuid": "f3c10b66-6a02-499f-9ed5-e518be4dde61",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "dlcdnets.asus.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "IqsN_cPeCP6oEXtYQMMWBiUim-r9lxq7YGj_mE3992g",
-          "short_id": "e6d59aff03e5b0"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - xiaohe",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 05 - xiaohe",
       "server": "35.201.230.136",
       "server_port": 443,
       "uuid": "18eef0d3-35b3-4a5f-97a1-7b5264530dd8",
@@ -58,49 +69,6 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 - xiaohe",
-      "server": "R3MRCG00129437X.cybervena.com",
-      "server_port": 50099,
-      "method": "chacha20-ietf-poly1305",
-      "password": "b1ae0fce-9340-4f2e-882d-fdb2218e2e2b"
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 05 - xiaohe",
-      "server": "103.137.22.71",
-      "server_port": 443,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/register?ed=2560",
-        "headers": {
-          "Host": "cdn8848.776676.xyz"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 06 - xiaohe",
-      "server": "vpn-tw-002.fastervpn.world",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn-tw-002.fastervpn.world",
-        "insecure": true
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -109,8 +77,7 @@
         "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 03 - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 04 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 05 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 06 - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 05 - xiaohe"
       ]
     },
     {
@@ -121,8 +88,7 @@
         "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 03 - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 04 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 05 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 06 - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 05 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

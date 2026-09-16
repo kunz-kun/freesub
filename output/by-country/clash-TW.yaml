@@ -5,27 +5,37 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 - xiaohe
+  server: 61.231.19.116
+  port: 50099
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇹🇼 中国台湾 (Taiwan) 02 - xiaohe
+  server: vpn-tw-002.fastervpn.world
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 03 - xiaohe
+  server: 85.237.207.49
+  port: 50160
+  udp: true
+  type: hysteria2
+  password: a56619e2bed91121eabb97d20be207c3
+  sni: 85-237-207-49.liao.kdns.fr
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 04 - xiaohe
   server: 103.115.109.49
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 103.115.109.49
+  sni: https://t.me/oneclickvpnkeys
   skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 02 - xiaohe
-  server: tw4.miyazono-kaori.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: f3c10b66-6a02-499f-9ed5-e518be4dde61
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: IqsN_cPeCP6oEXtYQMMWBiUim-r9lxq7YGj_mE3992g
-    short-id: e6d59aff03e5b0
-  servername: dlcdnets.asus.com
-  client-fingerprint: chrome
-- name: 🇹🇼 中国台湾 (Taiwan) 03 - xiaohe
+- name: 🇹🇼 中国台湾 (Taiwan) 05 - xiaohe
   server: 35.201.230.136
   port: 443
   udp: true
@@ -38,36 +48,6 @@ proxies:
     short-id: 5e13a6d43d0644c9
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇹🇼 中国台湾 (Taiwan) 04 - xiaohe
-  server: R3MRCG00129437X.cybervena.com
-  port: 50099
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
-- name: 🇹🇼 中国台湾 (Taiwan) 05 - xiaohe
-  server: 103.137.22.71
-  port: 443
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /register?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 06 - xiaohe
-  server: vpn-tw-002.fastervpn.world
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -78,7 +58,6 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 03 - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 04 - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 05 - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -89,6 +68,5 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 03 - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 04 - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 05 - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 06 - xiaohe
 rules:
 - MATCH,PROXIES
