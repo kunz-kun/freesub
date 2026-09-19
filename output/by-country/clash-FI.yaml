@@ -11,57 +11,17 @@ proxies:
   type: ss
   cipher: aes-128-gcm
   password: o2rw2hICwu1blrr_gZAl2Q
-- name: 🇫🇮 芬兰 (Finland) 02 - xiaohe
-  server: 185.255.179.11
-  port: 9443
-  udp: true
-  type: vless
-  uuid: d9d0f208-d582-41d5-bb7b-742671402810
-  tls: true
-  servername: hub-fi-02.hanvpn.cc
-  skip-cert-verify: false
-  network: grpc
-  grpc-opts:
-    grpc-service-name: fi02-grpc-8e47a
-- name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
-  server: 150.241.71.148
-  port: 448
-  udp: true
-  type: trojan
-  password: 6fY77UmuJ6BEK7n0qv433JrPNjCMeZQV
-  sni: kiev.gosgenarchive.com
-  skip-cert-verify: false
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TrojanGRPC
-- name: 🇫🇮 芬兰 (Finland) 04 - xiaohe
-  server: 87.120.196.212
-  port: 443
-  udp: true
-  type: vless
-  uuid: 5561acfb-0adc-4c76-bfbf-767a76c7cbf0
-  flow: xtls-rprx-vision
-  tls: true
-  servername: holo-stream.videocactus.xyz
-  skip-cert-verify: false
-  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇫🇮 芬兰 (Finland) 01 - xiaohe
-  - 🇫🇮 芬兰 (Finland) 02 - xiaohe
-  - 🇫🇮 芬兰 (Finland) 03 - xiaohe
-  - 🇫🇮 芬兰 (Finland) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇫🇮 芬兰 (Finland) 01 - xiaohe
-  - 🇫🇮 芬兰 (Finland) 02 - xiaohe
-  - 🇫🇮 芬兰 (Finland) 03 - xiaohe
-  - 🇫🇮 芬兰 (Finland) 04 - xiaohe
 rules:
 - MATCH,PROXIES
