@@ -6,13 +6,13 @@ log-level: info
 proxies:
 - name: 🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe
   server: 185.135.86.175
-  port: 9033
+  port: 9036
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: UTJA57ypk2XKQpnm
+  password: hbtvgUz5uNYyB3Rf
 - name: 🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe
-  server: 46.243.142.227
+  server: shprcdn.quest
   port: 10443
   udp: true
   type: vless
@@ -21,23 +21,10 @@ proxies:
   reality-opts:
     public-key: KoNQ52irUOW-fybKx-gUKCuHpMnHhgQ_skjd8TmqJ2k
   servername: shprcdn.quest
-  client-fingerprint: random
+  client-fingerprint: chrome
   network: grpc
   grpc-opts:
     grpc-service-name: google.storage.v2.Storage
-- name: 🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe
-  server: sql.popmintxo.cc
-  port: 443
-  udp: true
-  type: vless
-  uuid: d806a58b-33aa-42e0-b170-395e49c16b37
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: Y0noOXC8qHmbM0GmDpj-9BBwKSOtHs-uMbNfKU050GQ
-    short-id: b558b9305a0b
-  servername: www.microsoft.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -45,7 +32,6 @@ proxy-groups:
   - AUTO
   - 🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe
   - 🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe
-  - 🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -53,6 +39,5 @@ proxy-groups:
   proxies:
   - 🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe
   - 🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe
-  - 🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe
 rules:
 - MATCH,PROXIES
