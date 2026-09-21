@@ -4,31 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
-  server: 45.194.53.123
-  port: 443
+- name: 🇧🇷 巴西 (Brazil) 01 - xiaohe
+  server: 64.225.65.116
+  port: 8443
   udp: true
   type: vless
-  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
-  servername: notls.lukongtou.eu.org
+  servername: cdn8848.776676.xyz
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
+    path: /bd/pictures?ed=2560
     headers:
-      Host: notls.lukongtou.eu.org
+      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
+  - 🇧🇷 巴西 (Brazil) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
+  - 🇧🇷 巴西 (Brazil) 01 - xiaohe
 rules:
 - MATCH,PROXIES
