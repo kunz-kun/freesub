@@ -5,7 +5,22 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  server: 64.225.110.247
+  server: 31.59.46.140
+  port: 8443
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /travel/intro?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇧🇷 巴西 (Brazil) 02 - xiaohe
+  server: 188.166.49.168
   port: 2083
   udp: true
   type: vless
@@ -13,9 +28,25 @@ proxies:
   tls: true
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇧🇷 巴西 (Brazil) 03 - xiaohe
+  server: 144.31.218.10
+  port: 443
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /archives/play/pages?ed=2560
     headers:
       Host: cdn8848.776676.xyz
 proxy-groups:
@@ -24,11 +55,15 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇧🇷 巴西 (Brazil) 01 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 02 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇧🇷 巴西 (Brazil) 01 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 02 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
 rules:
 - MATCH,PROXIES
