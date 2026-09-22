@@ -5,19 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 188.114.97.6
+  server: 104.16.72.41
   port: 443
   udp: true
-  type: vless
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  tls: true
-  servername: a.cwvps.eu.org
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
+    path: /assignment
 - name: 🌐 其他地区 (Other) 02 - xiaohe
   server: 104.16.72.41
   port: 443
