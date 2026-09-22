@@ -5,50 +5,29 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  server: 31.59.46.140
-  port: 8443
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /travel/intro?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇧🇷 巴西 (Brazil) 02 - xiaohe
-  server: 188.166.49.168
-  port: 2083
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇧🇷 巴西 (Brazil) 03 - xiaohe
-  server: 144.31.218.10
+  server: 34.39.174.220
   port: 443
   udp: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 5e517b94-e207-47ee-be3c-3020a57594e8
   tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: false
+  reality-opts:
+    public-key: pCImwRkTjx8OIUiu1WFelZQFt1p3Q0lUoPbvjVq8GTs
+    short-id: b62a4da6cd1c4dd6
+  servername: www.cloudflare.com
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /archives/play/pages?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
+- name: 🇧🇷 巴西 (Brazil) 02 - xiaohe
+  server: 35.199.90.53
+  port: 443
+  udp: true
+  type: vless
+  uuid: e9c2ed7f-79ab-40a8-8910-24468f5da712
+  tls: true
+  reality-opts:
+    public-key: 0WXz3PJQnr-KprrwiO5BlKVRdqA4ZS6U5jGHc_aeJnw
+    short-id: 4b414f69a06e1e81
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -56,7 +35,6 @@ proxy-groups:
   - AUTO
   - 🇧🇷 巴西 (Brazil) 01 - xiaohe
   - 🇧🇷 巴西 (Brazil) 02 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -64,6 +42,5 @@ proxy-groups:
   proxies:
   - 🇧🇷 巴西 (Brazil) 01 - xiaohe
   - 🇧🇷 巴西 (Brazil) 02 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
 rules:
 - MATCH,PROXIES
