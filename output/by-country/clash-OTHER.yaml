@@ -5,20 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.25.146.77
+  server: 104.18.15.103
   port: 443
   udp: true
   type: vless
-  uuid: e6cc4788-3c45-4df1-94f3-8303504a65bf
+  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
   tls: true
-  servername: khoda.ak-khoda.workers.dev
+  servername: server9.9966338.xyz
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /sync
+    path: /imnotarealherox
     headers:
-      Host: khoda.ak-khoda.workers.dev
+      Host: server9.9966338.xyz
 proxy-groups:
 - name: PROXIES
   type: select
