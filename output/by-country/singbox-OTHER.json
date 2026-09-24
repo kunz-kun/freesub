@@ -4,21 +4,25 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.16.72.50",
+      "server": "104.25.146.77",
       "server_port": 443,
-      "password": "humanity",
+      "uuid": "e6cc4788-3c45-4df1-94f3-8303504a65bf",
       "tls": {
         "enabled": true,
-        "server_name": "www.calmlunch.com",
-        "insecure": false
+        "server_name": "khoda.ak-khoda.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/sync",
         "headers": {
-          "Host": "www.calmlunch.com"
+          "Host": "khoda.ak-khoda.workers.dev"
         }
       }
     },

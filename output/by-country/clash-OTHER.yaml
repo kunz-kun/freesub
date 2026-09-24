@@ -5,16 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.16.72.50
+  server: 104.25.146.77
   port: 443
   udp: true
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
+  type: vless
+  uuid: e6cc4788-3c45-4df1-94f3-8303504a65bf
+  tls: true
+  servername: khoda.ak-khoda.workers.dev
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /assignment
+    path: /sync
+    headers:
+      Host: khoda.ak-khoda.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
