@@ -15,7 +15,7 @@
         "server_name": "contact.yump.online",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
