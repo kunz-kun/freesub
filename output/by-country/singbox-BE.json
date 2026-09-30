@@ -5,21 +5,21 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇳 印度 (India) 01 - xiaohe",
-      "server": "194.61.31.126",
-      "server_port": 2053,
-      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
+      "tag": "🇧🇪 比利时 (Belgium) 01 - xiaohe",
+      "server": "35.240.62.249",
+      "server_port": 443,
+      "uuid": "6d341f6e-7b9d-4ae3-999b-00333de7bdfb",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
-          "short_id": "9980e0609b0d3891"
+          "public_key": "v6QpErcVOVKIYLm53R3bAP8zIKCFr4HAJWW0VwBKtws",
+          "short_id": "31f187650d9530bb"
         }
       }
     },
@@ -28,14 +28,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇳 印度 (India) 01 - xiaohe"
+        "🇧🇪 比利时 (Belgium) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇳 印度 (India) 01 - xiaohe"
+        "🇧🇪 比利时 (Belgium) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
