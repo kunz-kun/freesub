@@ -4,58 +4,57 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-      "server": "172.64.32.103",
-      "server_port": 2052,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
+      "server": "195.58.48.137",
+      "server_port": 20999,
+      "method": "aes-256-gcm",
+      "password": "8ad9d72a5571df86"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-      "server": "104.18.46.234",
-      "server_port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
+      "server": "130.49.189.158",
+      "server_port": 43558,
+      "method": "chacha20-ietf-poly1305",
+      "password": "IcovoXEMyjfGjN9RenzKs0/iPaZ3vtk9fkxJ0s/R5vw="
     },
     {
-      "type": "trojan",
+      "type": "hysteria2",
       "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-      "server": "199.232.78.160",
-      "server_port": 443,
-      "password": "mitivpn",
+      "server": "srv-17e124.21freedom.net",
+      "server_port": 11592,
+      "password": "41edb44c8e",
       "tls": {
         "enabled": true,
-        "server_name": "ssl.fastly.com",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e1i@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN",
-        "headers": {
-          "Host": "mitivpn---us--s---mitivpn-11.global.ssl.fastly.net"
+        "server_name": "srv-17e124.21freedom.net",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
+      "server": "china.letsconnectpoint.com",
+      "server_port": 443,
+      "uuid": "914f3806-07a1-4158-9624-e183de065a38",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "china.letsconnectpoint.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "4ubYp4HaBJgn1qXwfo0hiejncurXCckII-O_FMDXTgI",
+          "short_id": "3b74d85e"
         }
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
       "server": "91.240.86.70",
       "server_port": 22443,
       "password": "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5",
@@ -66,32 +65,15 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-      "server": "130.49.189.158",
-      "server_port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "IcovoXEMyjfGjN9RenzKs0/iPaZ3vtk9fkxJ0s/R5vw="
-    },
-    {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
-      "server": "china.letsconnectpoint.com",
+      "server": "91.196.32.163",
       "server_port": 443,
-      "uuid": "914f3806-07a1-4158-9624-e183de065a38",
-      "flow": "xtls-rprx-vision",
+      "password": "mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj",
       "tls": {
         "enabled": true,
-        "server_name": "china.letsconnectpoint.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "4ubYp4HaBJgn1qXwfo0hiejncurXCckII-O_FMDXTgI",
-          "short_id": "3b74d85e"
-        }
+        "server_name": "germany3.h2corp.local",
+        "insecure": true
       }
     },
     {
