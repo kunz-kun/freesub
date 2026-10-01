@@ -5,22 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 01 - xiaohe",
-      "server": "177.3.209.65",
+      "tag": "🇬🇹 GT 01 - xiaohe",
+      "server": "185.47.254.251",
       "server_port": 443,
-      "uuid": "bcd1dab9-24f2-4002-b3ee-cd6f7072deba",
+      "uuid": "878fb7f7-fc65-465e-a352-17c7216c6f3d",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "got.bridge.iplnte.shop",
+        "server_name": "gateway.icloud.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "1he5EyHxI595x0mNkFNxOebUOQZGVGIy_c92bn1qO2o",
-          "short_id": "ac31827454d7f693"
+          "public_key": "6-_ZidygR8PRt4gtHlGCAW-PPmjEIm7Wn7MZqJU1z1Q",
+          "short_id": "6c059ecfddf9b179"
         }
       }
     },
@@ -29,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇪 瑞典 (Sweden) 01 - xiaohe"
+        "🇬🇹 GT 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇪 瑞典 (Sweden) 01 - xiaohe"
+        "🇬🇹 GT 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
