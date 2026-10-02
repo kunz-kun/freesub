@@ -4,31 +4,33 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇬🇪 格鲁吉亚 (Georgia) 01 - xiaohe
-  server: geo.shkola112.site
-  port: 443
+- name: 🌐 其他地区 (Other) 01 - xiaohe
+  server: 172.67.161.144
+  port: 8443
   udp: true
-  type: vless
-  uuid: 76ac91c5-ea82-4046-8ee7-2ffbb563ac94
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: geo.shkola112.site
+  servername: v2ray1.dozapp.xyz
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /api-vless
+    path: /lMnsZUN4/
     headers:
-      Host: geo.shkola112.site
+      Host: v2ray1.dozapp.xyz
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇬🇪 格鲁吉亚 (Georgia) 01 - xiaohe
+  - 🌐 其他地区 (Other) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇬🇪 格鲁吉亚 (Georgia) 01 - xiaohe
+  - 🌐 其他地区 (Other) 01 - xiaohe
 rules:
 - MATCH,PROXIES
