@@ -4,28 +4,23 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.19.230.21",
+      "type": "vless",
+      "tag": "🇦🇶 AQ 01 - xiaohe",
+      "server": "2.27.26.128",
       "server_port": 443,
-      "password": "humanity",
+      "uuid": "8710a337-f504-4b75-8989-224cfd803b2d",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.volumeroot.com",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
+        "server_name": "aq-1.global-cdn.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.volumeroot.com"
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "HKkU-5UanGjWdmX8E-EGulXMk1BnidkFsVveyyOlTg8",
+          "short_id": "90f9d05bf95cb335"
         }
       }
     },
@@ -34,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇦🇶 AQ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇦🇶 AQ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
