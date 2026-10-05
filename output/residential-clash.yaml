@@ -5,8 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
-  server: 162.159.0.169
-  port: 2095
+  server: 104.18.46.234
+  port: 8080
   udp: true
   type: vless
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
@@ -32,7 +32,7 @@ proxies:
   type: vless
   uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
 - name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
-  server: 104.20.36.205
+  server: 45.192.201.140
   port: 443
   udp: true
   type: vless
