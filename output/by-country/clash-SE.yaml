@@ -4,32 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
-  server: 116.204.164.60
-  port: 7443
+- name: 🇸🇪 瑞典 (Sweden) 01 - xiaohe
+  server: 94.143.231.146
+  port: 443
   udp: true
   type: vless
-  uuid: c676be7d-b481-4bba-88d0-65855e09dc67
+  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
   tls: true
-  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  servername: sub.merky.top
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /@Marisa_kristi
+    path: /merky-connect/de6/
     headers:
-      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+      Host: sub.merky.top
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 01 - xiaohe
 rules:
 - MATCH,PROXIES
